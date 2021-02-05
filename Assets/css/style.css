@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
+@import url('https://fonts.googleapis.com/css?family=Athiti:400,500,600');
+
+
+
+body {
+    color: #666666;
+    font-size: 15px;
+    font-family: 'Athiti', sans-serif;
+    line-height: 1.80857;
+}
+img{
+	height: 100px;
+	width: 100px;
+}
+
+a {
+    color: #1f1f1f;
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+a,
+.btn {
+    text-decoration: none !important;
+    outline: none !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+ 
+ul, li, ol{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+button:focus{
+	outline: none;
+}
+
+
+
+
+.top-navbar{
+	position: relative;
+	z-index: 10;
+}
+
+.top-navbar .navbar{
+	padding: 15px 0px;
+	position: fixed;
+	width: 100%;
+	transition: height .3s ease-out, background .3s ease-out, box-shadow .3s ease-out;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	z-index: 100;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-link{
+	color: #010101;
+	font-size: 18px;
+	padding: 0px 20px;
+	border-radius: 4px;
+}
+
+.top-navbar .navbar-light .navbar-nav .nav-item .nav-link:hover{
+	background: #d0a772;
+	color: #ffffff;
+}
+.top-navbar .navbar-light .navbar-nav .nav-item.active .nav-link{
+	background: #d0a772;
+	color: #ffffff;
+	border-radius: 4px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+	border: none;
+	 box-shadow: 2px 5px 6px rgba(0,0,0,0.5);
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu a.dropdown-item:hover{
+	background: #d0a772;
+	color: #ffffff;
+}
+.navbar-light .navbar-toggler:hover{
+	background: #cfa671;
+}
+
