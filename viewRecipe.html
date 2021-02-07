@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>View Recipe</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/viewRecipe.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+  </head>
+  <body>
+    <header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="./Assets/img/logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food"
+					aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+						<li class="nav-item"><a class="nav-link" href="recipes.html">Recipes</a></li>
+						<li class="nav-item"><a class="nav-link" href="logInSignUp.html">Login</a></li>
+						<li class="nav-item"><a class="nav-link" href="logInSignUp.html">SignUp</a></li>
+						<li class="nav-item container">
+							<div class="searchbox"><input type="text" class="searchbox_input" placeholder="Search"><a class="searchBtn" href="#"><i class="fas fa-search"></i></a> </div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+    
+    <div class="container-fluid cont">
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="card">
+                    <div class="card-body">
+                            
+                        <img id="itemquee" src="./assets/img/20fe9c86c713112b_Doro_Wat.jpg" alt="" class="card-img">
+                        <h3 id="itemtitle" class="card-title"></h3>
+                        <hr>
+                        <ul>
+                            <li ><i class="fa fa-book"></i> <span id="itemdesc" > </span> </li>
+                            <li ><i class="fa fa-book"></i> <span id="pricing"  ></span> </li>
+                            <li ><i class="fa fa-users"></i> <span id="icon" >4-7</span> Serving</li>
+                        </ul>
+                        <p>
+                            <h3> Preparation Time</h3>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Adipisci eos vel, est ipsa recusandae ad? Aliquid provident 
+                            neque adipisci quasi doloremque eum eos omnis? 
+                            Numquam, obcaecati nulla. Inventore, fuga sunt.
+                        </p>
+                        <p>
+                            <h3>Ingredient</h3>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Quibusdam voluptatem, aliquam dolorum alias totam sit eveniet 
+                            velit fugit neque libero earum ad est expedita repellat corporis 
+                            facere fugiat at laudantium! Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Nihil accusantium incidunt animi recusandae, 
+                            vitae quia, omnis sit consequatur repellat eum fuga? Voluptates, dicta. Fugit 
+                            necessitatibus enim perferendis? Molestiae, maiores nisi!
+                        </p>
+                        <p id="discription" class="card-description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Modi mollitia voluptate aspernatur facilis neque suscipit quae, 
+                                off icia sunt illo quo libero laboriosam 
+                                voluptatem cumque harum nam eveniet. Voluptatum, optio 
+                                reprehenderit!
+                        </p>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        //Change the image of the item based on the information passed from the previous page
+        document.addEventListener('DOMContentLoaded', function() {
+            if(sessionStorage.getItem('item')!=null){
+                document.getElementById("itemquee").src=sessionStorage.getItem('item');
+                document.getElementById("itemtitle").innerHTML =sessionStorage.getItem('title');
+                document.getElementById("itemdesc").innerHTML =sessionStorage.getItem('desc');
+                document.getElementById("pricing").innerHTML =sessionStorage.getItem('price');
+                document.getElementById("icon").innerHTML =sessionStorage.getItem('i');
+                document.getElementById("discription").innerHTML =sessionStorage.getItem('dp');
+                
+            }
+        }, false);
+    </script>       
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
