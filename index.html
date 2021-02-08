@@ -41,7 +41,7 @@
         <form action="/getUsers" method="POST" class="my-2 py-5">
             <button type="submit" class="btn btn-primary">Get Users</button>
         </form>
-        
+
         <!-- Get Recipes -->
         <form action="/getRecipes" method="POST" class="my-2 py-2">
             <button type="submit" class="btn btn-primary">Get Recipes</button>
@@ -68,9 +68,15 @@
                 <input type="text" class="form-control" id="prepTime" name="prepTime">
             </div>
             <div class="form-floating mb-3">
-                <textarea class="form-control" placeholder="Leave a recipe here" id="recipe" name="recipe" style="height: 100px"></textarea>
-                <label for="recipe">Recipe</label>
-              </div>
+                <textarea class="form-control" placeholder="Leave a recipe here" id="ingredient" name="ingredient"
+                    style="height: 100px"></textarea>
+                <label for="recipe">Ingredients</label>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="Leave instructions here" id="instructions" name="instructions"
+                    style="height: 100px"></textarea>
+                <label for="recipe">Instructions On How To Prepare Said Meal</label>
+            </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
 

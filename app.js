@@ -20,7 +20,7 @@ var port = process.env.PORT || 6969
 //     console.log(err)
 // }) 
 
-mongoose.connect("mongodb://localhost:27017/Project-2", {
+mongoose.connect("mongodb://localhost:27017/Project-1", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
         auto_reconnect: true
@@ -45,7 +45,7 @@ var userSchema = new mongoose.Schema({
 var recipeSchema = new mongoose.Schema({
     foodName: String,
     prepTime: String,
-    recipe: String
+    recipe: Object
 })
 
 
@@ -89,13 +89,17 @@ app.post('/getUsers', (req, res) => {
 
 app.post('/post', (req, res) => {
     const foodName = req.body.foodName
-    const recipe = req.body.recipe
+    const ingredient = req.body.ingredient
     const prepTime = req.body.prepTime
+    const instructions = req.body.instructions
 
     let newRecipe = new Recipe({
         foodName: foodName,
         prepTime: `${prepTime} Min(s)`,
-        recipe: recipe
+        recipe: {
+            ingredients: ingredient,
+            instructions: instructions
+        }
     })
 
     newRecipe.save()
