@@ -32,7 +32,7 @@ console.log("Database Connection Successful")
 
 // Home Route
 app.get("/", function (req, res) {
-    res.sendFile('index.html')
+    res.sendFile('indexB.html')
 })
 
 // Creating User Schema
