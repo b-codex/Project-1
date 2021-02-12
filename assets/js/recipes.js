@@ -17,16 +17,17 @@ export let recipes = [{
                 '1 chicken, cut up'
             ],
             instruction: `
-        1. Melt butter in a saucepan and add garlic. Cook for 1 minute.
-        2. Add remaining ingredients, EXCEPT chicken. Bring to a boil and simmer for 2 to 3 minutes. Remove from heat. Note: Can be made a day in advance and refrigerated.
-        3. Heat grill to medium and lightly grease the grates. Place chicken on grill and cook for 30 to 40 minutes, turning occasionally.
-        4. Baste chicken with sauce. Continue to grill and baste with sauce every 5 minutes for 15 more minutes. Serve with any leftover sauce.
+                1. Melt butter in a saucepan and add garlic. Cook for 1 minute.
+                2. Add remaining ingredients, EXCEPT chicken. Bring to a boil and simmer for 2 to 3 minutes. Remove from heat. Note: Can be made a day in advance and refrigerated.
+                3. Heat grill to medium and lightly grease the grates. Place chicken on grill and cook for 30 to 40 minutes, turning occasionally.
+                4. Baste chicken with sauce. Continue to grill and baste with sauce every 5 minutes for 15 more minutes. Serve with any leftover sauce.
         `
         }
     },
     {
         foodName: 'Buffalo Wings',
         prepTime: '10 Min(s)',
+        image: '',
         recipe: {
             ingredients: [
                 '2 pounds chicken wings (about 12 wings)',
@@ -107,7 +108,7 @@ export let recipes = [{
 
     //         ],
     //         instruction: `
-        
+
     //     `
     //     }
     // },
@@ -119,7 +120,7 @@ export let recipes = [{
 
     //         ],
     //         instruction: `
-        
+
     //     `
     //     }
     // },
@@ -131,7 +132,7 @@ export let recipes = [{
 
     //         ],
     //         instruction: `
-        
+
     //     `
     //     }
     // },
@@ -143,7 +144,7 @@ export let recipes = [{
 
     //         ],
     //         instruction: `
-        
+
     //     `
     //     }
     // },
@@ -155,7 +156,7 @@ export let recipes = [{
 
     //         ],
     //         instruction: `
-        
+
     //     `
     //     }
     // },
@@ -167,7 +168,7 @@ export let recipes = [{
 
     //         ],
     //         instruction: `
-        
+
     //     `
     //     }
     // }
