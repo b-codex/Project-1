@@ -1,3 +1,10 @@
+body{
+  background: url(../img/photo-1544021770-7fe1de901890.jpeg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  background-attachment: fixed;
+}
 .navbar {
   position: absolute;
   width: 100%;
