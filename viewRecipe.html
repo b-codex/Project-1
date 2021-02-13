@@ -94,14 +94,8 @@
     <script>
         //Change the image of the item based on the information passed from the previous page
         document.addEventListener('DOMContentLoaded', function() {
-            if(sessionStorage.getItem('item')!=null){
-                document.getElementById("itemquee").src=sessionStorage.getItem('item');
-                document.getElementById("itemtitle").innerHTML =sessionStorage.getItem('title');
-                document.getElementById("itemdesc").innerHTML =sessionStorage.getItem('desc');
-                document.getElementById("pricing").innerHTML =sessionStorage.getItem('price');
-                document.getElementById("icon").innerHTML =sessionStorage.getItem('i');
-                document.getElementById("discription").innerHTML =sessionStorage.getItem('dp');
-                
+            if(sessionStorage.getItem('title')!=null){
+                document.getElementById("itemtitle").innerHTML = sessionStorage.getItem('title');
             }
         }, false);
     </script>  
