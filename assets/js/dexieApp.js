@@ -44,8 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     </div>
                     <a href="./viewRecipe.html" class="btn card-btn"
-                        onclick="saveOnSession('${iterator.foodName}')">View
-                        Recipe</a>
+                        onclick="saveOnSession('${iterator.foodName}')">View Recipe</a>
                 </div>
 
             </div>`
