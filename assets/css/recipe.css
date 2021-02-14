@@ -1,6 +1,6 @@
 
 body{
-    background: gainsboro;
+    /* background: gainsboro; */
     font-family: Oxygen, sans-serif;
     /* margin: 2rem; */
     display: flex;
@@ -99,10 +99,7 @@ body{
     font-weight: 450;
     font-size: 20px;
 }  
-img{
-    height: 40px;
-    width: 50px;
-}
+
 @media (min-width: 575px) and (max-width: 992px) {
     .card-body ul{
         display: flex;
