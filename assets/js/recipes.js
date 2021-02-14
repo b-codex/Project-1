@@ -312,52 +312,98 @@ export let recipes = [{
     },
 
     ,
-    // {
-    //     foodName: '',
-    //     prepTime: '',
-    //     desc: '',
-    //     imgSrc: '',
-    //     recipe: {
-    //         ingredients: [
+    {
+        foodName: 'Doro Wot',
+        prepTime: '2 hr 50 min',
+        desc: 'The berbere-spiced chicken and egg stew is usually reserved by home cooks for occasions such as family gatherings, religious holidays, and weddings, in part because making doro wat can be very time-consuming.',
+        imgSrc: 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/6/5/0/CCATHSP1_ethiopian-injera-bread-with-doro-wat_s4x3.jpg.rend.hgtvcom.826.620.suffix/1433564349717.jpeg',
+        recipe: {
+            ingredients: [
+                "2 pounds skinless chicken legs",
+                "Lemon juice",
+                "2 large red onions, finely chopped",
+                "1 1/2 cups berbere (Ethiopian spice mixture which includes chile pepper, garlic, ginger, dried basil, Ethiopian cardamom, black and white pepper, fenugreek and rue, a bitter shrub)",
+                "1 cup Niter Kibbeh (Ethiopian Spiced Butter), recipe follows",
+                "1/2 cup fresh garlic, finely ground",
+                "1/2 cup fresh ginger, finely ground",
+                "6 peeled hard-boiled eggs",
+                "Salt",
+                "Injera bread, for serving, recipe follows",
+            
 
-    //         ],
-    //         instruction: [
 
-    //         ]
-    //     }
-    // },
 
-    // ,
-    // {
-    //     foodName: '',
-    //     prepTime: '',
-    //     desc: '',
-    //     imgSrc: '',
-    //     recipe: {
-    //         ingredients: [
 
-    //         ],
-    //         instruction: [
 
-    //         ]
-    //     }
-    // },
+            ],
+            instruction: [
+                "Wash and soak the chicken in cold water with lemon squeezed into it for 30 minutes. (This removes any bacteria and tenderizes the meat.)",
+                "Caramelize the red onions on low heat in a large pot for 1 hour. Add the berbere, Niter Kibbeh, garlic and ginger and cook for 30 minutes on medium-low heat. Add the marinated chicken and cook on medium-low heat, 30 to 45 minutes. Add in the hard-boiled eggs and salt to taste. Simmer on low heat for an additional 10 minutes and serve on the Injera.",
+                "Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.",
+                "Combine the teff flour and 12 cups water. Mix, cover and store in a dark, cool place for 3 to 4 days to ferment, giving it its sour flavor. On the last day of fermentation, mix the teff flour mixture with the barley and wheat flours. Let rest for another 8 hours. ",
+                "Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.",
+            ]
+        }
+    },
 
-    // ,
-    // {
-    //     foodName: '',
-    //     prepTime: '',
-    //     desc: '',
-    //     imgSrc: '',
-    //     recipe: {
-    //         ingredients: [
+    ,
+    {
+        foodName: 'Genfo',
+        prepTime: '20-40 Mins',
+        desc: 'Genfo is an Ethiopian delicacy, enjoyed by many from the elders to the smallest of the children, Genfo is usually made or cooked when a woman gives birth and is in her first 2 weeks and it is a tradition to eat the genfo with family members and guests. It can be made from wheat flour to normal flour and has different recipes, but usually all contain a middle dipping of berbere spice',
+        imgSrc: 'https://howtocookgreatethiopian.com/new/wp-content/uploads/ethiopian-food-genfo-porrige-breakfast-bulla-kibe-768x384.jpg',
+        recipe: {
+            ingredients: [
+                "2 cups of all purpose flour",
+                "2 tbsp of Kibe",
+                "1 tsp berbere",
+                "Salt and water",
 
-    //         ],
-    //         instruction: [
+            ],
+            instruction: [
+                "Add 3 cups of water in a pot and a teaspoon of salt and let it boil on a medium hot heat.",
+                "Once water boils, slowly add the flour onto the water while stirring with a wooden spoon.",
+                "After adding flour it will become very thick making it hard to stir.",
+                "At this point you need to remove any lumps by stiring and mixing hard, add more water to help the process.",
+                "Remove the genfo from the heat. Add melted butter into a bowl and scoop the genfo into the bowl in one big ball.",
+                "In the centre of the genfo ball, make a well using your spoon.",
+                "Then add your melted butter and berbere while still hot.",
+                "Mix the berebere and melted butter well and serve.",
 
-    //         ]
-    //     }
-    // },
+            ]
+        }
+    },
+
+    ,
+    {
+        foodName: 'Tibis',
+        prepTime: '30-45 mins',
+        desc: 'This dish is super easy to make, You can buy it online or in places like Whole Foods or Cost Plus Market, or you can make it yourself. You will also need clarified butter, although this tastes more authentic if you make your own Ethiopian spiced butter. Of the many spices listed in the ingredients, the most important is the fenugreek. It is this spice that makes the version of tibs we served at Horn of Africa different from most others.',
+        imgSrc: 'https://honest-food.net/wp-content/uploads/2014/05/tibs-recipe-vert-lg.jpg',
+        recipe: {
+            ingredients: [
+               " 1 large red onion, about 2 cups, sliced thin",
+               "1/4 cup niter kebbeh or ghee spiced butter",
+               "2 pounds venison, lamb or beef, cut into bite-sized pieces",
+               "2 tablespoons berbere",
+               "1 teaspoon ground fenugreek",
+               "1/2 teaspoon cardamom (optional)",
+               "1/2 teaspoon ground ginger",
+               "1/4 teaspoon cumin",
+               "1/4 teaspoon ground clove",
+               "1 teaspoon black pepper",
+               "3 to 4 garlic cloves, sliced thinly",
+               "2 cups whole peeled tomatoes, broken into bits",
+               "1 to 5 green chiles, such as jalapenos or serranos",
+               "1/2 cup red wine",
+
+            ],
+            instruction: [
+                "Get the saute pan or wok very hot. Stir-fry the onions without the butter for a few minutes, until they char just a little on the outside. Add the spiced butter and the venison. Stir-fry hot and fast until the outside of the meat is brown but the inside of the meat is still very rare. You need to do this on as hot a burner as you have. Do it in two batches unless you have a very large wok or pan.",
+                "The moment the meat has browned, add it all back into the pan along with the spices, garlic and chiles. Stir-fry another 30 seconds or so, then add the tomatoes and the wine. Toss to combine and let this cook for a minute or two. Serve at once with bread or injera.",
+            ]
+        }
+    },
 
     // ,
     // {
