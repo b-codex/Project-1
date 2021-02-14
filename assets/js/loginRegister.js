@@ -10,8 +10,6 @@ const registerPassword = document.querySelector('#registerPassword')
 const signInButton = document.querySelector('#signInButton')
 const registerButton = document.querySelector('#registerButton')
 
-const form = document.querySelector('#form')
-
 const log = console.log
 
 var db = new Dexie("Users");
@@ -30,7 +28,7 @@ function signIn(e) {
             for (x of result) {
                 if (signInPassword.value == x.Password) {
                     log('Sign In Successful')
-                    // window.location.href = '/postFood.html'
+                    window.location.href = '/postFood.html'
                 } else {
                     signInPassword.style.transition = 'all .6s ease-in-out'
                     signInPassword.style.borderBottom = '1px solid red'
