@@ -445,53 +445,6 @@ input:focus:-moz-placeholder {
 
 /* View Recipe */
 
-.cont {
-  font-family: Oxygen, sans-serif;
-  margin-top: 20px;
-  justify-content: center;
-}
-.card {
-  overflow: hidden;
-  box-shadow: 0px 2px 20px var(gray);
-  border-radius: 0.2rem;
-}
-.card-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: whitesmoke;
-  color: black;
-  padding: 30px 20px;
-}
-.card-body hr {
-  width: 80%;
-  background-color: gray;
-}
-.card-img {
-  height: 50rem;
-  width: 100%;
-  object-fit: cover;
-}
-.card-body ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.card-body ul li {
-  list-style: none;
-  padding-right: 100px;
-}
-.card-body ul li i {
-  color: gray;
-  margin-right: 4px;
-  font-size: 15px;
-}
-.card-body ul li span {
-  color: rgb(245, 73, 73);
-  font-weight: 450;
-  font-size: 20px;
-}
-
 @media (min-width: 575px) and (max-width: 768) {
   .card-img {
     height: 12rem;
