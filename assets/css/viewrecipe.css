@@ -51,6 +51,7 @@ body{
 
 .my-logo {
   width: 50% !important;
+  
 }
 #nav-links>ul>li.nav-item.search>a>i {
   color: orange;
@@ -160,6 +161,9 @@ input{
   color: tomato;
   border-radius: 5px;
   cursor: pointer;
+}
+.cardForm{
+  background-color: black !important;
 }
 
 /*For button on admin page*/

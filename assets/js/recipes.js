@@ -315,7 +315,7 @@ export let recipes = [{
     {
         foodName: 'Doro Wot',
         prepTime: '2 hr 50 min',
-        desc: 'The berbere-spiced chicken and egg stew is usually reserved by home cooks for occasions such as family gatherings, religious holidays, and weddings, in part because making doro wat can be very time-consuming.',
+        description: 'The berbere-spiced chicken and egg stew is usually reserved by home cooks for occasions such as family gatherings, religious holidays, and weddings, in part because making doro wat can be very time-consuming.',
         imgSrc: 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/6/5/0/CCATHSP1_ethiopian-injera-bread-with-doro-wat_s4x3.jpg.rend.hgtvcom.826.620.suffix/1433564349717.jpeg',
         recipe: {
             ingredients: [
@@ -348,37 +348,9 @@ export let recipes = [{
 
     ,
     {
-        foodName: 'Genfo',
-        prepTime: '20-40 Mins',
-        desc: 'Genfo is an Ethiopian delicacy, enjoyed by many from the elders to the smallest of the children, Genfo is usually made or cooked when a woman gives birth and is in her first 2 weeks and it is a tradition to eat the genfo with family members and guests. It can be made from wheat flour to normal flour and has different recipes, but usually all contain a middle dipping of berbere spice',
-        imgSrc: 'https://howtocookgreatethiopian.com/new/wp-content/uploads/ethiopian-food-genfo-porrige-breakfast-bulla-kibe-768x384.jpg',
-        recipe: {
-            ingredients: [
-                "2 cups of all purpose flour",
-                "2 tbsp of Kibe",
-                "1 tsp berbere",
-                "Salt and water",
-
-            ],
-            instruction: [
-                "Add 3 cups of water in a pot and a teaspoon of salt and let it boil on a medium hot heat.",
-                "Once water boils, slowly add the flour onto the water while stirring with a wooden spoon.",
-                "After adding flour it will become very thick making it hard to stir.",
-                "At this point you need to remove any lumps by stiring and mixing hard, add more water to help the process.",
-                "Remove the genfo from the heat. Add melted butter into a bowl and scoop the genfo into the bowl in one big ball.",
-                "In the centre of the genfo ball, make a well using your spoon.",
-                "Then add your melted butter and berbere while still hot.",
-                "Mix the berebere and melted butter well and serve.",
-
-            ]
-        }
-    },
-
-    ,
-    {
         foodName: 'Tibis',
         prepTime: '30-45 mins',
-        desc: 'This dish is super easy to make, You can buy it online or in places like Whole Foods or Cost Plus Market, or you can make it yourself. You will also need clarified butter, although this tastes more authentic if you make your own Ethiopian spiced butter. Of the many spices listed in the ingredients, the most important is the fenugreek. It is this spice that makes the version of tibs we served at Horn of Africa different from most others.',
+        description: 'This dish is super easy to make, You can buy it online or in places like Whole Foods or Cost Plus Market, or you can make it yourself. You will also need clarified butter, although this tastes more authentic if you make your own Ethiopian spiced butter. Of the many spices listed in the ingredients, the most important is the fenugreek. It is this spice that makes the version of tibs we served at Horn of Africa different from most others.',
         imgSrc: 'https://honest-food.net/wp-content/uploads/2014/05/tibs-recipe-vert-lg.jpg',
         recipe: {
             ingredients: [
@@ -404,6 +376,34 @@ export let recipes = [{
             ]
         }
     },
+    {
+        foodName: 'Genfo',
+        prepTime: '20-40 Mins',
+        description: 'Genfo is an Ethiopian delicacy, enjoyed by many from the elders to the smallest of the children, Genfo is usually made or cooked when a woman gives birth and is in her first 2 weeks and it is a tradition to eat the genfo with family members and guests. It can be made from wheat flour to normal flour and has different recipes, but usually all contain a middle dipping of berbere spice',
+        imgSrc: 'https://howtocookgreatethiopian.com/new/wp-content/uploads/ethiopian-food-genfo-porrige-breakfast-bulla-kibe-768x384.jpg',
+        recipe: {
+            ingredients: [
+                "2 cups of all purpose flour",
+                "2 tbsp of Kibe",
+                "1 tsp berbere",
+                "Salt and water",
+
+            ],
+            instruction: [
+                "Add 3 cups of water in a pot and a teaspoon of salt and let it boil on a medium hot heat.",
+                "Once water boils, slowly add the flour onto the water while stirring with a wooden spoon.",
+                "After adding flour it will become very thick making it hard to stir.",
+                "At this point you need to remove any lumps by stiring and mixing hard, add more water to help the process.",
+                "Remove the genfo from the heat. Add melted butter into a bowl and scoop the genfo into the bowl in one big ball.",
+                "In the centre of the genfo ball, make a well using your spoon.",
+                "Then add your melted butter and berbere while still hot.",
+                "Mix the berebere and melted butter well and serve.",
+
+            ]
+        }
+    },
+
+    ,
 
     // ,
     // {
