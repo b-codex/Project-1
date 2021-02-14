@@ -4,14 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshen | Login | Register</title>
+    <title>Keshen | Recipe</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/viewrecipe.css">
+
+
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-view">
         <div class="container">
             <a class="navbar-brand" href="/"><img src="assets/img/logo.png" class="my-logo" alt="#" /></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-links"
@@ -22,10 +24,10 @@
             <div class="collapse navbar-collapse text-capitalize" id="nav-links">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link log" href="/">Home</a>
+                        <a class="nav-link log" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link log" href="/index.html">Recipes</a>
+                        <a class="nav-link log" href="index.html">Recipes</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link log" href="loginRegister.html">Log in/Register</a>
@@ -41,73 +43,74 @@
         </div>
     </nav>
 
-    <div class="container" style="margin-top: 150px; margin-bottom: 150px;">
-        <div class="row">
-            
-            <div class="col-12">
 
-                <div class="container-fluid cont">
-                    <div class="row">
-                        <div class="col-md-8 m-auto">
-                            <div class="card">
-                                <div class="card-body">
-                                        
-                                    <img id="itemquee" src="./assets/img/20fe9c86c713112b_Doro_Wat.jpg" alt="" class="card-img">
-                                    <h3 id="itemtitle" class="card-title"></h3>
-                                    <hr>
-                                    <ul>
-                                        <li ><i class="fa fa-book"></i> <span id="itemdesc" > </span> </li>
-                                        <li ><i class="fa fa-book"></i> <span id="pricing"  ></span> </li>
-                                        <li ><i class="fa fa-users"></i> <span id="icon" >4-7</span> Serving</li>
-                                    </ul>
-                                    <p>
-                                        <h3> Preparation Time</h3>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        Adipisci eos vel, est ipsa recusandae ad? Aliquid provident 
-                                        neque adipisci quasi doloremque eum eos omnis? 
-                                        Numquam, obcaecati nulla. Inventore, fuga sunt.
-                                    </p>
-                                    <p>
-                                        <h3>Ingredient</h3>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                                        Quibusdam voluptatem, aliquam dolorum alias totam sit eveniet 
-                                        velit fugit neque libero earum ad est expedita repellat corporis 
-                                        facere fugiat at laudantium! Lorem ipsum dolor sit amet consectetur 
-                                        adipisicing elit. Nihil accusantium incidunt animi recusandae, 
-                                        vitae quia, omnis sit consequatur repellat eum fuga? Voluptates, dicta. Fugit 
-                                        necessitatibus enim perferendis? Molestiae, maiores nisi!
-                                    </p>
-                                    <p id="discription" class="card-description">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                            Modi mollitia voluptate aspernatur facilis neque suscipit quae, 
-                                            off icia sunt illo quo libero laboriosam 
-                                            voluptatem cumque harum nam eveniet. Voluptatum, optio 
-                                            reprehenderit!
-                                    </p>
-                                        
-                                </div>
-                            </div>
-                        </div>
+    <div class="container-fluid cont mt-5" style="margin-top: 150px; margin-bottom: 150px;">
+        <div class="row">
+            <div class="col-md-6 m-auto">
+                <div class="card shadow">
+                    <div class="card-body">
+
+                        <img id="imgSrc" alt="" class="card-img" src="">
+                        <h3 id="foodName" class="card-title"></h3>
+
+                        <hr>
+
+                        <h3>Description</h3>
+                        <p id="description" class="card-description"></p>
+
+                        <h3>Preparation Time</h3>
+                        <p id="prepTime"></p>
+
+                        <h3>Ingredients</h3>
+                        <div id="ingredients" class="text-center"></div>
+
+                        <h3>Instruction</h3>
+                        <div id="instruction" class="text-center"></div>
                     </div>
                 </div>
-
             </div>
-
         </div>
     </div>
 
+
+
     <script>
         //Change the image of the item based on the information passed from the previous page
-        document.addEventListener('DOMContentLoaded', function() {
-            if(sessionStorage.getItem('item')!=null){
-                document.getElementById("itemquee").src=sessionStorage.getItem('item');
-                document.getElementById("itemtitle").innerHTML =sessionStorage.getItem('title');
-                document.getElementById("itemdesc").innerHTML =sessionStorage.getItem('desc');
-                document.getElementById("pricing").innerHTML =sessionStorage.getItem('price');
-                document.getElementById("icon").innerHTML =sessionStorage.getItem('i');
-                document.getElementById("discription").innerHTML =sessionStorage.getItem('dp');
-                
+        document.addEventListener('DOMContentLoaded', function () {
+            if (sessionStorage.getItem('foodName') != null) {
+                document.getElementById("foodName").innerHTML = window.sessionStorage.getItem('foodName')
             }
+            let imgSrc = document.querySelector('#imgSrc')
+            let prepTime = document.querySelector('#prepTime')
+            let ingredients = document.querySelector('#ingredients')
+            let description = document.querySelector('#description')
+            let instruction = document.querySelector("#instruction")
+
+            var db = new Dexie("Recipes");
+            db.version(1).stores({
+                Recipes: 'foodName, prepTime, imgSrc, recipe'
+            })
+
+            db.Recipes.where('foodName').equals(window.sessionStorage.getItem('foodName')).toArray((result) => {
+                for (x of result) {
+                    imgSrc.src = x.imgSrc
+                    description.innerHTML = x.desc
+                    prepTime.innerHTML = x.prepTime
+                    
+                    for(let index = 0; index < x.recipe.ingredients.length; index++){
+                        const v = document.createElement("p")
+                        v.innerHTML = x.recipe.ingredients[index]
+                        ingredients.appendChild(v)
+                    }
+
+                    for(let index = 0; index < x.recipe.instruction.length; index++){
+                        const v = document.createElement("p")
+                        v.innerHTML = x.recipe.instruction[index]
+                        instruction.appendChild(v)
+                    }
+
+                }
+            })
         }, false);
     </script>
 
@@ -117,7 +120,7 @@
 
     <script src="https://kit.fontawesome.com/24cd095fb2.js" crossorigin="anonymous"></script>
 
-    <!-- <script src="assets/js/script.js"></script> -->
+    <script src="assets/js/dexie.js"></script>
 </body>
 
 </html>
