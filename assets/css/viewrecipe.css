@@ -1,9 +1,17 @@
+body{
+  background: url(../img/applebackground\ foe\ viewRecipe);
+  background-position: inherit;
+  width: 100%;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+
 .navbar {
   position: absolute;
   width: 100%;
   top: 0;
   left: 0;
-  background-color: rgb(78, 69, 69);
+  background-color: transparent !important;
   color: white !important;
   z-index: 1000;
 }
@@ -35,7 +43,7 @@
 
 .navbar ul form input {
   padding: 5px 10px 5px 5px;
-  background-color: rgb(179, 85, 48);
+  background-color: #ddd;
   width: 100%;
   border: 1px solid #737272;
 }
@@ -44,21 +52,16 @@
 .my-logo {
   width: 50% !important;
 }
-
 #nav-links>ul>li.nav-item.search>a>i {
   color: orange;
 }
 
-.cont {
-  font-family: Oxygen, sans-serif;
-  margin-top: 20px;
-  justify-content: center;
-}
-
 .card {
   overflow: hidden;
-  box-shadow: 0px 2px 20px var(gray);
+  box-shadow: 0px 2px 20px gray;
   border-radius: 0.2rem;
+  margin-top: 70px;
+  opacity: 0.76;
 }
 
 .card-body {
@@ -66,6 +69,8 @@
   flex-direction: column;
   align-items: center;
   background: whitesmoke;
+  opacity: 0.99;
+  
   color: black;
   padding: 30px 20px;
 }
@@ -75,30 +80,28 @@
   background-color: gray;
 }
 
-.card-img {
-  height: 500%;
-  width: 100%;
-  object-fit: cover;
+.card-title{
+  font-size: 45px;
 }
 
-.card-body ul {
+.card-body-wrapper ul {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.card-body ul li {
+.card-body-wrapper ul li {
   list-style: none;
   padding-right: 100px;
 }
 
-.card-body ul li i {
+.card-body-wrapper ul li i {
   color: gray;
   margin-right: 4px;
   font-size: 15px;
 }
 
-.card-body ul li span {
+.card-body-wrapper ul li span {
   color: rgb(245, 73, 73);
   font-weight: 450;
   font-size: 20px;
@@ -106,6 +109,57 @@
 
 #imgSrc {
   width: 50%;
+}
+.wrapper{
+  display: grid;
+  width: 40%;
+  height: 150px;
+  grid-template-columns: 1.5fr 1.5fr 2fr;
+  background: rgb(245, 96, 70);
+  box-shadow: 12px 12px 24px  rgb(244, 46, 70), -12px -12px 24px  rgb(244, 46, 70);
+  border-radius: 5px;
+}
+.upVote,.downVote{
+  display: grid;
+  place-items: center;
+}
+.icon{
+  margin-top: 25px;
+  font-size: 50px;
+  cursor: pointer;
+  color: #0086b3;
+  text-shadow: 5px 8px 15px rgb(247, 192, 192);
+  transition: .5s;
+  
+} 
+.icon:hover{
+  color: #ba0015;
+  transform: scale(1.2);
+} 
+input{
+  margin-top: - 100px;
+  margin-left: 15px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  background: none;
+  font-size: 30px;
+  font-weight: 800;
+  pointer-events: none;
+  color: #0086b3;
+  text-shadow: 2px 2px 3px #2a93b6;
+}
+
+.thumbs-up{
+  padding: 10px 15px;
+  background: #0080ff;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  color: tomato;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 @media (min-width: 575px) and (max-width: 768) {
