@@ -56,8 +56,6 @@ body{
   color: orange;
 }
 
-
-
 .card {
   overflow: hidden;
   box-shadow: 0px 2px 20px gray;
@@ -86,12 +84,28 @@ body{
   font-size: 45px;
 }
 
-.card-body {
+.card-body-wrapper ul {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
+.card-body-wrapper ul li {
+  list-style: none;
+  padding-right: 100px;
+}
+
+.card-body-wrapper ul li i {
+  color: gray;
+  margin-right: 4px;
+  font-size: 15px;
+}
+
+.card-body-wrapper ul li span {
+  color: rgb(245, 73, 73);
+  font-weight: 450;
+  font-size: 20px;
+}
 
 #imgSrc {
   width: 50%;
@@ -138,7 +152,6 @@ input{
 }
 
 .thumbs-up{
-  display: grid;
   padding: 10px 15px;
   background: #0080ff;
   font-size: 18px;

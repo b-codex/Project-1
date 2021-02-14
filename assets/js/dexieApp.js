@@ -43,14 +43,14 @@ document.addEventListener('DOMContentLoaded', () => {
                         </p>
 
                     </div>
-                    <button class="thumbs_up">
+                    <a class="thumbs_up">
                         <span id="thumbs_up_icon"><i class="fa fa-thumbs-up"></i></span>
                         <span id="countLike">0</span> like
-                    </button>
-                    <button class="thumbs_down">
+                    </a>
+                    <a class="thumbs_down">
                         <span id="thumbs_down_icon"><i class="fa fa-thumbs-up"></i></span>
                         <span id="countDislike">0</span> dislike
-                    </button>
+                    </a>
                     <a href="./viewRecipe.html" class="btn card-btn"
                         onclick="saveOnSession('${iterator.foodName}')">View Recipe</a>
                 </div>
