@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
+<body class="bodyBackground">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light navBarE">
         <div class="container  ">
@@ -66,12 +66,11 @@
                                 <input class="form-control" type="text" name="description" id="description" placeholder="Description" required>
                             </div>
                             <div class="form-floating form-group">
-                                <textarea class="form-control" placeholder="Instruction (Separated With Comma)" id="instruction" style="height: 100px"></textarea>
+                                <textarea class="form-control" placeholder="Instruction (Separated With Comma)" id="instruction" style="height: 100px" required></textarea>
                     
                               </div>
                             <div class="form-floating form-group">
-                                <textarea class="form-control" placeholder="Ingriedents (Separated With Comma)" id="ingriedents" style="height: 100px"></textarea>
-                              
+                                <textarea class="form-control" placeholder="Ingredients (Separated With Comma)" id="ingredients" style="height: 100px" required></textarea>
                               </div>
 
                             <div class="form-group form-button ">
@@ -92,7 +91,7 @@
     <script src="https://kit.fontawesome.com/24cd095fb2.js" crossorigin="anonymous"></script>
 
     <script src="assets/js/dexie.js"></script>
-    <script src="assets/js/loginRegister.js"></script>
+    <script src="assets/js/dbPosting.js"></script>
 </body>
 
 </html>

@@ -28,7 +28,7 @@ function signIn(e) {
             for (x of result) {
                 if (signInPassword.value == x.Password) {
                     log('Sign In Successful')
-                    // window.location.href = '/postFood.html'
+                    window.location.href = '/postFood.html'
                 } else {
                     signInPassword.style.transition = 'all .6s ease-in-out'
                     signInPassword.style.borderBottom = '1px solid red'
@@ -57,15 +57,14 @@ function register(e) {
         Password: registerPassword.value
     }
 
-    db.Users.put(user)
+    db.Users.add(user)
         .then(() => {
             log('New User Added')
-            fullName.value = ''
-            registerEmail.value = ''
-            registerPassword.value = ''
+            window.location.href = 'index.html'
         })
         .catch((err) => {
             log(err.message)
+            alert('User already exists')
         })
 
 }
