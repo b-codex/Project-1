@@ -93,7 +93,7 @@
             db.Recipes.where('foodName').equals(window.sessionStorage.getItem('foodName')).toArray((result) => {
                 for (x of result) {
                     imgSrc.src = x.imgSrc
-                    description.innerHTML = x.desc
+                    description.innerHTML = x.description
                     prepTime.innerHTML = x.prepTime
                     
                     for(let index = 0; index < x.recipe.ingredients.length; index++){

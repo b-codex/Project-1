@@ -1976,7 +1976,7 @@ var Collection =               (function () {
             this._ondirectionchange(this._ctx.dir);
         return this;
     };
-    Collection.prototype.desc = function () {
+    Collection.prototype.description = function () {
         return this.reverse();
     };
     Collection.prototype.eachKey = function (cb) {

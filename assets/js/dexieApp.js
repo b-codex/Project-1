@@ -7,9 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     var db = new Dexie("Recipes");
     db.version(1).stores({
-        Recipes: 'foodName, prepTime, imgSrc, recipe'
+        Recipes: 'foodName, prepTime, imgSrc, recipe, description'
     })
-
     recipes.forEach((item, index) => {
 
         let newRecipe = {
@@ -17,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
             prepTime: item.prepTime,
             imgSrc: item.imgSrc,
             recipe: item.recipe,
-            desc: item.desc
+            description: item.description
         }
 
         db.Recipes.put(newRecipe).catch((err) => log(err.message))
@@ -39,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <hr>
 
                         <p class="card-description">
-                            ${iterator.desc}
+                            ${iterator.description}
                         </p>
 
                     </div>
