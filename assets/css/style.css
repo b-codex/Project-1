@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
 
 body {
   overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
   padding-top: o;
+  background: url(../img/background.jpg);
 }
 
 li {
@@ -85,7 +85,6 @@ h2 {
   width: 100%;
   border: 1px solid #737272;
 }
-
 
 .my-logo {
   width: 50% !important;
@@ -221,41 +220,82 @@ header .carousel-control-prev {
   border-radius: 25px;
   border-collapse: separate;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
-  font-family: 'Montserrat', serif, sans-serif;
+  font-family: "Montserrat", serif, sans-serif;
   padding-left: 10px;
   padding-right: 10px;
   align-items: center;
 }
 
-.card-ui:hover {
+.first-card-text {
+  color: saddlebrown;
+  margin: 20px;
+  width: 20rem;
+  height: 25rem;
+  border-radius: 9px;
+  border-collapse: separate;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", serif, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.card-ui:hover, .card-ui-img:hover {
   transform: scale(1.02);
   transition: ease-in 0.4s;
-  
 }
-.card-ui img{
-  /* margin-top: 8px; */
-  width: 18rem;
-  height: 24rem;
+
+.first-card-text:hover {
+  transform: unset
+}
+
+.card-paragraph {
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 5%;
   align-items: center;
-  object-fit: cover;
+  text-align: justify;
+}
+
+.card-title {
+  text-align: center;
+  padding-top: 2%;
+}
+
+
+.card-ui-img {
+  /* background-color: #4292dc; */
+  color: saddlebrown;
+  margin: 20px;
+  width: 20rem;
+  height: 25rem;
+  border-radius: 18px;
+  border-collapse: separate;
+  /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); */
+  font-family: "Montserrat", serif, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+
+.footer-text{
+  color: orange;
   
 }
 
-.card-paragraph{
-    padding-left: 40px;
-    padding-right: 40px;
-    margin-bottom: 5%;
 
-    align-items: center;
 
-    text-align: justify;
-}
 
-.card-title{
-    text-align: center;
-    padding-top: 2%;
-    
-}
+
+
+
+
+
+
+
+
+
 
 
 /* Login/Register */
