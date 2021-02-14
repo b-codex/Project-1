@@ -1,7 +1,7 @@
 export let recipes = [{
         foodName: 'Chicken Fried Steak Fingers',
         prepTime: '30 Min(s)',
-        desc: 'Comfort food gets turned into finger food with these Chicken Fried Steak Fingers served with a Creole Mustard Sauce.',
+        description: 'Comfort food gets turned into finger food with these Chicken Fried Steak Fingers served with a Creole Mustard Sauce.',
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Chicken-Fried-Steak-Fingers-1a.jpg',
         recipe: {
             ingredients: [
@@ -39,7 +39,7 @@ export let recipes = [{
     {
         foodName: 'Vidalia Onion Dip',
         prepTime: '30 Min(s)',
-        desc: 'Vidalia Onion Dip is fantastically cheesy and creamy with lots of sweet onion flavor. Only 6 ingredients needed to make this party favorite.',
+        description: 'Vidalia Onion Dip is fantastically cheesy and creamy with lots of sweet onion flavor. Only 6 ingredients needed to make this party favorite.',
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Vidalia-Onion-Dip-2.jpg',
         recipe: {
             ingredients: [
@@ -61,7 +61,7 @@ export let recipes = [{
     {
         foodName: 'Bisquick Cinnamon Rolls',
         prepTime: '',
-        desc: 'Covered in a sugary glaze, these cinnamon rolls are lick your fingers good. You only need a handful of ingredients, all of which you probably have on hand, except maybe the buttermilk. I always have buttermilk on hand. Between making biscuits and pancakes, I use it weekly.',
+        description: 'Covered in a sugary glaze, these cinnamon rolls are lick your fingers good. You only need a handful of ingredients, all of which you probably have on hand, except maybe the buttermilk. I always have buttermilk on hand. Between making biscuits and pancakes, I use it weekly.',
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Pillsbury-Cinnamon-Rolls-4.jpg',
         recipe: {
             ingredients: [
@@ -95,7 +95,7 @@ export let recipes = [{
     {
         foodName: 'French Dip Pinwheels',
         prepTime: '30 Min(s)',
-        desc: 'This finger food makes an easy appetizer or gameday snack. Crescent roll dough and deli-sliced roast beef make this recipe a breeze to prepare. An easy Au Jus is made while the pinwheels bake. It’s a combination of garlic, beef broth, Worcestershire sauce, thyme, and a beef bouillon cube.',
+        description: 'This finger food makes an easy appetizer or gameday snack. Crescent roll dough and deli-sliced roast beef make this recipe a breeze to prepare. An easy Au Jus is made while the pinwheels bake. It’s a combination of garlic, beef broth, Worcestershire sauce, thyme, and a beef bouillon cube.',
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/French-Dip-Pinwheels-10.jpg',
         recipe: {
             ingredients: [
@@ -130,67 +130,67 @@ export let recipes = [{
             ]
         }
     },
-    {
-        foodName: 'Southern Broccoli Casserole',
-        prepTime: '55 Min(s)',
-        desc: 'A cheesy, creamy broccoli casserole with a ritz cracker topping that is a favorite southern side.',
-        imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Broccoli-Casserole-5.jpg',
-        recipe: {
-            ingredients: [
-                '6 cups chopped, fresh broccoli florets',
-                '1 (10 3/4-oz) can condensed cream of mushroom soup',
-                '1 cup mayonnaise',
-                '1/2 stick butter, melted',
-                '2 large eggs, lightly beaten',
-                '1/2 medium onion, finely diced',
-                '1/2 teaspoon salt',
-                '1/4 teaspoon freshly ground black pepper',
-                '1 1/2 cups grated extra-sharp cheddar cheese',
-                '1 full sleeve Ritz crackers, finely crushed',
-            ],
-            instruction: [
-                'Place broccoli in a steamer basket over simmering water. Cover and steam for approximately 5 minutes. Chop into bite-sized pieces.',
-                'Preheat oven to 350 degrees.',
-                'In a large bowl, combine broccoli, soup, mayonnaise, butter, eggs, onion, salt, and pepper. Mix well.',
-                'Add 1 cup of cheese and mix again.',
-                'Place mixture in a medium buttered casserole dish. Sprinkle remaining cheese and crackers on top.',
-                'Bake for 30 to 40 minutes and let stand for 15 minutes before serving.'
-            ]
-        }
-    },
-    {
-        foodName: 'Nutella Brownies',
-        prepTime: '45 Min(s)',
-        desc: 'These Nutella Brownies have tons of that awesome chocolate and hazelnut Nutella flavor. They are unbelievably delicious.',
-        imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Nutella-Brownies-8.jpg',
-        recipe: {
-            ingredients: [
-                '6 tablespoons unsalted butter, melted',
-                '1/2 cup packed light brown sugar',
-                '2 large eggs',
-                '2 teaspoons vanilla extract',
-                '1/2 teaspoon kosher salt',
-                '1 1/4 cups Nutella, divided',
-                '2/3 cup all-purpose flour',
-                '1/2 cup semi-sweet chocolate chips',
-            ],
-            instruction: [
-                'Preheat oven to 350 degrees. Grease an 8-inch square baking dish. Line the pan with parchment paper, being sure it overhangs on the sides. Grease the parchment paper with cooking spray or butter.',
-                'In a large bowl, whisk together melted butter and brown sugar. Whisk in the eggs and vanilla extract and salt.',
-                'Use a wooden spoon to stir 1 cup of the Nutella until completely mixed in.',
-                'Stir the flour in just until combined.',
-                'Stir in the chocolate chips.',
-                'Transfer batter to prepared pan.',
-                'Drop the remaining Nutella by teaspoonfuls on the top. Use a knife to swirl the Nutella into the batter.',
-                'Bake for 30 to 35 minutes. Do not overbake. It will still look a little underdone in the middle.',
-                'Let cool and then lift the the parchment paper out of the pan. Cut into squares.'
-            ]
-        }
-    },
+    // {
+    //     foodName: 'Southern Broccoli Casserole',
+    //     prepTime: '55 Min(s)',
+    //     description: 'A cheesy, creamy broccoli casserole with a ritz cracker topping that is a favorite southern side.',
+    //     imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Broccoli-Casserole-5.jpg',
+    //     recipe: {
+    //         ingredients: [
+    //             '6 cups chopped, fresh broccoli florets',
+    //             '1 (10 3/4-oz) can condensed cream of mushroom soup',
+    //             '1 cup mayonnaise',
+    //             '1/2 stick butter, melted',
+    //             '2 large eggs, lightly beaten',
+    //             '1/2 medium onion, finely diced',
+    //             '1/2 teaspoon salt',
+    //             '1/4 teaspoon freshly ground black pepper',
+    //             '1 1/2 cups grated extra-sharp cheddar cheese',
+    //             '1 full sleeve Ritz crackers, finely crushed',
+    //         ],
+    //         instruction: [
+    //             'Place broccoli in a steamer basket over simmering water. Cover and steam for approximately 5 minutes. Chop into bite-sized pieces.',
+    //             'Preheat oven to 350 degrees.',
+    //             'In a large bowl, combine broccoli, soup, mayonnaise, butter, eggs, onion, salt, and pepper. Mix well.',
+    //             'Add 1 cup of cheese and mix again.',
+    //             'Place mixture in a medium buttered casserole dish. Sprinkle remaining cheese and crackers on top.',
+    //             'Bake for 30 to 40 minutes and let stand for 15 minutes before serving.'
+    //         ]
+    //     }
+    // },
+    // {
+    //     foodName: 'Nutella Brownies',
+    //     prepTime: '45 Min(s)',
+    //     description: 'These Nutella Brownies have tons of that awesome chocolate and hazelnut Nutella flavor. They are unbelievably delicious.',
+    //     imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Nutella-Brownies-8.jpg',
+    //     recipe: {
+    //         ingredients: [
+    //             '6 tablespoons unsalted butter, melted',
+    //             '1/2 cup packed light brown sugar',
+    //             '2 large eggs',
+    //             '2 teaspoons vanilla extract',
+    //             '1/2 teaspoon kosher salt',
+    //             '1 1/4 cups Nutella, divided',
+    //             '2/3 cup all-purpose flour',
+    //             '1/2 cup semi-sweet chocolate chips',
+    //         ],
+    //         instruction: [
+    //             'Preheat oven to 350 degrees. Grease an 8-inch square baking dish. Line the pan with parchment paper, being sure it overhangs on the sides. Grease the parchment paper with cooking spray or butter.',
+    //             'In a large bowl, whisk together melted butter and brown sugar. Whisk in the eggs and vanilla extract and salt.',
+    //             'Use a wooden spoon to stir 1 cup of the Nutella until completely mixed in.',
+    //             'Stir the flour in just until combined.',
+    //             'Stir in the chocolate chips.',
+    //             'Transfer batter to prepared pan.',
+    //             'Drop the remaining Nutella by teaspoonfuls on the top. Use a knife to swirl the Nutella into the batter.',
+    //             'Bake for 30 to 35 minutes. Do not overbake. It will still look a little underdone in the middle.',
+    //             'Let cool and then lift the the parchment paper out of the pan. Cut into squares.'
+    //         ]
+    //     }
+    // },
     {
         foodName: 'Slow Cooker Spicy Cabbage Beef Soup',
         prepTime: '6 Hours',
-        desc: 'Slow Cooker Spicy Cabbage Beef Soup is full of browned ground beef, onion, cabbage and tomatoes. It\'s a simple soup, but with so much flavor, plus it\'s low carb.',
+        description: 'Slow Cooker Spicy Cabbage Beef Soup is full of browned ground beef, onion, cabbage and tomatoes. It\'s a simple soup, but with so much flavor, plus it\'s low carb.',
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Slow-Cooker-Spicy-Cabbage-Beef-Soup-2.jpg',
         recipe: {
             ingredients: [
@@ -218,7 +218,7 @@ export let recipes = [{
     {
         foodName: 'Shiro',
         prepTime: '5 minutes',
-        desc: 'Every Ethiopian has a love/hate relationship with shiro. It’s the household staple that can cure any rainy day and the “shut down” response to every child’s request to eat out. Many McDonald’s dreams have been crushed by shiro, until we go to college and become sick of fast food, but crave a warm plate of shiro. It’s a complicated relationship.',
+        description: 'Every Ethiopian has a love/hate relationship with shiro. It’s the household staple that can cure any rainy day and the “shut down” response to every child’s request to eat out. Many McDonald’s dreams have been crushed by shiro, until we go to college and become sick of fast food, but crave a warm plate of shiro. It’s a complicated relationship.',
         imgSrc: 'https://cdn.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_1170,h_540/https://justonegursha.com/wp-content/uploads/2019/06/IMG_2963-thegem-blog-default.jpg',
         recipe: {
             ingredients: [
@@ -244,7 +244,7 @@ export let recipes = [{
     {
         foodName: 'Miser Wot',
         prepTime: '30-60 Minutes',
-        desc: 'This popular spice blend provides a distinctive earthy, tangy and slightly spicy flavor to the lentils, which makes this red lentil recipe absolutely divine.',
+        description: 'This popular spice blend provides a distinctive earthy, tangy and slightly spicy flavor to the lentils, which makes this red lentil recipe absolutely divine.',
         imgSrc: 'https://spicecravings.com/wp-content/uploads/2018/10/Misir-Wot-1.jpg',
         recipe: {
             ingredients: [
@@ -285,7 +285,7 @@ export let recipes = [{
     {
         foodName: 'Sega Wot',
         prepTime: '1-2 hours',
-        desc: 'Sega Wot is a food love among Ethiopian people which is made with beef or other cattle meat and a variety of spices with the number one spice being the red pepper coommonly know as the berbere',
+        description: 'Sega Wot is a food love among Ethiopian people which is made with beef or other cattle meat and a variety of spices with the number one spice being the red pepper coommonly know as the berbere',
         imgSrc: 'https://allaboutethio.com/images/sega-wot.jpg',
         recipe: {
             ingredients: [
@@ -409,7 +409,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -425,7 +425,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -441,7 +441,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -457,7 +457,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -473,7 +473,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -489,7 +489,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -505,7 +505,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -521,7 +521,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -537,7 +537,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -553,7 +553,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -569,7 +569,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -585,7 +585,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -601,7 +601,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -617,7 +617,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -633,7 +633,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -649,7 +649,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -665,7 +665,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -681,7 +681,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -697,7 +697,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -713,7 +713,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -729,7 +729,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -745,7 +745,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -761,7 +761,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -777,7 +777,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -793,7 +793,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -809,7 +809,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -825,7 +825,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -841,7 +841,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -857,7 +857,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [
@@ -873,7 +873,7 @@ export let recipes = [{
     // {
     //     foodName: '',
     //     prepTime: '',
-    //     desc: '',
+    //     description: '',
     //     imgSrc: '',
     //     recipe: {
     //         ingredients: [

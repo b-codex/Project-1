@@ -8,38 +8,38 @@ let db
 
 document.addEventListener('DOMContentLoaded', () => {
     let rDB = indexedDB.open('Recipes', 1)
-
+    
     rDB.onsuccess = () => {
         log('Database Ready!!!')
         db = rDB.result
         // recipes.forEach((item, index) => {
-        //     log(item)
-        // })
-        addToDB()
-        displayRecipes()
-    }
-
-    rDB.onerror = () => {
-        log('Error Creating Database')
-    }
-
-    rDB.onupgradeneeded = (e) => {
-        log('Upgrade Complete!!!')
-
-        let db = e.target.result
-
-        let rStore = db.createObjectStore('Recipes', {
-            key: 'id',
-            autoIncrement: true
-        })
-
-        rStore.createIndex('Recipe', 'Recipe', {
-            unique: true
-        })
-
+            //     log(item)
+            // })
+            addToDB()
+            displayRecipes()
+        }
+        
+        rDB.onerror = () => {
+            log('Error Creating Database')
+        }
+        
+        rDB.onupgradeneeded = (e) => {
+            log('Upgrade Complete!!!')
+            
+            let db = e.target.result
+            
+            let rStore = db.createObjectStore('Recipes', {
+                key: 'id',
+                autoIncrement: true
+            })
+            
+            rStore.createIndex('Recipe', 'Recipe', {
+                unique: true
+            })
+            
         log('Database Ready & Fields Created!!!')
     }
-
+    
     function addToDB() {
 
         let transaction = db.transaction(['Recipes'], 'readwrite')

@@ -12,43 +12,42 @@ const log = console.log
 document.addEventListener('DOMContentLoaded', () => {
     const postButton = document.querySelector('#bbb')
     postButton.addEventListener('click', postFood)
-    
+
     var db = new Dexie("tempDB");
     db.version(1).stores({
         tempDB: 'foodName, prepTime, ingredients, instruction, description'
     })
-    
+
     function postFood() {
         let newFood = {
-            foodName: 'Nutella Brownies',
-            prepTime: '40 mins',
-            desc: 'These Nutella Brownies have tons of that awesome chocolate and hazelnut Nutella flavor. They are unbelievably delicious.',
-            imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Nutella-Brownies-8.jpg',
+            foodName: 'Southern Broccoli Casserole',
+            prepTime: '55 Min(s)',
+            description: 'A cheesy, creamy broccoli casserole with a ritz cracker topping that is a favorite southern side.',
+            imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Broccoli-Casserole-5.jpg',
             recipe: {
                 ingredients: [
-                    '6 tablespoons unsalted butter, melted',
-                    '1/2 cup packed light brown sugar',
-                    '2 large eggs',
-                    '2 teaspoons vanilla extract',
-                    '1/2 teaspoon kosher salt',
-                    '1 1/4 cups Nutella, divided',
-                    '2/3 cup all-purpose flour',
-                    '1/2 cup semi-sweet chocolate chips',
+                    '6 cups chopped, fresh broccoli florets',
+                    '1 (10 3/4-oz) can condensed cream of mushroom soup',
+                    '1 cup mayonnaise',
+                    '1/2 stick butter, melted',
+                    '2 large eggs, lightly beaten',
+                    '1/2 medium onion, finely diced',
+                    '1/2 teaspoon salt',
+                    '1/4 teaspoon freshly ground black pepper',
+                    '1 1/2 cups grated extra-sharp cheddar cheese',
+                    '1 full sleeve Ritz crackers, finely crushed',
                 ],
-                instruction: `
-                Preheat oven to 350 degrees. Grease an 8-inch square baking dish. Line the pan with parchment paper, being sure it overhangs on the sides. Grease the parchment paper with cooking spray or butter.
-                In a large bowl, whisk together melted butter and brown sugar. Whisk in the eggs and vanilla extract and salt.
-                Use a wooden spoon to stir 1 cup of the Nutella until completely mixed in.
-                Stir the flour in just until combined.
-                Stir in the chocolate chips.
-                Transfer batter to prepared pan.
-                Drop the remaining Nutella by teaspoonfuls on the top. Use a knife to swirl the Nutella into the batter.
-                Bake for 30 to 35 minutes. Do not overbake. It will still look a little underdone in the middle.
-                Let cool and then lift the the parchment paper out of the pan. Cut into squares.
-            `
+                instruction: [
+                    'Place broccoli in a steamer basket over simmering water. Cover and steam for approximately 5 minutes. Chop into bite-sized pieces.',
+                    'Preheat oven to 350 degrees.',
+                    'In a large bowl, combine broccoli, soup, mayonnaise, butter, eggs, onion, salt, and pepper. Mix well.',
+                    'Add 1 cup of cheese and mix again.',
+                    'Place mixture in a medium buttered casserole dish. Sprinkle remaining cheese and crackers on top.',
+                    'Bake for 30 to 40 minutes and let stand for 15 minutes before serving.'
+                ]
             }
         }
-    
+
         db.tempDB.put(newFood).catch(err => {
             log(err.message)
         })
