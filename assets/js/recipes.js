@@ -188,7 +188,7 @@ export let recipes = [{
         }
     },
     {
-        foodName: 'SLOW COOKER SPICY CABBAGE BEEF SOUP',
+        foodName: 'Slow Cooker Spicy Cabbage Beef Soup',
         prepTime: '6 Hours',
         desc: 'Slow Cooker Spicy Cabbage Beef Soup is full of browned ground beef, onion, cabbage and tomatoes. It\'s a simple soup, but with so much flavor, plus it\'s low carb.',
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Slow-Cooker-Spicy-Cabbage-Beef-Soup-2.jpg',
@@ -215,36 +215,71 @@ export let recipes = [{
             ]
         }
     },
-    // {
-    //     foodName: '',
-    //     prepTime: '',
-    //     desc: '',
-    //     imgSrc: '',
-    //     recipe: {
-    //         ingredients: [
+    {
+        foodName: 'Shiro',
+        prepTime: '5 minutes',
+        desc: 'Every Ethiopian has a love/hate relationship with shiro. It’s the household staple that can cure any rainy day and the “shut down” response to every child’s request to eat out. Many McDonald’s dreams have been crushed by shiro, until we go to college and become sick of fast food, but crave a warm plate of shiro. It’s a complicated relationship.',
+        imgSrc: 'https://cdn.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_1170,h_540/https://justonegursha.com/wp-content/uploads/2019/06/IMG_2963-thegem-blog-default.jpg',
+        recipe: {
+            ingredients: [
+                "2 tbsp canola oil",
+                "½ yellow onion",
+                "2 cloves of garlic",
+                "1 cup shiro flour",
+                "1 tsp berbere optional, depending on the spice level of your shiro flour.",
+                "4 cups water",
+                "3 tsp salt or more based on your preference",
 
-    //         ],
-    //         instruction: [
 
-    //         ]
-    //     }
-    // },
+            ],
+            instruction: [
+                "Drizzle canola oil in a medium-sized pot. Dice the yellow onion and add it to the pot before turning the stove on medium-heat. Mince the garlic and add. Sautee the onion and garlic until the onion is translucent. Be careful not to let the onion or garlic brown.",
+                "Then add the shiro flour (and berbere if needed) and mix while immediately adding the water and salt. Stir the shiro until all the ingredients have been thoroughly combined and let it simmer over medium heat. Allow it to simmer until it reaches desired thickness. For a thinner consistency shiro, 10 minutes will suffice, but for a thicker shiro, I recommend at least 20 minutes and adding an additional tablespoon of shiro flour.",
+                "Serve over injera and with a side salad.",
+            ]
+        }
+    },
 
-    // ,
-    // {
-    //     foodName: '',
-    //     prepTime: '',
-    //     desc: '',
-    //     imgSrc: '',
-    //     recipe: {
-    //         ingredients: [
+    ,
+    {
+        foodName: 'Miser Wot',
+        prepTime: '30-60 Minutes',
+        desc: 'This popular spice blend provides a distinctive earthy, tangy and slightly spicy flavor to the lentils, which makes this red lentil recipe absolutely divine.',
+        imgSrc: 'https://spicecravings.com/wp-content/uploads/2018/10/Misir-Wot-1.jpg',
+        recipe: {
+            ingredients: [
+                "4 teaspoons coriander seeds",
+                "2 teaspoons cumin seeds",
+                "2 teaspoons fenugreek seeds",
+                "2 teaspoons black peppercorns",
+                "2 teaspoons green cardamom seeds",
+                "10 cloves",
+                "2 teaspoons cayenne powder",
+                "6 tablespoons paprika",
+                "1 teaspoon ground ginger",
+                "1 teaspoon ground cinnamon",
+                "½ teaspoon ground nutmeg",
+                "2 teaspoons turmeric powder",
+                "2 teaspoons salt",
 
-    //         ],
-    //         instruction: [
 
-    //         ]
-    //     }
-    // },
+
+
+
+            ],
+            instruction: [
+                "Turn on Sauté mode. Wait 30-40 seconds for the inner pot to get hot, then add butter or ghee.",
+                "Add chopped onion and sauté for 2-3 minutes, until onions soften ",
+                "Add minced garlic and ginger and sauté another minute, then add tomato paste, salt and Berbere seasoning / spice mix. Stir well ",
+                "Add rinsed and drained lentils, water and stir. Press 'Cancel' and close the lid. Select Manual or Pressure Cook and cook for 4 minutes at high pressure on sealing mode",
+                "After the cooking is complete, wait 5 minutes for natural pressure release, then follow the quick-release instructions. Open the lid after the pin drops ",
+                "Stir and check for consistency. If the stew seems too thick, add ½-1 cup of water (or as needed) and stir well till the water gets absorbed and lentils reach a creamy consistency. Check for seasoning",
+                "Finish the dish and Serve over injera",
+
+
+            ]
+        }
+    },
 
     // ,
     // {

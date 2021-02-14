@@ -81,7 +81,7 @@ body{
 }
 
 .card-title{
-  font-size: 45px;
+  margin-top: 1rem;
 }
 
 .card-body-wrapper ul {
@@ -108,7 +108,7 @@ body{
 }
 
 #imgSrc {
-  width: 50%;
+  width: 70%;
 }
 .wrapper{
   display: grid;
