@@ -281,23 +281,37 @@ export let recipes = [{
         }
     },
 
-    // ,
-    // {
-    //     foodName: '',
-    //     prepTime: '',
-    //     desc: '',
-    //     imgSrc: '',
-    //     recipe: {
-    //         ingredients: [
+    ,
+    {
+        foodName: 'Sega Wot',
+        prepTime: '1-2 hours',
+        desc: 'Sega Wot is a food love among Ethiopian people which is made with beef or other cattle meat and a variety of spices with the number one spice being the red pepper coommonly know as the berbere',
+        imgSrc: 'https://allaboutethio.com/images/sega-wot.jpg',
+        recipe: {
+            ingredients: [
+                "2-3 pound beef cubed",
+                "5 large onions fine chopped",
+                "2 cup of vegetable oil",
+                "5 teaspoons minced or powder garlic",
+                "2 teaspoons minced or powder ginger",
+                "1/4 cup of authentic Ethiopian Berbere",
+                "2 teaspoon Wot Kimem (Mekelesha)",
+                "2 Teaspoon salt (as needed)",
+                "1/2 cup of water",
 
-    //         ],
-    //         instruction: [
 
-    //         ]
-    //     }
-    // },
+            ],
+            instruction: [
+                "In large pot, simmer onion and garlic with vegetable oil till lightly brown.",
+                "Add Berbere and continue to simmer for about 15 minutes at low heat and stirring occasionally.",
+                "Add beef and water, let it simmer until beef is done, then finish off cooking by adding wot kimem (Mekelesha) and salt.",
+                "Serve your Key Sega Wot hot with Enjera (Ethiopian flat bread made of teff).",
 
-    // ,
+            ]
+        }
+    },
+
+    ,
     // {
     //     foodName: '',
     //     prepTime: '',

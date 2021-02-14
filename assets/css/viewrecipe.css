@@ -162,6 +162,14 @@ input{
   cursor: pointer;
 }
 
+/*For button on admin page*/
+.btncol{
+  background-color: #4bbcf0 !important;
+}
+.btndis{
+  background-color: #b93a49;
+}
+
 @media (min-width: 575px) and (max-width: 768) {
   .card-img {
     height: 12rem;
