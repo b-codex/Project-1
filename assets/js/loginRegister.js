@@ -1,40 +1,73 @@
 // Selectors
 
-const loginName = document.querySelector('')
-const loginPassword = document.querySelector('')
+const signInEmail = document.querySelector('#signInEmail')
+const signInPassword = document.querySelector('#signInPassword')
 
-const fullName = document.querySelector('')
-const email = document.querySelector('')
-const password = document.querySelector('')
+const fullName = document.querySelector('#fullName')
+const registerEmail = document.querySelector('#registerEmail')
+const registerPassword = document.querySelector('#registerPassword')
 
-const loginButton = document.querySelector('')
-const registerButton = document.querySelector('')
+const signInButton = document.querySelector('#signInButton')
+const registerButton = document.querySelector('#registerButton')
+
+const form = document.querySelector('#form')
 
 const log = console.log
 
-loginButton.addEventListener('click', login)
+var db = new Dexie("Users");
+db.version(1).stores({
+    Users: 'Email, fullName, Password'
+})
 
-function login() {
-    if (loginName == 'admin' && loginPassword == 'admin') {
+signInButton.addEventListener('click', signIn)
+
+function signIn(e) {
+    e.preventDefault()
+    if (signInEmail.value == 'admin' && signInPassword.value == 'admin') {
         window.location.href = 'admin.html'
     } else {
+        db.Users.where('Email').equals(signInEmail.value).toArray((result) => {
+            for (x of result) {
+                if (signInPassword.value == x.Password) {
+                    log('Sign In Successful')
+                    // window.location.href = '/postFood.html'
+                } else {
+                    signInPassword.style.transition = 'all .6s ease-in-out'
+                    signInPassword.style.borderBottom = '1px solid red'
+                    setTimeout(() => {
+                        signInPassword.style.borderBottom = '1px solid black'
+                    }, 3000)
+                    log('Sign In Failed')
+                }
+            }
+        }).catch((err) => {
+            log(err.message)
+        })
 
     }
 }
 
-var db = new Dexie("Users");
-db.version(1).stores({
-    Users: 'fullName, Email, Password'
-})
 
 registerButton.addEventListener('click', register)
 
-function register() {
+function register(e) {
+    e.preventDefault()
+
     let user = {
-        fullName: fullName,
-        Email: email,
-        Password: password
+        fullName: fullName.value,
+        Email: registerEmail.value,
+        Password: registerPassword.value
     }
 
-    db.Users.put(user).catch((err) => {log(err.message)})
+    db.Users.put(user)
+        .then(() => {
+            log('New User Added')
+            fullName.value = ''
+            registerEmail.value = ''
+            registerPassword.value = ''
+        })
+        .catch((err) => {
+            log(err.message)
+        })
+
 }
