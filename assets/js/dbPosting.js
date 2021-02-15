@@ -21,24 +21,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function postFood(e) {
         e.preventDefault()
+        let ing = ingredients.value.split(',')
+        let ins = instruction.value.split(',')
+
+
+
         let newFood = {
             foodName: foodName.value,
             prepTime: prepTime.value,
             description: description.value,
             imgSrc: imgSrc.value,
             recipe: {
-                ingredients: ingredients.value.split(','),
-                instruction: instruction.value.split(',')
+                ingredients: ing,
+                instruction: ins
             }
         }
 
         db.tempDB.put(newFood)
-        .then(() => {
-            log('Recipe Added')
-            window.location.href = 'index.html'
-        })
-        .catch(err => {
-            log(err.message)
-        })
+            .then(() => {
+                log('Recipe Added')
+                // log(typeof (Array.from(ing)))
+                window.location.href = 'index.html'
+            })
+            .catch(err => {
+                log(err.message)
+            })
     }
 })

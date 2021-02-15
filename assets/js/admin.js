@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const v = document.createElement("p")
                     v.innerHTML = iterator.recipe.instruction[index]
                     instruction.appendChild(v)
-                    log(iterator.recipe.instruction[index])
+                    // log(iterator.recipe.instruction[index])
                 }
 
                 const approveButton = document.getElementById('approve')
@@ -67,6 +67,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 disapproveButton.addEventListener('click', disapproveRecipe)
 
                 function approveRecipe() {
+                    let ing = []
+                    let ins = []
+
+                    iterator.recipe.ingredients.forEach(element => {
+                        ing.push(element)
+                    })
+
+                    iterator.recipe.instruction.forEach(element => {
+                        ins.push(element)
+                    })
 
                     let newFood = {
                         foodName: iterator.foodName,
@@ -74,8 +84,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         description: iterator.description,
                         imgSrc: iterator.imgSrc,
                         recipe: {
-                            ingredients: iterator.ingredients,
-                            instruction: iterator.instruction
+                            ingredients: ing,
+                            instruction: ins
                         }
                     }
 

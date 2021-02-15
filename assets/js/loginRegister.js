@@ -28,7 +28,7 @@ function signIn(e) {
             for (x of result) {
                 if (signInPassword.value == x.Password) {
                     log('Sign In Successful')
-                    window.location.href = '/postFood.html'
+                    window.location.href = 'postFood.html'
                 } else {
                     signInPassword.style.transition = 'all .6s ease-in-out'
                     signInPassword.style.borderBottom = '1px solid red'
@@ -60,7 +60,7 @@ function register(e) {
     db.Users.add(user)
         .then(() => {
             log('New User Added')
-            window.location.href = 'index.html'
+            window.location.href = 'postFood.html'
         })
         .catch((err) => {
             log(err.message)
