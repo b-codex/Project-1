@@ -1,10 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
+*{font-family: 'Montserrat', sans-serif, serif;}
 
 body {
   overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
   padding-top: o;
+  
 }
 
 .bodyBackground{
@@ -210,7 +212,7 @@ header .carousel-control-prev {
   background: url("../img/parallaxImage.jpg") no-repeat bottom;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
+  height: 540px;
   clip-path: polygon(100% 0, 100% 0%, 0 100%, 0 20%);
   -webkit-clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%);
 }
@@ -298,6 +300,9 @@ header .carousel-control-prev {
 .footer-text{
   color: orange;
   
+}
+.middleDiv {
+  list-style: unset;
 }
 
 
