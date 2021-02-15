@@ -304,8 +304,14 @@ header .carousel-control-prev {
 .middleDiv {
   list-style: unset;
 }
-
-
+.error-text{
+  font-size: 72px;
+  margin: 0 auto;
+  top:  50%;
+}
+.error-page-margin{
+  margin-top: 15%;
+}
 
 
 
