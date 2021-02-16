@@ -5,6 +5,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding-top: o;
+  
 }
 
 .bodyBackground{
@@ -234,7 +235,7 @@ header .carousel-control-prev {
   background: url("../img/parallaxImage.jpg") no-repeat bottom;
   background-size: cover;
   background-attachment: fixed;
-  height: 500px;
+  height: 540px;
   clip-path: polygon(100% 0, 100% 0%, 0 100%, 0 20%);
   -webkit-clip-path: polygon(100% 0, 100% 80%, 0 100%, 0 20%);
 }
@@ -323,8 +324,17 @@ header .carousel-control-prev {
   color: orange;
   
 }
-
-
+.middleDiv {
+  list-style: unset;
+}
+.error-text{
+  font-size: 72px;
+  margin: 0 auto;
+  top:  50%;
+}
+.error-page-margin{
+  margin-top: 15%;
+}
 
 
 
