@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 body {
   overflow-x: hidden;
   box-sizing: border-box;
@@ -47,7 +47,32 @@ h2 {
 
 /* navbar */
 
-.navbar {
+#navTag {
+  position: fixed;
+  width: 100%;
+  background-color: #FFC966 !important;
+  color: #FFC966 !important;
+  z-index: 1000;
+}
+#keshenLink{
+  font-size: 28px;
+  color: #222 !important;
+  
+}
+
+#nav-links {
+  justify-content: left !important;
+  align-items: left;
+}
+#fluidContain{
+  font-family: 'Courgette', cursive !important;
+  padding: 3px  0px 3px 0px !important;
+}
+.unordLi{
+  padding: 0px 12px 0px 12px !important;
+}
+
+/* .navbar{
   position: absolute;
   width: 100%;
   top: 0;
@@ -55,7 +80,7 @@ h2 {
   background-color: transparent !important;
   color: white !important;
   z-index: 1000;
-}
+} */
 
 .navbar a {
   color: white !important;
@@ -71,6 +96,8 @@ h2 {
 
 .navbar ul li.search {
   position: relative;
+  left: 70vh;
+  color:#222 !important;
 }
 
 .navbar ul form {
@@ -92,7 +119,8 @@ h2 {
 }
 
 .my-logo {
-  width: 50% !important;
+  height:50px !important;
+  padding: 0px 10px 0px 80px;
 
 }
 
@@ -141,10 +169,6 @@ header .content {
   background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 100%;
-}
-
-#nav-links > ul > li.nav-item.search > a > i {
-  color: orange;
 }
 
 header .content a i {
