@@ -2084,13 +2084,14 @@ export let recipes = [{
                 }
             },
             {
-                foodName: 'Injera',
+                foodName: 'Beyaynetu (Ethiopian Combination Platter)',
                     prepTime: ' 45 mints',
-                    description: 'Is preferable to make injera by hand , so you get a feel of the batter.Traditionally this injera is  made with sorghum flour. However, you may substitute the sorghum flour with whole wheat flour.Injera should be thicker than a crêpe, but not as thick as a traditional American pancake.',
+                    description: 'Shiro Wat,Miser Wat (Spiced Red Lentils),Kik Alicha (Yellow Split Pea Stew),Gomen (Sautéed Collard Greens),Dinich ena Karat Alicha (Potato and Carrot Stew),Key Sire Alicha (Beets, Potatoes and Carrots Stew)',
                     likes: 0,
-                    imgSrc: 'https://www.africanbites.com/wp-content/uploads/2015/10/IMG_6985-2.jpg',
+                    imgSrc: 'https://petitworldcitizen.files.wordpress.com/2015/01/img_0092.jpg?w=1024',
                     recipe: {
                         ingredients: [
+                            'Shiro Wat'
                             '1 cup corn flour',
                             '1/2 cup sorghum or whole',
                             '1 Tablespoon sugar', 
