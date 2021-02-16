@@ -556,7 +556,7 @@ export let recipes = [{
     {
         foodName: 'Kai Wot',
         prepTime: '60 Min(s)',
-        description: 'This recipe is similar to doro wat but uses beef instead of chicken. It doesn\'t hold back on the heat, so this is great if you\'re a spice lover.',
+        description: 'This recipe is similar to wat but uses beef instead of chicken. It doesn\'t hold back on the heat, so this is great if you\'re a spice lover.',
         likes: 0,
         imgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/2020-05/1/13/asset/3315d785b2c0/sub-buzz-1080-1588340405-8.jpg?downsize=600:*&output-format=auto&output-quality=auto',
         recipe: {
@@ -2000,6 +2000,7 @@ export let recipes = [{
                 '2 teaspoons fresh thyme',
                 '4 tablespoons pine nuts',
                 'Salt and pepper',
+                
             ],
             instruction: [
                 'For dough: Place 1/2 cup of warm water in your electric mixing bowl. Add the yeast and allow it to swell for 5 minutes. It should look foamy. Then add 1 1/4 cups of room-temperature water, plus the oil and salt. Using a bread hook, mix on low, adding the flour a little at a time. “Knead” in the mixer for 2-3 minutes until well combined but tacky. Oil a large bowl. Place the dough in the bowl and turn it to cover the dough in oil. Cover the bowl tightly with plastic wrap and allow the dough to rise for 2 hours.',
@@ -2009,21 +2010,78 @@ export let recipes = [{
             ]
         }
     },
-    // {
-    //     foodName: '',
-    //     prepTime: '',
-    //     description: '',
-    //     likes: 0,
-    //     imgSrc: '',
-    //     recipe: {
-    //         ingredients: [
+    {
+        foodName: 'Doro Wot(Ethiopian National Chicken Dish)',
+        prepTime: ' 45 min',
+        description: 'Advanced Level.his dish is meant to be one component of a larger Ethiopian meal. Serve with the Braised Cabbage, Carrots and Potatoes, Red Lentils (Misr Wat), Braised Beef with Peppers (Zilzil Tibs) and Quick Injera, layering the injera on a platter and mounding a portion of each dish on top. Tear off pieces of the injera to use as a "utensil" for scooping up bites of each.',
+        likes: 0,
+        imgSrc: 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/6/5/0/CCATHSP1_ethiopian-injera-bread-with-doro-wat_s4x3.jpg.rend.hgtvcom.826.620.suffix/1433564349717.jpeg',
+        recipe: {
+            ingredients: [
+                '2 pounds skinless chicken legs',
+                'Lemon juice',
+                '2 large red onions, finely chopped',
+                ' 1 1/2 cups berbere (Ethiopian spice mixture which includes chile pepper, garlic, ginger, dried basil, Ethiopian cardamom, black and white pepper, fenugreek and rue, a bitter shrub)',
+                '1 cup Niter Kibbeh (Ethiopian Spiced Butter), recipe follows',
+                ' 1/2 cup fresh garlic, finely ground',
+                '6 peeled hard-boiled eggs',
+                'Salt',
+                'Niter Kibbeh (Ethiopian Spiced Butter):', 
+                '6 pounds unsalted butter',
+                '1/3 cup bishop seed (also known as ajwain, similar to thyme)',
+                '1/3 cup cardamom seeds',
+                '1/3 cup black cumin',
+                '1/3 cup koseret (dried woodsy flavored herb, dried oregano can be substituted)',
+                'Injera (Fermented Sourdough Bread)',
+                '1 1/2 pounds teff flour',
+                '1/2 pound barley flour',
+                '1/4 cup wheat flour',
+            ],
+            instruction: [
+                '1. Wash and soak the chicken in cold water with lemon squeezed into it for 30 minutes. (This removes any bacteria and tenderizes the meat.)',
+                '2. Caramelize the red onions on low heat in a large pot for 1 hour. Add the berbere, Niter Kibbeh, garlic and ginger and cook for 30 minutes on medium-low heat. Add the marinated chicken and cook on medium-low heat, 30 to 45 minutes. Add in the hard-boiled eggs and salt to taste. Simmer on low heat for an additional 10 minutes and serve on the Injera.',
+                'Niter Kibbeh (Ethiopian Spiced Butter):',
+                '3. Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.',
+                'Injera (Fermented Sourdough Bread):',
+                '4. Combine the teff flour and 12 cups water. Mix, cover and store in a dark, cool place for 3 to 4 days to ferment, giving it its sour flavor. On the last day of fermentation, mix the teff flour mixture with the barley and wheat flours. Let rest for another 8 hours.',
+                '5. Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.',
+                
+            ]
+        }
+    },
+    {
+    foodName: 'Injera',
+        prepTime: ' 45 mints',
+        description: 'Is preferable to make injera by hand , so you get a feel of the batter. Start by adding a cup of water at a time to make a smooth batter.Traditionally this injera is  made with sorghum flour. However, you may substitute the sorghum flour with whole wheat flour. Barley flour  works as well. Keep in mind that humidity, flour and water do play a role in making this injera.Injera should be thicker than a crêpe, but not as thick as a traditional American pancake. You may replace the flour , salt and baking  powder with the same amount of self rising flour as it’s customary.',
 
-    //         ],
-    //         instruction: [
-
-    //         ]
-    //     }
-    // },
+        likes: 0,
+        imgSrc: 'https://www.africanbites.com/wp-content/uploads/2015/10/IMG_6985-2.jpg',
+        recipe: {
+            ingredients: [
+                '1 cup corn flour',
+                '1/2 cup sorghum or whole',
+                '1 Tablespoon sugar', 
+                '1 Tablespoon dry yeast',
+                '1 1/4 cup warm water',
+                '4 cups all purpose flour',
+                'Injera (Fermented Sourdough Bread)',
+                '6 teaspoons baking powder',
+                '4 teaspoons salt',
+                '¼ cup sugar',
+                '4 cups warm water',
+            ],
+            instruction: [
+                '1. Wash and soak the chicken in cold water with lemon squeezed into it for 30 minutes. (This removes any bacteria and tenderizes the meat.)',
+                '2. Caramelize the red onions on low heat in a large pot for 1 hour. Add the berbere, Niter Kibbeh, garlic and ginger and cook for 30 minutes on medium-low heat. Add the marinated chicken and cook on medium-low heat, 30 to 45 minutes. Add in the hard-boiled eggs and salt to taste. Simmer on low heat for an additional 10 minutes and serve on the Injera.',
+                'Niter Kibbeh (Ethiopian Spiced Butter):',
+                '3. Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.',
+                'Injera (Fermented Sourdough Bread):',
+                '4. Combine the teff flour and 12 cups water. Mix, cover and store in a dark, cool place for 3 to 4 days to ferment, giving it its sour flavor. On the last day of fermentation, mix the teff flour mixture with the barley and wheat flours. Let rest for another 8 hours.',
+                '5. Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.',
+                
+            ]
+        }
+    },
 
 
 
