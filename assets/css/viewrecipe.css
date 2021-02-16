@@ -173,6 +173,10 @@ input{
 .btndis{
   background-color: #b93a49;
 }
+.home-btn{
+    background: #0080ff;
+    transform: translateY(-150%);
+}
 
 @media (min-width: 575px) and (max-width: 768) {
   .card-img {

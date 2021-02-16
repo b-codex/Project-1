@@ -802,6 +802,7 @@ export let recipes = [{
                 'Cover pot and reduce heat to medium-low; simmer, stirring occasionally, until beets are easily pierced with a fork, 20 to 25 minutes. Add potatoes and cook until potatoes are soft but not falling apart, about 15 minutes.',
                 'Heat oil in a large pot over medium heat; add onion and a pinch of salt. Cook and stir onion until softened and translucent, 5 to 10 minutes. Add garlic and ginger; cook and stir until fragrant, about 1 minute. Add beets and stir to combine. Pour water over beet mixture and sprinkle 1/2 teaspoon salt; bring to a boil.'
             ]
+            
         }
     },
     {
@@ -928,6 +929,7 @@ export let recipes = [{
                 'Pour the macaroni into a 10x10-inch baking dish and sprinkle the top with panko bread crumbs and Parmesan cheese. Drizzle with olive oil. *For creamy baked mac and cheese, place the baked mac and cheese in the oven under the broiler for 2-3 minutes, watch carefully. You want the top to toast, but not burn. **For more a traditional "firm" baked mac and cheese recipe, bake for 20 minutes until the tops are golden.',
                 'Once out of the oven, sprinkle the chopped parsley and serve warm.',
             ]
+
         }
     },
     {
