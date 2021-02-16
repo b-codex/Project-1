@@ -2020,56 +2020,25 @@ export let recipes = [{
                 
             ]
         }
-    },
+    }, 
     {
-    foodName: 'Injera',
+        foodName: 'Banana Bread Muffins',
         prepTime: ' 45 mints',
-        description: 'Is preferable to make injera by hand , so you get a feel of the batter.Traditionally this injera is  made with sorghum flour. However, you may substitute the sorghum flour with whole wheat flour.Injera should be thicker than a crêpe, but not as thick as a traditional American pancake.',
+        description: 'Moist, decadent, and delightful BANANA BREAD MUFFINS are sweet snacks you can enjoy any time of the year. This light and easy recipe will surely be your next baked superstar with its fantastic flavor and aroma. Make this ahead, reheat and kids would still enjoy them even for breakfast!',
         likes: 0,
-        imgSrc: 'https://www.africanbites.com/wp-content/uploads/2015/10/IMG_6985-2.jpg',
+        imgSrc: 'https://www.africanbites.com/wp-content/uploads/2020/10/IMG_9835.jpg',
         recipe: {
-            ingredients: [
-                '1 cup corn flour',
-                '1/2 cup sorghum or whole',
-                '1 Tablespoon sugar', 
-                '1 Tablespoon dry yeast',
-                '1 1/4 cup warm water',
-                '4 cups all purpose flour',
-                'Injera (Fermented Sourdough Bread)',
-                '6 teaspoons baking powder',
-                '4 teaspoons salt',
-                '¼ cup sugar',
-                '4 cups warm water',
-            ],
-            instruction: [
-                '1. Combine corn flour , sorghum or  whole wheat , sugar yeast and water , mix and let it rise for about an hour.',
-                '2. In Large bowl combine flour , salt, baking powder and sugar',
-                'Add the starter mixture to the flour, thoroughly mix and start adding water a little at a time until water has been completely used up, thoroughly miss',
-                '3. Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.to eliminate any lumps. You may use the blender to aid in the process.',
-                '4. Let it rise for about 2 hours',
-                '5. Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.',
-                
-            ]
-        }
-    },
-        {
-            foodName: 'Banana Bread Muffins',
-                prepTime: ' 45 mints',
-                description: 'Moist, decadent, and delightful BANANA BREAD MUFFINS are sweet snacks you can enjoy any time of the year. This light and easy recipe will surely be your next baked superstar with its fantastic flavor and aroma. Make this ahead, reheat and kids would still enjoy them even for breakfast!',
-                likes: 0,
-                imgSrc: 'https://www.africanbites.com/wp-content/uploads/2020/10/IMG_9835.jpg',
-                recipe: {
-                    ingredients: [
-                        '2 large bananas mashed , (about a cup)',
-                        '2 large eggs',
-                        '1/4 cup granulated sugar', 
-                        '3/4 cup brown sugar',
-                        '1/3 cup sour Cream/yogurt',
-                        '1 1/2 teaspoon vanilla extract',
-                        '1 teaspoon baking powder',
-                        '1 teaspoon baking soda',
-                        '1/2 teaspoon salt',
-                        '½ cup (4 ounce, 120ml) brown butter',
+                ingredients: [
+                    '2 large bananas mashed , (about a cup)',
+                    '2 large eggs',
+                    '1/4 cup granulated sugar', 
+                    '3/4 cup brown sugar',
+                    '1/3 cup sour Cream/yogurt',
+                    '1 1/2 teaspoon vanilla extract',
+                    '1 teaspoon baking powder',
+                    '1 teaspoon baking soda',
+                    '1/2 teaspoon salt',
+                    '½ cup (4 ounce, 120ml) brown butter',
                     ],
                     instruction: [
                         '1. Preheat the oven to 400 °F. Line a muffin pan with paper liners. ',
@@ -2091,61 +2060,70 @@ export let recipes = [{
                     imgSrc: 'https://petitworldcitizen.files.wordpress.com/2015/01/img_0092.jpg?w=1024',
                     recipe: {
                         ingredients: [
-                            'Shiro Wat'
-                            '1 cup corn flour',
-                            '1/2 cup sorghum or whole',
-                            '1 Tablespoon sugar', 
-                            '1 Tablespoon dry yeast',
-                            '1 1/4 cup warm water',
-                            '4 cups all purpose flour',
-                            'Injera (Fermented Sourdough Bread)',
-                            '6 teaspoons baking powder',
-                            '4 teaspoons salt',
-                            '¼ cup sugar',
-                            '4 cups warm water',
+                            '1. Shiro Wat',
+                            '1-2 tablespoons olive oil',
+                            '1/2 onion, chopped',
+                            '4 cloves garlic, minced', 
+                            '4-5 cups water, or more',
+                            '1/2 cup shiro',
+                            '2. Miser Wat (Spiced Red Lentils)',
+                            '1-2 tablespoons olive oil',
+                            '2 teaspoons – 1 tablespoon or more berbere',
+                            '4-5 cloves garlic, crushed',
+                            '1 cup red lentils, rinsed and drained',
+                            '3-4 cups water',
+                            'salt',
+                            '3. Kik Alicha (Yellow Split Pea Stew)',
+                            '1-2 tablespoons olive oil',
+                            '4 cups water',
+                            '1 cup yellow split peas, rinsed and drained',
+                            '1 small onion, diced',
+                            '3 cloves garlic, crushed',
+                            '1/4 teaspoon ground turmeric',
+                            'salt',
+                            'green chile pepper, sliced (optional)',
+                            '4. Gomen (Sautéed Collard Greens)',
+                            '1-2 tablespoons olive oil',
+                            '1/4 onion, sliced',
+                            '3-4 cloves garlic, crushed',
+                            '1 lb collard greens, rinsed, stems removed and chopped well',
+                            'Salt',
+                            '5. Dinich ena Karat Alicha (Potato and Carrot Stew)',
+                            '1-2 tablespoons olive oil',
+                            '1/2  onion, sliced in 2-inch strips',
+                            '3 cloves garlic, crushed',
+                            '2 potatoes ( I used Russet potatoes), diced in ½-inch chunks',
+                            '4 carrots, peeled and diced in ½-inch chunks',
+                            '¼ teaspoon ground turmeric',
+                            'water',
+                            'salt',
+                            'green chile pepper, sliced (optional)',
+                            '6. Key Sire Alicha (Beets, Potatoes and Carrots Stew) ',
+                            '1-2 tablespoons olive oil',
+                            '½ onion, sliced in 2-inch strips',
+                            '3 cloves garlic, crushed',
+                            '4 beets, rinsed, peeled and diced in ½-inch chunks',
+                            '2 potatoes ( I used Russet potatoes), diced in ½-inch chunks',
+                            '4 carrots, peeled and diced in ½-inch chunks',
+                            '2 teaspoons vinegar or lemon juice',
+                            '¼ teaspoon ground turmeric',
+                            'water',
+                            'salt',
+                            'green chile pepper, sliced (optional)',
+
                         ],
-                        instruction: [
-                            '1. Combine corn flour , sorghum or  whole wheat , sugar yeast and water , mix and let it rise for about an hour.',
-                            '2. In Large bowl combine flour , salt, baking powder and sugar',
-                            'Add the starter mixture to the flour, thoroughly mix and start adding water a little at a time until water has been completely used up, thoroughly miss',
-                            '3. Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.to eliminate any lumps. You may use the blender to aid in the process.',
-                            '4. Let it rise for about 2 hours',
-                            '5. Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.',
+                    instruction: [
+                        '1.Saute onions until translucent, add garlic. Add 4 cups water and bring to a boil. Add shiro powder, whisk until dissolved. Cook for 35-45 minutes, adding more boiled water to thin the consistency, if necessary. The consistency should not be sticky of clumpy.',
+                        '2. Heat oil in a sauce pan and sauté onions until translucent. Add berbere and stir until well coated. Add garlic and cook until flavors have melded, about 5 minutes. Add a little water to blend, then add lentils and stir until well coated. Add ½ teaspoon salt and 3 cups of water. Cook until lentils have broken apart, adding more water if necessary. The consistency should be like a thick stew. Taste and adjust for salt.',
+                        '3. Bring about 3 cups water with oil to boil. Add peas. Cook until they are soft and break apart, about 45 minutes. Add more water if necessary. Set aside. In a separate saucepan, sauté onions in oil until translucent. Add garlic and stir until fragrant. Add turmeric and stir well. Add split peas and ½ teaspoon salt and cook an additional 15 minutes, adding more water if necessary. Taste and adjust for salt.',
+                        '4. Heat oil in a large pan, sauté onions until translucent. Add garlic and cook until fragrant. Add collard greens and cook until softened, about 30 minutes. Season to taste with salt.',
+                        '5. Heat oil in a saucepan, add onions and sauté until fragrant, add garlic and stir until fragrant. Add potatoes and potatoes stir until slightly softened. Add turmeric and stir until well coated. Add a little water and cook until potatoes and carrots are softened (cooked). Season with salt.',
+                        '6. Heat oil in a saucepan, add onions and sauté until fragrant, add garlic and stir until fragrant. Add beets, potatoes and carrots, stir until slightly softened. Add vinegar or lemon juice, turmeric and stir until well coated. Add a little water and salt and cook until potatoes and carrots are softened (cooked). Taste and adjust seasoning.',
                             
-                        ]
-                    }
-                },
-                {
-                    foodName: 'Injera',
-                        prepTime: ' 45 mints',
-                        description: 'Is preferable to make injera by hand , so you get a feel of the batter.Traditionally this injera is  made with sorghum flour. However, you may substitute the sorghum flour with whole wheat flour.Injera should be thicker than a crêpe, but not as thick as a traditional American pancake.',
-                        likes: 0,
-                        imgSrc: 'https://www.africanbites.com/wp-content/uploads/2015/10/IMG_6985-2.jpg',
-                        recipe: {
-                            ingredients: [
-                                '1 cup corn flour',
-                                '1/2 cup sorghum or whole',
-                                '1 Tablespoon sugar', 
-                                '1 Tablespoon dry yeast',
-                                '1 1/4 cup warm water',
-                                '4 cups all purpose flour',
-                                'Injera (Fermented Sourdough Bread)',
-                                '6 teaspoons baking powder',
-                                '4 teaspoons salt',
-                                '¼ cup sugar',
-                                '4 cups warm water',
-                            ],
-                            instruction: [
-                                '1. Combine corn flour , sorghum or  whole wheat , sugar yeast and water , mix and let it rise for about an hour.',
-                                '2. In Large bowl combine flour , salt, baking powder and sugar',
-                                'Add the starter mixture to the flour, thoroughly mix and start adding water a little at a time until water has been completely used up, thoroughly miss',
-                                '3. Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.to eliminate any lumps. You may use the blender to aid in the process.',
-                                '4. Let it rise for about 2 hours',
-                                '5. Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.',
-                                
-                            ]
-                        }
-                    },
+                    ]
+            }
+        },
+        
 
 
 
