@@ -52,11 +52,11 @@
     <div class="container-fluid cont mt-5" style="margin-top: 150px; margin-bottom: 150px;">
         <div class="row">
             <div class="col-md-6 m-auto">
-                <div class="card shadow">
-                    <div class="card-body">
+                <div class="card card_container">
+                    <div class="card-body card_body_container">
 
                         <img id="imgSrc" alt="" class="card-img" src="">
-                        <h3 id="foodName" class="card-title"></h3>
+                        <h3 id="foodName" class="card-title card_title_container"></h3>
 
                         <hr>
 
@@ -75,6 +75,10 @@
                 </div>
             </div>
         </div>
+        
+    </div>
+    <div class="text-center">
+        <a href="./index.html#recipes" class="btn home-btn">Home</a>
     </div>
 
 
@@ -90,6 +94,7 @@
             let ingredients = document.querySelector('#ingredients')
             let description = document.querySelector('#description')
             let instruction = document.querySelector("#instruction")
+            
 
             var db = new Dexie("Recipes");
             db.version(1).stores({

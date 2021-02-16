@@ -87,7 +87,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
     // log(typeof(xby))
-
+//     <a class="thumbs_up">
+//     <span id="thumbs_up_icon"><i class="fa fa-thumbs-up"></i></span>
+//     <span id="countLike">0</span> like
+// </a>
+// <a class="thumbs_down">
+//     <span id="thumbs_down_icon"><i class="fa fa-thumbs-down"></i></span>
+//     <span id="countDislike">0</span> dislike
+// </a>
 
 
 
