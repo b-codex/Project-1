@@ -4,6 +4,7 @@ body{
   width: 100%;
   object-fit: cover;
   background-attachment: fixed;
+  
 }
 
 .navbar {
@@ -57,13 +58,28 @@ body{
   color: orange;
 }
 
-.card {
+.card_container {
   overflow: hidden;
   box-shadow: 0px 2px 20px gray;
   border-radius: 0.2rem;
   margin-top: 70px;
   /* opacity: 0.76; */
+  /* box-shadow: -30px 30px 20px rgba(0,0,0,0.3); */
+  
 }
+.cont .card_container::before{
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 5%;
+  width: 90px;
+  height: 20px;
+  background: rgba(0, 0,0, 0.3);
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(10px);
+}
+
 
 .card-body {
   display: flex;
@@ -85,7 +101,7 @@ body{
   margin-top: 1rem;
 }
 
-.card-body-wrapper ul {
+/* .card-body-wrapper ul {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -106,53 +122,14 @@ body{
   color: rgb(245, 73, 73);
   font-weight: 450;
   font-size: 20px;
-}
+} */
 
 #imgSrc {
   width: 70%;
 }
-.wrapper{
-  display: grid;
-  width: 40%;
-  height: 150px;
-  grid-template-columns: 1.5fr 1.5fr 2fr;
-  background: rgb(245, 96, 70);
-  box-shadow: 12px 12px 24px  rgb(244, 46, 70), -12px -12px 24px  rgb(244, 46, 70);
-  border-radius: 5px;
-}
-.upVote,.downVote{
-  display: grid;
-  place-items: center;
-}
-.icon{
-  margin-top: 25px;
-  font-size: 50px;
-  cursor: pointer;
-  color: #0086b3;
-  text-shadow: 5px 8px 15px rgb(247, 192, 192);
-  transition: .5s;
-  
-} 
-.icon:hover{
-  color: #ba0015;
-  transform: scale(1.2);
-} 
-input{
-  margin-top: - 100px;
-  margin-left: 15px;
-  width: 100%;
-  border: none;
-  outline: none;
-  text-align: center;
-  background: none;
-  font-size: 30px;
-  font-weight: 800;
-  pointer-events: none;
-  color: #0086b3;
-  text-shadow: 2px 2px 3px #2a93b6;
-}
 
-.thumbs-up{
+
+/* .thumbs-up{
   padding: 10px 15px;
   background: #0080ff;
   font-size: 18px;
@@ -161,7 +138,7 @@ input{
   color: tomato;
   border-radius: 5px;
   cursor: pointer;
-}
+} */
 .cardForm{
   background-color: black !important;
 }
@@ -176,6 +153,7 @@ input{
 .home-btn{
     background: #0080ff;
     transform: translateY(-150%);
+    color: white;
 }
 
 @media (min-width: 575px) and (max-width: 768) {

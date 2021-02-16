@@ -2163,4 +2163,11 @@ export let recipes = [{
 
 
 ]
-console.log(recipes);
+// $(document).ready(function () {
+//     $("#search").on("keyup", function () {
+//         var value = $(this).val().toLowerCase();
+//         $(".cont .row").filter(function () {
+//             $(this).parent(".row").parent(".cont").toggle($(this).text().toLowerCase().indexOf(value) > -1)
+//         });
+//     });
+// });
