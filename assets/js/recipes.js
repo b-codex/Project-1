@@ -2052,8 +2052,7 @@ export let recipes = [{
     {
     foodName: 'Injera',
         prepTime: ' 45 mints',
-        description: 'Is preferable to make injera by hand , so you get a feel of the batter. Start by adding a cup of water at a time to make a smooth batter.Traditionally this injera is  made with sorghum flour. However, you may substitute the sorghum flour with whole wheat flour. Barley flour  works as well. Keep in mind that humidity, flour and water do play a role in making this injera.Injera should be thicker than a crêpe, but not as thick as a traditional American pancake. You may replace the flour , salt and baking  powder with the same amount of self rising flour as it’s customary.',
-
+        description: 'Is preferable to make injera by hand , so you get a feel of the batter.Traditionally this injera is  made with sorghum flour. However, you may substitute the sorghum flour with whole wheat flour.Injera should be thicker than a crêpe, but not as thick as a traditional American pancake.',
         likes: 0,
         imgSrc: 'https://www.africanbites.com/wp-content/uploads/2015/10/IMG_6985-2.jpg',
         recipe: {
@@ -2071,12 +2070,11 @@ export let recipes = [{
                 '4 cups warm water',
             ],
             instruction: [
-                '1. Wash and soak the chicken in cold water with lemon squeezed into it for 30 minutes. (This removes any bacteria and tenderizes the meat.)',
-                '2. Caramelize the red onions on low heat in a large pot for 1 hour. Add the berbere, Niter Kibbeh, garlic and ginger and cook for 30 minutes on medium-low heat. Add the marinated chicken and cook on medium-low heat, 30 to 45 minutes. Add in the hard-boiled eggs and salt to taste. Simmer on low heat for an additional 10 minutes and serve on the Injera.',
-                'Niter Kibbeh (Ethiopian Spiced Butter):',
-                '3. Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.',
-                'Injera (Fermented Sourdough Bread):',
-                '4. Combine the teff flour and 12 cups water. Mix, cover and store in a dark, cool place for 3 to 4 days to ferment, giving it its sour flavor. On the last day of fermentation, mix the teff flour mixture with the barley and wheat flours. Let rest for another 8 hours.',
+                '1. Combine corn flour , sorghum or  whole wheat , sugar yeast and water , mix and let it rise for about an hour.',
+                '2. In Large bowl combine flour , salt, baking powder and sugar',
+                'Add the starter mixture to the flour, thoroughly mix and start adding water a little at a time until water has been completely used up, thoroughly miss',
+                '3. Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.to eliminate any lumps. You may use the blender to aid in the process.',
+                '4. Let it rise for about 2 hours',
                 '5. Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.',
                 
             ]
