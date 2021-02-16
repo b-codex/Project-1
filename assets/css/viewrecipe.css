@@ -1,35 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 body{
-  background: url(../img/applebackground\ foe\ viewRecipe);
+  /* background-color: orange; */
   background-position: inherit;
   width: 100%;
   object-fit: cover;
   background-attachment: fixed;
 }
 
-.navbar {
+
+
+.scrolling-active{
+  color: tomato !important ;
+  background-color:  #f8f9fa !important;
+  box-shadow: 0 2px 25px rgba(5, 5, 5, 0.3);
+  transition: background-color 0.4 ease-in-out;
+  
+
+}
+#navTag {
+  position: fixed;
+  width: 100%;
+  color: tomato  !important ; 
+  background-color: #fff !important;
+  z-index: 1000;
+}
+
+#keshenLink{
+  font-size: 28px;
+  color: #222 ;
+  
+}
+
+#nav-links {
+  justify-content: left ;
+  align-items: left;
+}
+#fluidContain{
+  font-family: 'Quicksand', 'Roboto';
+  font-size: large;
+  padding: 3px  0px 3px 0px ;
+  
+}
+.unordLi{
+  padding: 0px 12px 0px 12px ;
+}
+
+.log {
+  color:inherit !important;
+}
+
+/* .navbar{
   position: absolute;
   width: 100%;
   top: 0;
   left: 0;
-  background-color: transparent !important;
-  color: white !important;
+  background-color: transparent ;
+  color: white ;
   z-index: 1000;
-}
+} */
 
 .navbar a {
-  color: white !important;
+  color: white ;
 }
 
 .navbar .navbar-toggler {
   background-color: white;
 }
 
-.navbar .log {
-  color: #ffe25b !important;
-}
+/* .navbar .log {
+  color: black ;
+} */
 
 .navbar ul li.search {
   position: relative;
+  left: 70vh;
 }
 
 .navbar ul form {
@@ -40,7 +84,9 @@ body{
   right: -30px;
   display: none;
 }
-
+.menuLog{
+  color: black ;
+}
 .navbar ul form input {
   padding: 5px 10px 5px 5px;
   background-color: #ddd;
@@ -48,13 +94,10 @@ body{
   border: 1px solid #737272;
 }
 
-
 .my-logo {
-  width: 50% !important;
-  
-}
-#nav-links>ul>li.nav-item.search>a>i {
-  color: orange;
+  height:50px ;
+  padding: 0px 10px 0px 80px;
+
 }
 
 .card {
@@ -62,7 +105,7 @@ body{
   box-shadow: 0px 2px 20px gray;
   border-radius: 0.2rem;
   margin-top: 70px;
-  opacity: 0.76;
+  /* opacity: 0.76; */
 }
 
 .card-body {
@@ -128,7 +171,7 @@ body{
   margin-top: 25px;
   font-size: 50px;
   cursor: pointer;
-  color: #0086b3;
+
   text-shadow: 5px 8px 15px rgb(247, 192, 192);
   transition: .5s;
   
@@ -175,9 +218,25 @@ input{
 }
 
 @media (min-width: 575px) and (max-width: 768) {
+  .navbar ul li.search {
+    position: relative;
+    left: 0vh;
+    color:#222 !important;
+  }
+ 
   .card-img {
     height: 12rem;
     width: 100%;
     object-fit: cover;
+  }
+}
+@media (max-width: 992px) {
+
+  /* navbar */
+
+  .navbar ul li.search {
+    position: relative;
+    left: 0vh;
+    color:#222 !important;
   }
 }

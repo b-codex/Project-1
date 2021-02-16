@@ -42,14 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </p>
 
                     </div>
-                    <a class="thumbs_up">
-                        <span id="thumbs_up_icon"><i class="fa fa-thumbs-up"></i></span>
-                        <span id="countLike">0</span> like
-                    </a>
-                    <a class="thumbs_down">
-                        <span id="thumbs_down_icon"><i class="fa fa-thumbs-up"></i></span>
-                        <span id="countDislike">0</span> dislike
-                    </a>
+                   
                     <a href="./viewRecipe.html" class="btn card-btn"
                         onclick="saveOnSession('${iterator.foodName}')">View Recipe</a>
                 </div>
@@ -57,39 +50,39 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>`
             
             x.innerHTML += output
-            const thumbs_up = document.querySelector(".thumbs_up") 
-            const thumbs_down = document.querySelector(".thumbs_down")
+            // const thumbs_up = document.querySelector(".thumbs_up") 
+            // const thumbs_down = document.querySelector(".thumbs_down")
 
-            let countLike = document.querySelector("#countLike")
-            let countDislike = document.querySelector("#countDislike")
-            let clicked = false;
+            // let countLike = document.querySelector("#countLike")
+            // let countDislike = document.querySelector("#countDislike")
+            // let clicked = false;
 
             
-            thumbs_up.addEventListener("click", () =>{
-                if(!clicked){
-                    clicked = true
-                    countLike.textContent++;
-                }
+            // thumbs_up.addEventListener("click", () =>{
+            //     if(!clicked){
+            //         clicked = true
+            //         countLike.textContent++;
+            //     }
 
-                else{
-                    clicked = false;
-                    // thumbs_up.innerHTML = `<i class="fa fa-thumbs-down icon"></i>`
-                    countLike.textContent--;
-                }
-            });
+            //     else{
+            //         clicked = false;
+            //         // thumbs_up.innerHTML = `<i class="fa fa-thumbs-down icon"></i>`
+            //         countLike.textContent--;
+            //     }
+            // });
 
-            thumbs_down.addEventListener("click", () =>{
-                if(!clicked){
-                    clicked = true
-                    // thumbs_up.innerHTML = `<i class="fa fa-thumbs-down icon"></i>`
-                    countDislike.textContent++;
-                    // console.log("hi");
-                }else{
-                    clicked = false;
-                    // thumbs_down.innerHTML = `<i class="fa fa-thumbs-up icon"></i>`
-                    countDislike.textContent--;
-                }
-            });
+            // thumbs_down.addEventListener("click", () =>{
+            //     if(!clicked){
+            //         clicked = true
+            //         // thumbs_up.innerHTML = `<i class="fa fa-thumbs-down icon"></i>`
+            //         countDislike.textContent++;
+            //         // console.log("hi");
+            //     }else{
+            //         clicked = false;
+            //         // thumbs_down.innerHTML = `<i class="fa fa-thumbs-up icon"></i>`
+            //         countDislike.textContent--;
+            //     }
+            // });
 
         }
     })
