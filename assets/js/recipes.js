@@ -1982,45 +1982,7 @@ export let recipes = [{
             ]
         }
     },
-    {
-        foodName: 'Doro Wot(Ethiopian National Chicken Dish)',
-        prepTime: ' 45 min',
-        description: 'Advanced Level.his dish is meant to be one component of a larger Ethiopian meal. Serve with the Braised Cabbage, Carrots and Potatoes, Red Lentils (Misr Wat), Braised Beef with Peppers (Zilzil Tibs) and Quick Injera, layering the injera on a platter and mounding a portion of each dish on top. Tear off pieces of the injera to use as a "utensil" for scooping up bites of each.',
-        likes: 0,
-        imgSrc: 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/6/5/0/CCATHSP1_ethiopian-injera-bread-with-doro-wat_s4x3.jpg.rend.hgtvcom.826.620.suffix/1433564349717.jpeg',
-        recipe: {
-            ingredients: [
-                '2 pounds skinless chicken legs',
-                'Lemon juice',
-                '2 large red onions, finely chopped',
-                ' 1 1/2 cups berbere (Ethiopian spice mixture which includes chile pepper, garlic, ginger, dried basil, Ethiopian cardamom, black and white pepper, fenugreek and rue, a bitter shrub)',
-                '1 cup Niter Kibbeh (Ethiopian Spiced Butter), recipe follows',
-                ' 1/2 cup fresh garlic, finely ground',
-                '6 peeled hard-boiled eggs',
-                'Salt',
-                'Niter Kibbeh (Ethiopian Spiced Butter):', 
-                '6 pounds unsalted butter',
-                '1/3 cup bishop seed (also known as ajwain, similar to thyme)',
-                '1/3 cup cardamom seeds',
-                '1/3 cup black cumin',
-                '1/3 cup koseret (dried woodsy flavored herb, dried oregano can be substituted)',
-                'Injera (Fermented Sourdough Bread)',
-                '1 1/2 pounds teff flour',
-                '1/2 pound barley flour',
-                '1/4 cup wheat flour',
-            ],
-            instruction: [
-                '1. Wash and soak the chicken in cold water with lemon squeezed into it for 30 minutes. (This removes any bacteria and tenderizes the meat.)',
-                '2. Caramelize the red onions on low heat in a large pot for 1 hour. Add the berbere, Niter Kibbeh, garlic and ginger and cook for 30 minutes on medium-low heat. Add the marinated chicken and cook on medium-low heat, 30 to 45 minutes. Add in the hard-boiled eggs and salt to taste. Simmer on low heat for an additional 10 minutes and serve on the Injera.',
-                'Niter Kibbeh (Ethiopian Spiced Butter):',
-                '3. Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.',
-                'Injera (Fermented Sourdough Bread):',
-                '4. Combine the teff flour and 12 cups water. Mix, cover and store in a dark, cool place for 3 to 4 days to ferment, giving it its sour flavor. On the last day of fermentation, mix the teff flour mixture with the barley and wheat flours. Let rest for another 8 hours.',
-                '5. Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.',
-                
-            ]
-        }
-    }, 
+    
     {
         foodName: 'Banana Bread Muffins',
         prepTime: ' 45 mints',
@@ -2123,7 +2085,80 @@ export let recipes = [{
                     ]
             }
         },
-        
+        {
+            foodName: 'Doro Wot(Ethiopian National Chicken Dish)',
+            prepTime: ' 45 min',
+            description: 'Advanced Level.his dish is meant to be one component of a larger Ethiopian meal. Serve with the Braised Cabbage, Carrots and Potatoes, Red Lentils (Misr Wat), Braised Beef with Peppers (Zilzil Tibs) and Quick Injera, layering the injera on a platter and mounding a portion of each dish on top. Tear off pieces of the injera to use as a "utensil" for scooping up bites of each.',
+            likes: 0,
+            imgSrc: 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/6/5/0/CCATHSP1_ethiopian-injera-bread-with-doro-wat_s4x3.jpg.rend.hgtvcom.826.620.suffix/1433564349717.jpeg',
+            recipe: {
+                ingredients: [
+                    '2 pounds skinless chicken legs',
+                    'Lemon juice',
+                    '2 large red onions, finely chopped',
+                    ' 1 1/2 cups berbere (Ethiopian spice mixture which includes chile pepper, garlic, ginger, dried basil, Ethiopian cardamom, black and white pepper, fenugreek and rue, a bitter shrub)',
+                    '1 cup Niter Kibbeh (Ethiopian Spiced Butter), recipe follows',
+                    ' 1/2 cup fresh garlic, finely ground',
+                    '6 peeled hard-boiled eggs',
+                    'Salt',
+                    'Niter Kibbeh (Ethiopian Spiced Butter):', 
+                    '6 pounds unsalted butter',
+                    '1/3 cup bishop seed (also known as ajwain, similar to thyme)',
+                    '1/3 cup cardamom seeds',
+                    '1/3 cup black cumin',
+                    '1/3 cup koseret (dried woodsy flavored herb, dried oregano can be substituted)',
+                    'Injera (Fermented Sourdough Bread)',
+                    '1 1/2 pounds teff flour',
+                    '1/2 pound barley flour',
+                    '1/4 cup wheat flour',
+                ],
+                instruction: [
+                    '1. Wash and soak the chicken in cold water with lemon squeezed into it for 30 minutes. (This removes any bacteria and tenderizes the meat.)',
+                    '2. Caramelize the red onions on low heat in a large pot for 1 hour. Add the berbere, Niter Kibbeh, garlic and ginger and cook for 30 minutes on medium-low heat. Add the marinated chicken and cook on medium-low heat, 30 to 45 minutes. Add in the hard-boiled eggs and salt to taste. Simmer on low heat for an additional 10 minutes and serve on the Injera.',
+                    'Niter Kibbeh (Ethiopian Spiced Butter):',
+                    '3. Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.',
+                    'Injera (Fermented Sourdough Bread):',
+                    '4. Combine the teff flour and 12 cups water. Mix, cover and store in a dark, cool place for 3 to 4 days to ferment, giving it its sour flavor. On the last day of fermentation, mix the teff flour mixture with the barley and wheat flours. Let rest for another 8 hours.',
+                    '5. Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.',
+                    
+                ]
+            }
+        }, 
+        {
+            foodName: 'CINNABON CINNAMON ROLL CAKE',
+            prepTime: '35 MINUTES',
+            description: 'Cinnamon Roll Cake is a cinnamon roll turned into a gooey gooey delicious cake! Swirled with buttery brown sugar cinnamon and topped with a glaze… this is the BEST cake EVER!!',
+            likes: 0,
+            imgSrc: 'https://therecipecritic.com/wp-content/uploads/2012/08/cinnamon_roll_cake1-1-667x1000.jpg',
+            recipe: {
+                ingredients: [
+                    '3 cups flour',
+                    '1/4 tsp salt',
+                    '1 cup sugar',
+                    '4 tsp baking powder',
+                    '1½ cup milk',
+                    '2 tsp vanilla',
+                    '4 T butter melted',
+                    '2 sticks 1 cup butter, softened',
+                    '1 cup brown sugar',
+                    '1 T cinnamon',
+                    'Glaze:',
+                    '2 cups powdered sug',
+                    '4-5 T milk',
+                    '1 tsp vanilla',
+                    
+                    
+                ],
+                instruction: [
+                    '1. Preheat oven to 350 degrees. With an electric mixer or stand mixer, combine the flour, sugar, salt, baking powder, milk, eggs, and vanilla. Once that is combined, you slowly stir in 4 T melted butter. Pour the batter into a greased 9×13 inch pan.',
+                    '2. In a medium sized bowl, mix the softened butter, brown sugar, cinnamon and nuts if you are using them. Drop evenly over the cake better in your 9×13 inch pan. Use a knife to marble and swirl over the cake.',
+                    '3. Bake for 25-30 minutes or until toothpick comes out nearly clean from center.',
+                    '4. Make the glaze by adding the powdered sugar, milk and vanilla to a medium sized bowl. Whisk until smooth and drizzle over warm cake. Serve warm or at room temperature.',
+
+                ]
+            }
+        },
+
 
 
 
