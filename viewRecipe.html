@@ -65,10 +65,12 @@
 
                         <h3>Instruction</h3>
                         <div id="instruction" class="text-center"></div>
+                        <a href="./index.html" id="butt" class="btn btn-danger">Home</a>
                     </div>
                 </div>
             </div>
         </div>
+        
     </div>
 
 
@@ -84,10 +86,11 @@
             let ingredients = document.querySelector('#ingredients')
             let description = document.querySelector('#description')
             let instruction = document.querySelector("#instruction")
+            let but = document.querySelector("#butt")
 
             var db = new Dexie("Recipes");
             db.version(1).stores({
-                Recipes: 'foodName, prepTime, imgSrc, recipe'
+                Recipes: 'foodName, prepTime, imgSrc, recipe, but'
             })
 
             db.Recipes.where('foodName').equals(window.sessionStorage.getItem('foodName')).toArray((result) => {
@@ -95,6 +98,7 @@
                     imgSrc.src = x.imgSrc
                     description.innerHTML = x.description
                     prepTime.innerHTML = x.prepTime
+                    but.innerHTML = x.but
                     
                     for(let index = 0; index < x.recipe.ingredients.length; index++){
                         const v = document.createElement("p")
