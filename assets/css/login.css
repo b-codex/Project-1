@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
 body {
   overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
   padding-top: 0;
- /* background-image: url(../img/tomato.png) ; */
- 
-  
+  /* background-image: url(../img/tomato.png) ; */
+
+
 }
+
 /* body::after {
     content: "";
     background: url(../img/backfood.jpg);
@@ -55,69 +57,48 @@ h2 {
 /* navbar */
 
 
-
-#navTag {
-  position: fixed;
-  width: 100%;
-  color: tomato  !important ; 
-  background-color: #fff !important;
-  z-index: 1000;
-  box-shadow: 0 1px 10px rgba(206, 206, 206, 0.3);
+.navbar a {
+  color: tomato;
+  font-size: 18px;
+  line-height: 27px;
 }
 
-#keshenLink{
-  font-size: 28px;
-  color: black !important ;
-  
-}
-
-#nav-links {
-  justify-content: left ;
-  align-items: left;
-}
-#fluidContain{
-  font-family: 'Quicksand', 'Roboto';
-  font-size: large;
-  padding: 3px  0px 3px 0px ;
-  color: tomato !important;
-  
-}
-.unordLi{
-  padding: 0px 12px 0px 12px ;
+.navbar .navbar-toggler {
+  background-color: white;
 }
 
 .log {
-  color:tomato !important;
-  
+  color: inherit;
+  transition: all .2s linear;
 }
 
+.log:hover {
+  color: tomato !important;
+  transition: all .2s linear;
+}
 
-/* .navbar{
+.navbar ul form {
   position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background-color: transparent ;
-  color: white ;
-  z-index: 1000;
-} */
-
-
-/* .navbar .log {
-  color: black ;
-} */
-
-.navbar ul li.search {
-  position: relative;
-  left: 70vh;
+  width: 250px;
+  padding: 5px;
+  background-color: white;
+  right: -30px;
+  display: none;
 }
 
-.menuLog{
-  color: black ;
+.menuLog {
+  color: black;
+}
+
+.navbar ul form input {
+  padding: 5px 10px 5px 5px;
+  background-color: #ddd;
+  width: 100%;
+  border: 1px solid #737272;
 }
 
 .my-logo {
-  height:50px ;
+  height: 50px;
   padding: 0px 10px 0px 80px;
 
 }
@@ -127,69 +108,75 @@ h2 {
 /* custom css classes for margin */
 
 .margin-vertical-5 {
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
-  .margin-vertical-10 {
-    margin-top: 10%;
-    margin-bottom: 10%;
-  }
-  .margin-top-5 {
-    margin-top: 5%;
-  }
-  .margin-bottom-5 {
-    margin-bottom: 5%;
-  }
-  .margin-top-10 {
-    margin-top: 10%;
-  }
-  .margin-bottom-10 {
-    margin-bottom: 10%;
-  }
-  
-  
-  /* card UI */
-  
-  .card-ui {
-    /* background-color: #4292dc; */
-    color: saddlebrown;
-
-    width: 20rem;
-    height: 25rem;
-    border-collapse: separate;
-    box-shadow: 0 25px 25px rgba(0, 0, 0, 0.5) !important;
-    font-family: "Montserrat", serif, sans-serif;
-    
-  }
-  
-  
-  
-   .card-ui-img {
-    margin-left: 20px;
-    width: 50%;
-    display: flex;
-    justify-self:inherit;
-    border-radius: 0px 9px 9px 0px;
-   }
-
-   .card-ui-imgs {
-    width: 50%;
-    display: flex;
-    justify-self:inherit;
-    border-radius: 9px 0px 0px 9px;
-   }
-
-
-.card-body{
-    padding: 0;
-    margin: 0;
-    width: 50rem;
-    height: 32rem;
-    
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
-.first-card-text{
-    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.5) !important;
-    border-radius: 9px 9px 9px 9px;
+
+.margin-vertical-10 {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.margin-top-5 {
+  margin-top: 5%;
+}
+
+.margin-bottom-5 {
+  margin-bottom: 5%;
+}
+
+.margin-top-10 {
+  margin-top: 10%;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10%;
+}
+
+
+/* card UI */
+
+.card-ui {
+  /* background-color: #4292dc; */
+  color: saddlebrown;
+
+  width: 20rem;
+  height: 25rem;
+  border-collapse: separate;
+  box-shadow: 0 25px 25px rgba(0, 0, 0, 0.5) !important;
+  font-family: "Montserrat", serif, sans-serif;
+
+}
+
+
+
+.card-ui-img {
+  margin-left: 20px;
+  width: 50%;
+  display: flex;
+  justify-self: inherit;
+  border-radius: 0px 9px 9px 0px;
+}
+
+.card-ui-imgs {
+  width: 50%;
+  display: flex;
+  justify-self: inherit;
+  border-radius: 9px 0px 0px 9px;
+}
+
+
+.card-body {
+  padding: 0;
+  margin: 0;
+  width: 50rem;
+  height: 32rem;
+
+}
+
+.first-card-text {
+  box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.5) !important;
+  border-radius: 9px 9px 9px 9px;
 }
 
 
@@ -204,20 +191,20 @@ input,
 select,
 textarea {
   outline: none;
-  appearance: unset ;
-  -moz-appearance: unset ;
-  -webkit-appearance: unset ;
-  -o-appearance: unset ;
-  -ms-appearance: unset ;
+  appearance: unset;
+  -moz-appearance: unset;
+  -webkit-appearance: unset;
+  -o-appearance: unset;
+  -ms-appearance: unset;
 }
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
-  appearance: none ;
-  -moz-appearance: none ;
-  -webkit-appearance: none ;
-  -o-appearance: none ;
-  -ms-appearance: none ;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+  -ms-appearance: none;
   margin: 0;
 }
 
@@ -225,27 +212,27 @@ input:focus,
 select:focus,
 textarea:focus {
   outline: none;
-  box-shadow: none ;
-  -moz-box-shadow: none ;
-  -webkit-box-shadow: none ;
-  -o-box-shadow: none ;
-  -ms-box-shadow: none ;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  -ms-box-shadow: none;
 }
 
 input[type="checkbox"] {
-  appearance: checkbox ;
-  -moz-appearance: checkbox ;
-  -webkit-appearance: checkbox ;
-  -o-appearance: checkbox ;
-  -ms-appearance: checkbox ;
+  appearance: checkbox;
+  -moz-appearance: checkbox;
+  -webkit-appearance: checkbox;
+  -o-appearance: checkbox;
+  -ms-appearance: checkbox;
 }
 
 input[type="radio"] {
-  appearance: radio ;
-  -moz-appearance: radio ;
-  -webkit-appearance: radio ;
-  -o-appearance: radio ;
-  -ms-appearance: radio ;
+  appearance: radio;
+  -moz-appearance: radio;
+  -webkit-appearance: radio;
+  -o-appearance: radio;
+  -ms-appearance: radio;
 }
 
 .signup {
@@ -398,26 +385,28 @@ input:focus:-moz-placeholder {
 @media (max-width: 992px) {
 
   /* navbar */
-body{
+  body {
     overflow-y: none;
     overflow-x: none;
-}
+  }
+
   .navbar ul li.search {
     position: relative;
     left: 0vh;
-    color:#222 ;
+    color: #222;
   }
+
   .navbar ul {
     background-color: white;
     padding: 10px 20px;
   }
 
   .navbar ul li a {
-    color: black ;
+    color: black;
   }
 
   .navbar ul li a:hover {
-    color: #ffe25b ;
+    color: #ffe25b;
   }
 
   .navbar ul form {
@@ -425,4 +414,3 @@ body{
     width: 100%;
   }
 }
-

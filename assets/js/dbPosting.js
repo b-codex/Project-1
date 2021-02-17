@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function postFood(e) {
         e.preventDefault()
-        let ing = ingredients.value.split(',')
-        let ins = instruction.value.split(',')
+        let ing = ingredients.value.split('+')
+        let ins = instruction.value.split('+')
 
 
 

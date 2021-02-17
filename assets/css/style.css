@@ -9,11 +9,6 @@ body {
   
 }
 
-.bodyBackground{
-  /* background: url(../img/applebackground\ foe\ viewRecipe); */
-  
-}
-
 li {
   list-style-type: none;
 }
@@ -72,10 +67,6 @@ h2 {
   
 }
 
-#nav-links {
-  justify-content: left ;
-  align-items: left;
-}
 #fluidContain{
   font-family: 'Quicksand', 'Roboto';
   font-size: large;
@@ -88,6 +79,7 @@ h2 {
 
 .log {
   color:inherit !important;
+  transition: all .2s linear;
 }
 
 /* .navbar{
@@ -108,13 +100,9 @@ h2 {
   background-color: white;
 }
 
-/* .navbar .log {
-  color: black ;
-} */
-
-.navbar ul li.search {
-  position: relative;
-  left: 70vh;
+.log:hover{
+  color: tomato !important;
+  transition: all .2s linear;
 }
 
 .navbar ul form {
@@ -192,7 +180,7 @@ header .content a i {
   border-radius: 100%;
   padding: 10px;
   color: black;
-  background-color: #ffe25b;
+  background-color: tomato;
 }
 
 .carousel-control-prev,
@@ -227,7 +215,35 @@ header .carousel-control-prev {
 
 
 
-/* custom css classes for margin */
+/* Approve and Disapprove Buttons */
+
+#approve, #disapprove{
+  transition: all.3s linear;
+}
+
+.approveButton:hover{
+  transition: all .3s linear;
+  background-color: rgb(23, 221, 23);
+}
+
+.disapproveButton:hover{
+  transition: all .3s linear;
+  background-color: red;
+}
+
+/* Admin Page Cards */
+
+#imgSrcCard{
+  width: 270px !important;
+  height: 270px !important;
+}
+
+
+/* custom css classes */
+
+.color-tomato{
+  color: tomato !important;
+}
 
 .margin-vertical-5 {
   margin-top: 5%;

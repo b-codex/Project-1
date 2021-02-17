@@ -12,13 +12,23 @@ document.addEventListener('DOMContentLoaded', () => {
             let x = document.querySelector('.row')
             // x.innerHTML = ''
 
-            let output = `
-            <div class="col-md-6 m-auto">
-                <div class="card shadow">
-                    <div class="card-body cardAdmin" >
+            const h3 = []
+            const getFoodName = function () {
 
-                        <img id="imgSrc" alt="" class="card-img" src="${iterator.imgSrc}">
-                        <h3 id="foodName" class="card-title">${iterator.foodName}</h3>
+                h3.push(iterator.foodName)
+
+            }
+            getFoodName()
+            // log(h3)
+
+
+            let output = `
+            <div class="col-4 m-auto d-flex justify-content-around text-center mt-5 pt-5">
+                <div class="card shadow">
+                    <div class="card-body cardAdmin">
+
+                        <img id="imgSrcCard" alt="" class="card-img" src="${iterator.imgSrc}">
+                        <h3 id="${iterator.foodName.split(' ').join('')}" class="card-title pt-3">${iterator.foodName}</h3>
 
                         <hr>
 
@@ -29,42 +39,49 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p id="prepTime">${iterator.prepTime}</p>
 
                         <h3>Ingredients</h3>
-                        <div id="ingredients" class="text-center"></div>
+                        <div id="${iterator.foodName}_ing" class="text-center">${iterator.recipe.ingredients}</div>
 
                         <h3>Instruction</h3>
-                        <div id="instruction" class="text-center"></div>
+                        <div id="${iterator.foodName}_ins" class="text-center">${iterator.recipe.instruction}</div>
                         <div class="btn-group" role="group" aria-label="Basic example">
-                            <button type="button" class="btn btn-light btncol mx-2" id='approve'>Approve 👍
+                            <button type="button" class="btn btn-light mx-2 approveButton" id='${iterator.foodName}_approve'>Approve 👍
                             </button>
-                            <button type="button" class="btn btn-dark btndis" id='disapprove'>Disapprove  👎</button>
+                            <button type="button" class="btn btn-light disapproveButton" id='${iterator.foodName}_disapprove'>Disapprove 👎</button>
                         </div>
                     </div>
                 </div>
             </div>
             `
+
+            h3.forEach((el) => {
+                let selector = el.split(' ').join('')
+                // const y = document.querySelector(`#${selector}`)
+                let r = (`#${selector}`)
+                // log(r)
+                // document.querySelector(r).parentElement.lastElementChild.firstElementChild.addEventListener('click', approveRecipe)
+                // document.querySelector(r).parentElement.lastElementChild.lastElementChild.addEventListener('click', approveRecipe)
+            })
             setTimeout(() => {
-                const ingredients = document.querySelector('#ingredients')
-                const instruction = document.querySelector('#instruction')
 
-                for (let index = 0; index < iterator.recipe.ingredients.length; index++) {
-                    const v = document.createElement("p")
-                    v.innerHTML = iterator.recipe.ingredients[index]
-                    ingredients.appendChild(v)
-                    log(iterator.recipe.ingredients[index])
-                }
 
-                for (let index = 0; index < iterator.recipe.instruction.length; index++) {
-                    const v = document.createElement("p")
-                    v.innerHTML = iterator.recipe.instruction[index]
-                    instruction.appendChild(v)
-                    // log(iterator.recipe.instruction[index])
-                }
+                // for (let index = 0; index < iterator.recipe.ingredients.length; index++) {
+                //     const v = document.createElement("p")
+                //     v.innerHTML = iterator.recipe.ingredients[index]
+                //     ingredients.appendChild(v)
+                //     log(iterator.recipe.ingredients[index])
+                // }
 
-                const approveButton = document.getElementById('approve')
-                const disapproveButton = document.getElementById('disapprove')
+                // for (let index = 0; index < iterator.recipe.instruction.length; index++) {
+                //     const v = document.createElement("p")
+                //     v.innerHTML = iterator.recipe.instruction[index]
+                //     instruction.appendChild(v)
+                //     // log(iterator.recipe.instruction[index])
+                // }
 
-                approveButton.addEventListener('click', approveRecipe)
-                disapproveButton.addEventListener('click', disapproveRecipe)
+
+
+                
+
 
                 function approveRecipe() {
                     let ing = []
