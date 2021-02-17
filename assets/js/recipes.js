@@ -833,8 +833,8 @@ export let recipes = [{
         }
     },
     {
-        foodName: '',
-        prepTime: '',
+        foodName: 'Alcha Doro',
+        prepTime: '3 Hr 50 Min(s)',
         description: 'This is just the most-delicious Ethiopian main dish. Absolutely wonderful.',
         likes: 0,
         imgSrc: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5083335.jpg&w=596&h=399&c=sc&poi=face&q=85',
