@@ -310,34 +310,6 @@ export let recipes = [{
         }
     },
     {
-        foodName: 'Doro Wot',
-        prepTime: '2 hr 50 min',
-        description: 'The berbere-spiced chicken and egg stew is usually reserved by home cooks for occasions such as family gatherings, religious holidays, and weddings, in part because making doro wat can be very time-consuming.',
-        likes: 0,
-        imgSrc: 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/6/5/0/CCATHSP1_ethiopian-injera-bread-with-doro-wat_s4x3.jpg.rend.hgtvcom.826.620.suffix/1433564349717.jpeg',
-        recipe: {
-            ingredients: [
-                "2 pounds skinless chicken legs",
-                "Lemon juice",
-                "2 large red onions, finely chopped",
-                "1 1/2 cups berbere (Ethiopian spice mixture which includes chile pepper, garlic, ginger, dried basil, Ethiopian cardamom, black and white pepper, fenugreek and rue, a bitter shrub)",
-                "1 cup Niter Kibbeh (Ethiopian Spiced Butter), recipe follows",
-                "1/2 cup fresh garlic, finely ground",
-                "1/2 cup fresh ginger, finely ground",
-                "6 peeled hard-boiled eggs",
-                "Salt",
-                "Injera bread, for serving, recipe follows"
-            ],
-            instruction: [
-                "Wash and soak the chicken in cold water with lemon squeezed into it for 30 minutes. (This removes any bacteria and tenderizes the meat.)",
-                "Caramelize the red onions on low heat in a large pot for 1 hour. Add the berbere, Niter Kibbeh, garlic and ginger and cook for 30 minutes on medium-low heat. Add the marinated chicken and cook on medium-low heat, 30 to 45 minutes. Add in the hard-boiled eggs and salt to taste. Simmer on low heat for an additional 10 minutes and serve on the Injera.",
-                "Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.",
-                "Combine the teff flour and 12 cups water. Mix, cover and store in a dark, cool place for 3 to 4 days to ferment, giving it its sour flavor. On the last day of fermentation, mix the teff flour mixture with the barley and wheat flours. Let rest for another 8 hours. ",
-                "Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.",
-            ]
-        }
-    },
-    {
         foodName: 'Tibis',
         prepTime: '30-45 mins',
         description: 'This dish is super easy to make, You can buy it online or in places like Whole Foods or Cost Plus Market, or you can make it yourself. You will also need clarified butter, although this tastes more authentic if you make your own Ethiopian spiced butter. Of the many spices listed in the ingredients, the most important is the fenugreek. It is this spice that makes the version of tibs we served at Horn of Africa different from most others.',
@@ -556,7 +528,7 @@ export let recipes = [{
     {
         foodName: 'Kai Wot',
         prepTime: '60 Min(s)',
-        description: 'This recipe is similar to doro wat but uses beef instead of chicken. It doesn\'t hold back on the heat, so this is great if you\'re a spice lover.',
+        description: 'This recipe is similar to wat but uses beef instead of chicken. It doesn\'t hold back on the heat, so this is great if you\'re a spice lover.',
         likes: 0,
         imgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/2020-05/1/13/asset/3315d785b2c0/sub-buzz-1080-1588340405-8.jpg?downsize=600:*&output-format=auto&output-quality=auto',
         recipe: {
@@ -802,6 +774,7 @@ export let recipes = [{
                 'Cover pot and reduce heat to medium-low; simmer, stirring occasionally, until beets are easily pierced with a fork, 20 to 25 minutes. Add potatoes and cook until potatoes are soft but not falling apart, about 15 minutes.',
                 'Heat oil in a large pot over medium heat; add onion and a pinch of salt. Cook and stir onion until softened and translucent, 5 to 10 minutes. Add garlic and ginger; cook and stir until fragrant, about 1 minute. Add beets and stir to combine. Pour water over beet mixture and sprinkle 1/2 teaspoon salt; bring to a boil.'
             ]
+            
         }
     },
     {
@@ -928,6 +901,7 @@ export let recipes = [{
                 'Pour the macaroni into a 10x10-inch baking dish and sprinkle the top with panko bread crumbs and Parmesan cheese. Drizzle with olive oil. *For creamy baked mac and cheese, place the baked mac and cheese in the oven under the broiler for 2-3 minutes, watch carefully. You want the top to toast, but not burn. **For more a traditional "firm" baked mac and cheese recipe, bake for 20 minutes until the tops are golden.',
                 'Once out of the oven, sprinkle the chopped parsley and serve warm.',
             ]
+
         }
     },
     {
@@ -1998,6 +1972,7 @@ export let recipes = [{
                 '2 teaspoons fresh thyme',
                 '4 tablespoons pine nuts',
                 'Salt and pepper',
+                
             ],
             instruction: [
                 'For dough: Place 1/2 cup of warm water in your electric mixing bowl. Add the yeast and allow it to swell for 5 minutes. It should look foamy. Then add 1 1/4 cups of room-temperature water, plus the oil and salt. Using a bread hook, mix on low, adding the flour a little at a time. “Knead” in the mixer for 2-3 minutes until well combined but tacky. Oil a large bowl. Place the dough in the bowl and turn it to cover the dough in oil. Cover the bowl tightly with plastic wrap and allow the dough to rise for 2 hours.',
@@ -2007,22 +1982,192 @@ export let recipes = [{
             ]
         }
     },
-    // {
-    //     foodName: '',
-    //     prepTime: '',
-    //     description: '',
-    //     likes: 0,
-    //     imgSrc: '',
-    //     recipe: {
-    //         ingredients: [
+    
+    {
+        foodName: 'Banana Bread Muffins',
+        prepTime: ' 45 mints',
+        description: 'Moist, decadent, and delightful BANANA BREAD MUFFINS are sweet snacks you can enjoy any time of the year. This light and easy recipe will surely be your next baked superstar with its fantastic flavor and aroma. Make this ahead, reheat and kids would still enjoy them even for breakfast!',
+        likes: 0,
+        imgSrc: 'https://www.africanbites.com/wp-content/uploads/2020/10/IMG_9835.jpg',
+        recipe: {
+                ingredients: [
+                    '2 large bananas mashed , (about a cup)',
+                    '2 large eggs',
+                    '1/4 cup granulated sugar', 
+                    '3/4 cup brown sugar',
+                    '1/3 cup sour Cream/yogurt',
+                    '1 1/2 teaspoon vanilla extract',
+                    '1 teaspoon baking powder',
+                    '1 teaspoon baking soda',
+                    '1/2 teaspoon salt',
+                    '½ cup (4 ounce, 120ml) brown butter',
+                    ],
+                    instruction: [
+                        '1. Preheat the oven to 400 °F. Line a muffin pan with paper liners. ',
+                        '2. In a small bowl, whisk together the mashed bananas, eggs, sugar (brown and white) sour cream, and vanilla extract.',
+                        '3. In another bowl, combine the flour, baking powder, baking soda, and salt. ',
+                        '4. Gradually add the wet ingredients to the bowl of dry ingredients and whisk with a spatula until thoroughly mixed. ',
+                        '5. Pour in the brown butter and thoroughly mix, then scrape down the sides.',
+                        '6. Pour the mixture into prepared muffin tin pan. Bake for about 12 minutes, or until a toothpick inserted comes out clean. ',
+                        '7. Let it rest for 10 minutes before serving.',
+                        
+                    ]
+                }
+            },
+            {
+                foodName: 'Beyaynetu (Ethiopian Combination Platter)',
+                    prepTime: ' 45 mints',
+                    description: 'Shiro Wat,Miser Wat (Spiced Red Lentils),Kik Alicha (Yellow Split Pea Stew),Gomen (Sautéed Collard Greens),Dinich ena Karat Alicha (Potato and Carrot Stew),Key Sire Alicha (Beets, Potatoes and Carrots Stew)',
+                    likes: 0,
+                    imgSrc: 'https://petitworldcitizen.files.wordpress.com/2015/01/img_0092.jpg?w=1024',
+                    recipe: {
+                        ingredients: [
+                            '1. Shiro Wat',
+                            '1-2 tablespoons olive oil',
+                            '1/2 onion, chopped',
+                            '4 cloves garlic, minced', 
+                            '4-5 cups water, or more',
+                            '1/2 cup shiro',
+                            '2. Miser Wat (Spiced Red Lentils)',
+                            '1-2 tablespoons olive oil',
+                            '2 teaspoons – 1 tablespoon or more berbere',
+                            '4-5 cloves garlic, crushed',
+                            '1 cup red lentils, rinsed and drained',
+                            '3-4 cups water',
+                            'salt',
+                            '3. Kik Alicha (Yellow Split Pea Stew)',
+                            '1-2 tablespoons olive oil',
+                            '4 cups water',
+                            '1 cup yellow split peas, rinsed and drained',
+                            '1 small onion, diced',
+                            '3 cloves garlic, crushed',
+                            '1/4 teaspoon ground turmeric',
+                            'salt',
+                            'green chile pepper, sliced (optional)',
+                            '4. Gomen (Sautéed Collard Greens)',
+                            '1-2 tablespoons olive oil',
+                            '1/4 onion, sliced',
+                            '3-4 cloves garlic, crushed',
+                            '1 lb collard greens, rinsed, stems removed and chopped well',
+                            'Salt',
+                            '5. Dinich ena Karat Alicha (Potato and Carrot Stew)',
+                            '1-2 tablespoons olive oil',
+                            '1/2  onion, sliced in 2-inch strips',
+                            '3 cloves garlic, crushed',
+                            '2 potatoes ( I used Russet potatoes), diced in ½-inch chunks',
+                            '4 carrots, peeled and diced in ½-inch chunks',
+                            '¼ teaspoon ground turmeric',
+                            'water',
+                            'salt',
+                            'green chile pepper, sliced (optional)',
+                            '6. Key Sire Alicha (Beets, Potatoes and Carrots Stew) ',
+                            '1-2 tablespoons olive oil',
+                            '½ onion, sliced in 2-inch strips',
+                            '3 cloves garlic, crushed',
+                            '4 beets, rinsed, peeled and diced in ½-inch chunks',
+                            '2 potatoes ( I used Russet potatoes), diced in ½-inch chunks',
+                            '4 carrots, peeled and diced in ½-inch chunks',
+                            '2 teaspoons vinegar or lemon juice',
+                            '¼ teaspoon ground turmeric',
+                            'water',
+                            'salt',
+                            'green chile pepper, sliced (optional)',
 
-    //         ],
-    //         instruction: [
+                        ],
+                    instruction: [
+                        '1.Saute onions until translucent, add garlic. Add 4 cups water and bring to a boil. Add shiro powder, whisk until dissolved. Cook for 35-45 minutes, adding more boiled water to thin the consistency, if necessary. The consistency should not be sticky of clumpy.',
+                        '2. Heat oil in a sauce pan and sauté onions until translucent. Add berbere and stir until well coated. Add garlic and cook until flavors have melded, about 5 minutes. Add a little water to blend, then add lentils and stir until well coated. Add ½ teaspoon salt and 3 cups of water. Cook until lentils have broken apart, adding more water if necessary. The consistency should be like a thick stew. Taste and adjust for salt.',
+                        '3. Bring about 3 cups water with oil to boil. Add peas. Cook until they are soft and break apart, about 45 minutes. Add more water if necessary. Set aside. In a separate saucepan, sauté onions in oil until translucent. Add garlic and stir until fragrant. Add turmeric and stir well. Add split peas and ½ teaspoon salt and cook an additional 15 minutes, adding more water if necessary. Taste and adjust for salt.',
+                        '4. Heat oil in a large pan, sauté onions until translucent. Add garlic and cook until fragrant. Add collard greens and cook until softened, about 30 minutes. Season to taste with salt.',
+                        '5. Heat oil in a saucepan, add onions and sauté until fragrant, add garlic and stir until fragrant. Add potatoes and potatoes stir until slightly softened. Add turmeric and stir until well coated. Add a little water and cook until potatoes and carrots are softened (cooked). Season with salt.',
+                        '6. Heat oil in a saucepan, add onions and sauté until fragrant, add garlic and stir until fragrant. Add beets, potatoes and carrots, stir until slightly softened. Add vinegar or lemon juice, turmeric and stir until well coated. Add a little water and salt and cook until potatoes and carrots are softened (cooked). Taste and adjust seasoning.',
+                            
+                    ]
+            }
+        },
+        {
+            foodName: 'Doro Wot(Ethiopian National Chicken Dish)',
+            prepTime: ' 45 min',
+            description: 'Advanced Level.his dish is meant to be one component of a larger Ethiopian meal. Serve with the Braised Cabbage, Carrots and Potatoes, Red Lentils (Misr Wat), Braised Beef with Peppers (Zilzil Tibs) and Quick Injera, layering the injera on a platter and mounding a portion of each dish on top. Tear off pieces of the injera to use as a "utensil" for scooping up bites of each.',
+            likes: 0,
+            imgSrc: 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/6/5/0/CCATHSP1_ethiopian-injera-bread-with-doro-wat_s4x3.jpg.rend.hgtvcom.826.620.suffix/1433564349717.jpeg',
+            recipe: {
+                ingredients: [
+                    '2 pounds skinless chicken legs',
+                    'Lemon juice',
+                    '2 large red onions, finely chopped',
+                    ' 1 1/2 cups berbere (Ethiopian spice mixture which includes chile pepper, garlic, ginger, dried basil, Ethiopian cardamom, black and white pepper, fenugreek and rue, a bitter shrub)',
+                    '1 cup Niter Kibbeh (Ethiopian Spiced Butter), recipe follows',
+                    ' 1/2 cup fresh garlic, finely ground',
+                    '6 peeled hard-boiled eggs',
+                    'Salt',
+                    'Niter Kibbeh (Ethiopian Spiced Butter):', 
+                    '6 pounds unsalted butter',
+                    '1/3 cup bishop seed (also known as ajwain, similar to thyme)',
+                    '1/3 cup cardamom seeds',
+                    '1/3 cup black cumin',
+                    '1/3 cup koseret (dried woodsy flavored herb, dried oregano can be substituted)',
+                    'Injera (Fermented Sourdough Bread)',
+                    '1 1/2 pounds teff flour',
+                    '1/2 pound barley flour',
+                    '1/4 cup wheat flour',
+                ],
+                instruction: [
+                    '1. Wash and soak the chicken in cold water with lemon squeezed into it for 30 minutes. (This removes any bacteria and tenderizes the meat.)',
+                    '2. Caramelize the red onions on low heat in a large pot for 1 hour. Add the berbere, Niter Kibbeh, garlic and ginger and cook for 30 minutes on medium-low heat. Add the marinated chicken and cook on medium-low heat, 30 to 45 minutes. Add in the hard-boiled eggs and salt to taste. Simmer on low heat for an additional 10 minutes and serve on the Injera.',
+                    'Niter Kibbeh (Ethiopian Spiced Butter):',
+                    '3. Melt the butter on low heat in a large pot. Blend together the bishop seeds, cardamom seeds and black cumin until powder form using coffee grinder or food processor. Pour into the butter. Add the dried koseret. Bring to a boil then simmer for 15 to 20 minutes. Remove from the heat and cool. When room temperature, skim the frothy milk solids off of the top. Carefully pour the clear, clarified butter into a large storage container.',
+                    'Injera (Fermented Sourdough Bread):',
+                    '4. Combine the teff flour and 12 cups water. Mix, cover and store in a dark, cool place for 3 to 4 days to ferment, giving it its sour flavor. On the last day of fermentation, mix the teff flour mixture with the barley and wheat flours. Let rest for another 8 hours.',
+                    '5. Heat a large cast-iron pan over medium heat. Pour 1 cup fermented mixture into it, swirling the pan to cover the entire surface area. Cover with a lid, 2 to 3 minutes. Injera is ready to plate when holes have formed on the surface. Place the injera on a plate and serve.',
+                    
+                ]
+            }
+        }, 
+        {
+            foodName: 'CINNABON CINNAMON ROLL CAKE',
+            prepTime: '35 MINUTES',
+            description: 'Cinnamon Roll Cake is a cinnamon roll turned into a gooey gooey delicious cake! Swirled with buttery brown sugar cinnamon and topped with a glaze… this is the BEST cake EVER!!',
+            likes: 0,
+            imgSrc: 'https://therecipecritic.com/wp-content/uploads/2012/08/cinnamon_roll_cake1-1-667x1000.jpg',
+            recipe: {
+                ingredients: [
+                    '3 cups flour',
+                    '1/4 tsp salt',
+                    '1 cup sugar',
+                    '4 tsp baking powder',
+                    '1½ cup milk',
+                    '2 tsp vanilla',
+                    '4 T butter melted',
+                    '2 sticks 1 cup butter, softened',
+                    '1 cup brown sugar',
+                    '1 T cinnamon',
+                    'Glaze:',
+                    '2 cups powdered sug',
+                    '4-5 T milk',
+                    '1 tsp vanilla',
+                    
+                    
+                ],
+                instruction: [
+                    '1. Preheat oven to 350 degrees. With an electric mixer or stand mixer, combine the flour, sugar, salt, baking powder, milk, eggs, and vanilla. Once that is combined, you slowly stir in 4 T melted butter. Pour the batter into a greased 9×13 inch pan.',
+                    '2. In a medium sized bowl, mix the softened butter, brown sugar, cinnamon and nuts if you are using them. Drop evenly over the cake better in your 9×13 inch pan. Use a knife to marble and swirl over the cake.',
+                    '3. Bake for 25-30 minutes or until toothpick comes out nearly clean from center.',
+                    '4. Make the glaze by adding the powdered sugar, milk and vanilla to a medium sized bowl. Whisk until smooth and drizzle over warm cake. Serve warm or at room temperature.',
 
-    //         ]
-    //     }
-    // },
+                ]
+            }
+        },
+
 
 
 
 ]
+// $(document).ready(function () {
+//     $("#search").on("keyup", function () {
+//         var value = $(this).val().toLowerCase();
+//         $(".cont .row").filter(function () {
+//             $(this).parent(".row").parent(".cont").toggle($(this).text().toLowerCase().indexOf(value) > -1)
+//         });
+//     });
+// });

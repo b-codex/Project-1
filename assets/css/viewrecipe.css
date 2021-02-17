@@ -1,35 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 body{
-  background: url(../img/applebackground\ foe\ viewRecipe);
+  /* background-color: orange; */
   background-position: inherit;
   width: 100%;
   object-fit: cover;
   background-attachment: fixed;
+  
 }
 
-.navbar {
+
+
+.scrolling-active{
+  color: tomato !important ;
+  background-color:  #f8f9fa !important;
+  box-shadow: 0 2px 25px rgba(5, 5, 5, 0.3);
+  transition: background-color 0.4 ease-in-out;
+  
+
+}
+#navTag {
+  position: fixed;
+  width: 100%;
+  color: tomato  !important ; 
+  background-color: #fff !important;
+  z-index: 1000;
+}
+
+#keshenLink{
+  font-size: 28px;
+  color: #222 ;
+  
+}
+
+#nav-links {
+  justify-content: left ;
+  align-items: left;
+}
+#fluidContain{
+  font-family: 'Quicksand', 'Roboto';
+  font-size: large;
+  padding: 3px  0px 3px 0px ;
+  
+}
+.unordLi{
+  padding: 0px 12px 0px 12px ;
+}
+
+.log {
+  color:inherit !important;
+}
+
+/* .navbar{
   position: absolute;
   width: 100%;
   top: 0;
   left: 0;
-  background-color: transparent !important;
-  color: white !important;
+  background-color: transparent ;
+  color: white ;
   z-index: 1000;
-}
+} */
 
 .navbar a {
-  color: white !important;
+  color: white ;
 }
 
 .navbar .navbar-toggler {
   background-color: white;
 }
 
-.navbar .log {
-  color: #ffe25b !important;
-}
+/* .navbar .log {
+  color: black ;
+} */
 
 .navbar ul li.search {
   position: relative;
+  left: 70vh;
 }
 
 .navbar ul form {
@@ -40,7 +85,9 @@ body{
   right: -30px;
   display: none;
 }
-
+.menuLog{
+  color: black ;
+}
 .navbar ul form input {
   padding: 5px 10px 5px 5px;
   background-color: #ddd;
@@ -48,44 +95,56 @@ body{
   border: 1px solid #737272;
 }
 
-
 .my-logo {
-  width: 50% !important;
-  
-}
-#nav-links>ul>li.nav-item.search>a>i {
-  color: orange;
+  height:50px ;
+  padding: 0px 10px 0px 80px;
+
 }
 
-.card {
+.card_container {
   overflow: hidden;
-  box-shadow: 0px 2px 20px gray;
+  /* box-shadow: 0px 2px 20px gray; */
+  /* box-shadow: -30px 30px 20px rgba(0,0,0,0.3);  */
+  box-shadow: 0px 15px 25px;
   border-radius: 0.2rem;
   margin-top: 70px;
-  opacity: 0.76;
+  /* opacity: 0.76; */
 }
+/* .cont .card_container::before{
+  content: '';
+  position: absolute;
+  bottom: -50px;
+  left: 5%;
+  width: 90px;
+  height: 20px;
+  background: rgba(0, 0,0, 0.3);
+  border-radius: 50%;
+  z-index: -1;
+  filter: blur(10px);
+} */
 
-.card-body {
+
+.card_body_container {
   display: flex;
   flex-direction: column;
   align-items: center;
   background: whitesmoke;
-  opacity: 0.99;
+  /* opacity: 0.99; */
   
   color: black;
   padding: 30px 20px;
 }
 
-.card-body hr {
+.card_body_container hr {
   width: 80%;
   background-color: gray;
 }
 
-.card-title{
+.card_title_container{
   margin-top: 1rem;
 }
 
-.card-body-wrapper ul {
+/* .card-body-wrapper ul {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -106,7 +165,7 @@ body{
   color: rgb(245, 73, 73);
   font-weight: 450;
   font-size: 20px;
-}
+} */
 
 #imgSrc {
   width: 70%;
@@ -128,7 +187,7 @@ body{
   margin-top: 25px;
   font-size: 50px;
   cursor: pointer;
-  color: #0086b3;
+
   text-shadow: 5px 8px 15px rgb(247, 192, 192);
   transition: .5s;
   
@@ -152,7 +211,8 @@ input{
   text-shadow: 2px 2px 3px #2a93b6;
 }
 
-.thumbs-up{
+
+/* .thumbs-up{
   padding: 10px 15px;
   background: #0080ff;
   font-size: 18px;
@@ -161,7 +221,7 @@ input{
   color: tomato;
   border-radius: 5px;
   cursor: pointer;
-}
+} */
 .cardForm{
   background-color: black !important;
 }
@@ -173,11 +233,33 @@ input{
 .btndis{
   background-color: #b93a49;
 }
+.home-btn{
+    background: #0080ff;
+    transform: translateY(-150%);
+    color: white;
+    box-shadow: 0px 15px 25px;
+}
 
 @media (min-width: 575px) and (max-width: 768) {
+  .navbar ul li.search {
+    position: relative;
+    left: 0vh;
+    color:#222 !important;
+  }
+ 
   .card-img {
     height: 12rem;
     width: 100%;
     object-fit: cover;
+  }
+}
+@media (max-width: 992px) {
+
+  /* navbar */
+
+  .navbar ul li.search {
+    position: relative;
+    left: 0vh;
+    color:#222 !important;
   }
 }
