@@ -1,11 +1,11 @@
 var db = new Dexie("tempDB");
 db.version(1).stores({
-    tempDB: 'foodName, prepTime, description, imgSrc, recipe'
+    tempDB: 'foodName, likes, prepTime, description, imgSrc, recipe'
 })
 
 var dbx = new Dexie('Recipes')
 dbx.version(1).stores({
-    Recipes: 'foodName, prepTime, description, imgSrc, recipe'
+    Recipes: 'foodName, likes, prepTime, description, imgSrc, recipe'
 })
 
 function approveRecipe(element) {
@@ -15,15 +15,16 @@ function approveRecipe(element) {
     //     log(header)
     // }
     db.tempDB.where("foodName").equals(fn).each(f => {
-        const newFOod = {
+        const newFood = {
             foodName: f.foodName,
             prepTime: f.prepTime,
+            likes: 0,
             description: f.description,
             imgDrc: f.imgSrc,
             recipe: f.recipe
         }
-        log(newFOod)
-        dbx.Recipes.put(newFOod).then(() => {
+        log(newFood)
+        dbx.Recipes.put(newFood).then(() => {
             log("Recipe has been approved")
         })
     })

@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     var db = new Dexie("Recipes");
     db.version(1).stores({
-        Recipes: 'foodName, prepTime, imgSrc, recipe, description'
+        Recipes: 'foodName, likes, prepTime, imgSrc, recipe, description'
     })
     recipes.forEach((item, index) => {
 

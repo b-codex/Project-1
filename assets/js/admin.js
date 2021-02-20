@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     var db = new Dexie("tempDB");
     db.version(1).stores({
-        tempDB: 'foodName, prepTime, recipe, description'
+        tempDB: 'foodName, prepTime, recipe, description, ingredients'
     })
     db.tempDB.toArray((result) => {
         for (const iterator of result) {

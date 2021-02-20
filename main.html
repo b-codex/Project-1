@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Keshen | Main</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="card-container col-lg-3 col-12 my-2">
+
+                <div class="card text-center">
+                    <img src="assets/img/c1.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <div class="title d-flex justify-content-between">
+                            <h5 class="card-title">Card title</h5>
+                            <a href=""><i class="far fa-edit"></i></a>
+                        </div>
+                        <hr>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the
+                            card's content.</p>
+                        <div class="btn-group w-100" role="group" aria-label="">
+                            <button type="button" class="btn btn-light thumbs-up" id='' onclick="">👍</button>
+                            <p class="card-text text-center mx-5 likes" id="likes">0</p>
+                            <button type="button" class="btn btn-light thumbs-down" id='' onclick="">👎</button>
+                        </div>
+                        <div class="btn-group w-75 mt-2" role="group" aria-label="">
+                            <button type="button" class="btn btn-recipe" id='' onclick="">View Recipe</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://kit.fontawesome.com/24cd095fb2.js" crossorigin="anonymous"></script>
+
+    <script type="module" src="assets/js/main.js"></script>
+    <script src="assets/js/vote.js"></script>
+    <script type="module" src="assets/js/dexieApp.js"></script>
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>

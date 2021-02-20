@@ -1,8 +1,8 @@
 export let recipes = [{
         foodName: 'Chicken Fried Steak Fingers',
+        likes: 0,
         prepTime: '30 Min(s)',
         description: 'Comfort food gets turned into finger food with these Chicken Fried Steak Fingers served with a Creole Mustard Sauce.',
-        likes: 0,
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Chicken-Fried-Steak-Fingers-1a.jpg',
         recipe: {
             ingredients: [
@@ -39,9 +39,9 @@ export let recipes = [{
     },
     {
         foodName: 'Vidalia Onion Dip',
+        likes: 0,
         prepTime: '30 Min(s)',
         description: 'Vidalia Onion Dip is fantastically cheesy and creamy with lots of sweet onion flavor. Only 6 ingredients needed to make this party favorite.',
-        likes: 0,
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Vidalia-Onion-Dip-2.jpg',
         recipe: {
             ingredients: [
@@ -62,9 +62,9 @@ export let recipes = [{
     },
     {
         foodName: 'Bisquick Cinnamon Rolls',
+        likes: 0,
         prepTime: '',
         description: 'Covered in a sugary glaze, these cinnamon rolls are lick your fingers good. You only need a handful of ingredients, all of which you probably have on hand, except maybe the buttermilk. I always have buttermilk on hand. Between making biscuits and pancakes, I use it weekly.',
-        likes: 0,
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Pillsbury-Cinnamon-Rolls-4.jpg',
         recipe: {
             ingredients: [
@@ -97,9 +97,9 @@ export let recipes = [{
     },
     {
         foodName: 'French Dip Pinwheels',
+        likes: 0,
         prepTime: '30 Min(s)',
         description: 'This finger food makes an easy appetizer or gameday snack. Crescent roll dough and deli-sliced roast beef make this recipe a breeze to prepare. An easy Au Jus is made while the pinwheels bake. It’s a combination of garlic, beef broth, Worcestershire sauce, thyme, and a beef bouillon cube.',
-        likes: 0,
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/French-Dip-Pinwheels-10.jpg',
         recipe: {
             ingredients: [
@@ -136,9 +136,9 @@ export let recipes = [{
     },
     {
         foodName: 'Southern Broccoli Casserole',
+        likes: 0,
         prepTime: '55 Min(s)',
         description: 'A cheesy, creamy broccoli casserole with a ritz cracker topping that is a favorite southern side.',
-        likes: 0,
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Broccoli-Casserole-5.jpg',
         recipe: {
             ingredients: [
@@ -165,9 +165,9 @@ export let recipes = [{
     },
     {
         foodName: 'Nutella Brownies',
+        likes: 0,
         prepTime: '45 Min(s)',
         description: 'These Nutella Brownies have tons of that awesome chocolate and hazelnut Nutella flavor. They are unbelievably delicious.',
-        likes: 0,
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Nutella-Brownies-8.jpg',
         recipe: {
             ingredients: [
@@ -195,9 +195,9 @@ export let recipes = [{
     },
     {
         foodName: 'Slow Cooker Spicy Cabbage Beef Soup',
+        likes: 0,
         prepTime: '6 Hours',
         description: 'Slow Cooker Spicy Cabbage Beef Soup is full of browned ground beef, onion, cabbage and tomatoes. It\'s a simple soup, but with so much flavor, plus it\'s low carb.',
-        likes: 0,
         imgSrc: 'https://spicysouthernkitchen.com/wp-content/uploads/Slow-Cooker-Spicy-Cabbage-Beef-Soup-2.jpg',
         recipe: {
             ingredients: [
@@ -224,9 +224,9 @@ export let recipes = [{
     },
     {
         foodName: 'Shiro',
+        likes: 0,
         prepTime: '5 minutes',
         description: 'Every Ethiopian has a love/hate relationship with shiro. It’s the household staple that can cure any rainy day and the “shut down” response to every child’s request to eat out. Many McDonald’s dreams have been crushed by shiro, until we go to college and become sick of fast food, but crave a warm plate of shiro. It’s a complicated relationship.',
-        likes: 0,
         imgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/2020-05/1/13/asset/a2ec98e6b6fe/sub-buzz-1077-1588339850-2.jpg?downsize=600:*&output-format=auto&output-quality=auto',
         recipe: {
             ingredients: [
@@ -251,9 +251,9 @@ export let recipes = [{
     ,
     {
         foodName: 'Miser Wot',
+        likes: 0,
         prepTime: '30-60 Minutes',
         description: 'This popular spice blend provides a distinctive earthy, tangy and slightly spicy flavor to the lentils, which makes this red lentil recipe absolutely divine.',
-        likes: 0,
         imgSrc: 'https://spicecravings.com/wp-content/uploads/2018/10/Misir-Wot-1.jpg',
         recipe: {
             ingredients: [
@@ -284,9 +284,9 @@ export let recipes = [{
     },
     {
         foodName: 'Sega Wot',
+        likes: 0,
         prepTime: '1-2 hours',
         description: 'Sega Wot is a food love among Ethiopian people which is made with beef or other cattle meat and a variety of spices with the number one spice being the red pepper coommonly know as the berbere',
-        likes: 0,
         imgSrc: 'https://allaboutethio.com/images/sega-wot.jpg',
         recipe: {
             ingredients: [
@@ -311,9 +311,9 @@ export let recipes = [{
     },
     {
         foodName: 'Tibis',
+        likes: 0,
         prepTime: '30-45 mins',
         description: 'This dish is super easy to make, You can buy it online or in places like Whole Foods or Cost Plus Market, or you can make it yourself. You will also need clarified butter, although this tastes more authentic if you make your own Ethiopian spiced butter. Of the many spices listed in the ingredients, the most important is the fenugreek. It is this spice that makes the version of tibs we served at Horn of Africa different from most others.',
-        likes: 0,
         imgSrc: 'https://honest-food.net/wp-content/uploads/2014/05/tibs-recipe-vert-lg.jpg',
         recipe: {
             ingredients: [
@@ -340,9 +340,9 @@ export let recipes = [{
     },
     {
         foodName: 'Genfo',
+        likes: 0,
         prepTime: '20-40 Mins',
         description: 'Genfo is an Ethiopian delicacy, enjoyed by many from the elders to the smallest of the children, Genfo is usually made or cooked when a woman gives birth and is in her first 2 weeks and it is a tradition to eat the genfo with family members and guests. It can be made from wheat flour to normal flour and has different recipes, but usually all contain a middle dipping of berbere spice',
-        likes: 0,
         imgSrc: 'https://howtocookgreatethiopian.com/new/wp-content/uploads/ethiopian-food-genfo-porrige-breakfast-bulla-kibe-768x384.jpg',
         recipe: {
             ingredients: [
@@ -365,9 +365,9 @@ export let recipes = [{
     },
     {
         foodName: 'Marcus Samuelsson’s Tibs',
+        likes: 0,
         prepTime: '50 Min(s)',
         description: 'Aromatics like rosemary and cumin brighten up cubed beef tenderloin in this recipe from award-winning chef Marcus Samuelsson.',
-        likes: 0,
         imgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/2020-06/25/13/asset/304573dba2de/sub-buzz-4934-1593092946-21.jpg?downsize=600:*&output-format=auto&output-quality=auto',
         recipe: {
             ingredients: [
@@ -405,9 +405,9 @@ export let recipes = [{
     },
     {
         foodName: 'Ethiopian Collard Greens (Gomen)',
+        likes: 0,
         prepTime: '30 Min(s)',
         description: 'Ethiopian Collard Greens aka Ye’abasha Gomen- Braised collard greens and kale seasoned with aromatics. Quick, easy, and tasty.',
-        likes: 0,
         imgSrc: 'https://www.africanbites.com/wp-content/uploads/2015/10/IMG_60211.jpg',
         recipe: {
             ingredients: [
@@ -432,9 +432,9 @@ export let recipes = [{
     },
     {
         foodName: 'Spiced Lentil Sambusas',
+        likes: 0,
         prepTime: '40 Min(s)',
         description: 'Sambusas are a tasty snack that can either be fried or baked and filled with just about anything. This lentil-stuffed version is great if you\'re looking for a vegetarian version to whip up.',
-        likes: 0,
         imgSrc: 'https://images.food52.com/LywDB7sX0ZysEmfgVO_4SSEyZac=/660x440/1df47003-365f-46e5-bba7-585e0bc5b10d--IMG_0272.JPG',
         recipe: {
             ingredients: [
@@ -468,9 +468,9 @@ export let recipes = [{
     },
     {
         foodName: 'Kitfo',
+        likes: 0,
         prepTime: '',
         description: 'Kitfo is a traditional dish that\'s similar to beef tartare. Served up with injera, it can be eaten as an appetizer.',
-        likes: 0,
         imgSrc: 'https://www.africanfoodmap.com/wp-content/uploads/2017/03/kitfo-610x407.jpg',
         recipe: {
             ingredients: [
@@ -497,9 +497,9 @@ export let recipes = [{
     },
     {
         foodName: 'Quant\'a Firfir',
+        likes: 0,
         prepTime: '25 Min(s)',
         description: 'This meal of dried beef and injera is typically eaten for breakfast in Ethiopia.',
-        likes: 0,
         imgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/2020-05/1/13/asset/a2ec98e6b6fe/sub-buzz-1081-1588340073-2.jpg?downsize=600:*&output-format=auto&output-quality=auto',
         recipe: {
             ingredients: [
@@ -527,9 +527,9 @@ export let recipes = [{
     },
     {
         foodName: 'Kai Wot',
+        likes: 0,
         prepTime: '60 Min(s)',
         description: 'This recipe is similar to wat but uses beef instead of chicken. It doesn\'t hold back on the heat, so this is great if you\'re a spice lover.',
-        likes: 0,
         imgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/2020-05/1/13/asset/3315d785b2c0/sub-buzz-1080-1588340405-8.jpg?downsize=600:*&output-format=auto&output-quality=auto',
         recipe: {
             ingredients: [
@@ -552,9 +552,9 @@ export let recipes = [{
     },
     {
         foodName: 'Siga Tibs and Ethiopian Salad',
+        likes: 0,
         prepTime: '15 Min(s)',
         description: 'A refreshing Ethiopian salad with a little bit of spice plus injera are two great accompaniments for this beef centerpiece.',
-        likes: 0,
         imgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/2020-06/25/13/asset/3520e2c918aa/sub-buzz-4937-1593091740-8.jpg?downsize=600:*&output-format=auto&output-quality=auto',
         recipe: {
             ingredients: [
@@ -599,9 +599,9 @@ export let recipes = [{
     },
     {
         foodName: 'Roll Cake with Raspberry Cake Filling (Roulade)',
+        likes: 0,
         prepTime: '55 Min(s)',
         description: 'A vanilla bean roulade cake, filled with sweet raspberry cream and covered in thick chocolate ganache, perfect for Valentine\'s Day.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2014/02/Raspberry-roulade-cake-roll-recipe-8-1024x1536.jpg',
         recipe: {
             ingredients: [
@@ -631,9 +631,9 @@ export let recipes = [{
     },
     {
         foodName: 'Pumpkin Pound Cake with Chocolate Ganache',
+        likes: 0,
         prepTime: '50 Min(s)',
         description: 'This pound cake recipe offers warm fall flavors like pumpkin spice and maple, drizzled with thick ribbons of chocolate ganache.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2019/10/Pumpkin-Pound-Cake-Recipe-1007.jpg',
         recipe: {
             ingredients: [
@@ -664,9 +664,9 @@ export let recipes = [{
     },
     {
         foodName: 'Chocolate Zucchini Muffins',
+        likes: 0,
         prepTime: '40 Min(s)',
         description: 'Amazing Zucchini Nutella Swirl Muffins Recipe - A little veggie, a little chocolate, and a whole lot of yum!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2013/01/zucchini-nutella-muffins-11-1085x1536.jpg',
         recipe: {
             ingredients: [
@@ -692,9 +692,9 @@ export let recipes = [{
     },
     {
         foodName: 'Blueberry Muffin Cake',
+        likes: 0,
         prepTime: '80 Min(s)',
         description: 'Blueberry Muffin Cake - This simple and sweet blueberry cake recipe is loaded with blueberries and lemon zest, and topped with a buttermilk glaze and crispy crumbly oats.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2019/05/blueberry-bundt-cake-11-1124x1536.jpg',
         recipe: {
             ingredients: [
@@ -727,9 +727,9 @@ export let recipes = [{
     },
     {
         foodName: 'Berbere Spiced Chicken Breasts',
+        likes: 0,
         prepTime: '20 Min(s)',
         description: 'One of my favorite uses for berbere spice is this chicken breast recipe. But you can use a pork chop or a piece of lamb, it\'s so versatile.',
-        likes: 0,
         imgSrc: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F02%2F4137859.jpg',
         recipe: {
             ingredients: [
@@ -755,9 +755,9 @@ export let recipes = [{
     },
     {
         foodName: 'Key Sir Alicha (Ethiopian Beets and Potatoes)',
+        likes: 0,
         prepTime: '55 Min(s)',
         description: 'If you love Ethiopian food, this is a must-try. This is one of my favorite dishes. Serve hot over injera with the sauce to soak up.',
-        likes: 0,
         imgSrc: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3374273.jpg&w=596&h=399&c=sc&poi=face&q=85',
         recipe: {
             ingredients: [
@@ -779,9 +779,9 @@ export let recipes = [{
     },
     {
         foodName: 'Buffalo Chicken Mac and Cheese',
+        likes: 0,
         prepTime: '60 Min(s)',
         description: 'Our quick and easy Buffalo Chicken Mac and Cheese, using whole grain pasta, scores winning points on the home front!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2012/02/buffalo-chicken-mac-and-cheese-8.jpg',
         recipe: {
             ingredients: [
@@ -809,7 +809,7 @@ export let recipes = [{
         foodName: 'Alcha Doro',
         prepTime: '3 Hr 50 Min(s)',
         description: 'This is just the most-delicious Ethiopian main dish. Absolutely wonderful.',
-        likes: 0,
+        likes: "0",
         imgSrc: 'https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F5083335.jpg&w=596&h=399&c=sc&poi=face&q=85',
         recipe: {
             ingredients: [
@@ -844,9 +844,9 @@ export let recipes = [{
     },
     {
         foodName: 'Instant Pot Italian Chicken Orzo',
+        likes: 0,
         prepTime: '26 Min(s)',
         description: 'Instant Pot Italian Chicken Orzo Recipe – An easy one-pot pressure cooker meal with robust Italian flavors of tomato, rosemary, thyme and basil.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2018/04/instant-pot-herb-chicken-orzo-recipe-12-1.jpg',
         recipe: {
             ingredients: [
@@ -872,9 +872,9 @@ export let recipes = [{
     },
     {
         foodName: 'Italian Mac & Cheese',
+        likes: 0,
         prepTime: '50 Min(s)',
         description: 'Italian Mac and Cheese – This homemade melty and oozy baked mac and cheese recipe is loaded with Italian goodies. It’s così delizioso!!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2013/01/italian-mac-and-cheese-16-1086x1536.jpg',
         recipe: {
             ingredients: [
@@ -906,9 +906,9 @@ export let recipes = [{
     },
     {
         foodName: 'Zoodles (Zucchini Noodles) with Tomatoes and Capers',
+        likes: 0,
         prepTime: '15 Min(s)',
         description: 'Zoodles (Zucchini Noodles) – This raw 5-Ingredient zoodles is a healthy zucchini noodles recipe you’ll make all through the warm months. It’s fresh, fast, and furiously flavorful.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2015/04/Zoodles-with-capers-6-1024x1536.jpg',
         recipe: {
             ingredients: [
@@ -926,9 +926,9 @@ export let recipes = [{
     },
     {
         foodName: 'Shrimp Scampi Greek Pasta',
+        likes: 0,
         prepTime: '35 Min(s)',
         description: 'Shrimp Scampi Greek Pasta – Fresh and zesty pasta that’s easy to make and so delicious. This creamy pasta dish is sure to become a family favorite.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2015/12/greek-shrimp-pasta-recipe-10-1066x1536.jpg',
         recipe: {
             ingredients: [
@@ -956,9 +956,9 @@ export let recipes = [{
     },
     {
         foodName: 'Cantonese Pan Fried Noodles (Pork Lo Mein)',
+        likes: 0,
         prepTime: '30 Min(s)',
         description: 'Cantonese Pan Fried Noodles (Pork Lo Mein) – Our pan-fried noodles AKA pork lo mein recipe is savory, slightly spicy, and packed with flavor. Made with fresh veggies and stir-fried pork, it’s a light and healthy dish that’s easy to make in only 30 minutes!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2016/06/Cantonese-Pan-Fried-Noodles-Pork-Lo-Mein-11-1151x1536.jpg',
         recipe: {
             ingredients: [
@@ -987,9 +987,9 @@ export let recipes = [{
     },
     {
         foodName: 'Ricotta Stuffed Shells',
+        likes: 0,
         prepTime: '40 Min(s)',
         description: 'Comfort in a baking dish… our Ricotta Stuffed Shells Recipe is the perfect back to school dinner, and also great for cozy holiday meals! Plus, crockpot instructions.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/source/rev-b316e4c/wp-content/uploads/2016/08/ricotta-stuffed-shells-recipe-19.jpg',
         recipe: {
             ingredients: [
@@ -1016,9 +1016,9 @@ export let recipes = [{
     },
     {
         foodName: 'Easy Chicken Cacciatore Recipe',
+        likes: 0,
         prepTime: '32 Min(s)',
         description: 'Easy Chicken Cacciatore Recipe – Fresh and flavorful, this chicken cacciatore tastes just like your favorite Italian restaurant dish, but is easily homemade in only about 30 minutes!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/source/rev-b316e4c/wp-content/uploads/2010/01/chicken-cacciatore-recipe.jpg',
         recipe: {
             ingredients: [
@@ -1045,9 +1045,9 @@ export let recipes = [{
     },
     {
         foodName: 'Pimento Grilled Cheese Recipe with Fried Green Tomatoes',
+        likes: 0,
         prepTime: '40 Min(s)',
         description: 'Southern Pimento Grilled Cheese Recipe with Fried Green Tomatoes. The Best Grilled Cheese Sandwiches you’ve ever tasted!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2020/04/pimento-grilled-cheese-recipe-19-650x840.jpg',
         recipe: {
             ingredients: [
@@ -1078,9 +1078,9 @@ export let recipes = [{
     },
     {
         foodName: 'Zesty Gyros with Homemade Lamb Gyro Meat',
+        likes: 0,
         prepTime: '55 Min(s)',
         description: 'Zesty Gyros with Homemade Lamb Gyro Meat Recipe – The secret for enjoying the best authentic Greek-style gyros at home is our easy lamb meatloaf recipe, made in the oven with no spit roaster required!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2020/06/gyro-recipe-17-650x910.jpg',
         recipe: {
             ingredients: [
@@ -1114,9 +1114,9 @@ export let recipes = [{
     },
     {
         foodName: 'Lamb Burgers with Tabbouleh and Grilled Peppers',
+        likes: 0,
         prepTime: '33 Min(s)',
         description: 'Lamb Burgers with Tabbouleh and Grilled Peppers – Fire up the grill for our healthier lamb burger recipe, that’s packed with bright Mediterranean flavors, and topped with homemade Tabbouleh and a spicy Jalapeno Mint Yogurt Sauce.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2015/05/lamb-burgers-tabbouleh-20.jpg',
         recipe: {
             ingredients: [
@@ -1151,9 +1151,9 @@ export let recipes = [{
     },
     {
         foodName: 'Best Maine Lobster Roll Recipe (Authentic)',
+        likes: 0,
         prepTime: '21 Min(s)',
         description: 'There\'s nothing quite like buttery toasted Lobster Roll with plump juicy lobster salad piled high. Learn how to make them at home just like they do in Maine!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2020/06/lobster-roll-recipe-18-650x975.jpg',
         recipe: {
             ingredients: [
@@ -1179,9 +1179,9 @@ export let recipes = [{
     },
     {
         foodName: 'Crock Pot Brisket Sandwiches (Texas BBQ Beef)',
+        likes: 0,
         prepTime: '7 Hrs 45 Min(s)',
         description: 'Crock Pot Brisket (Texas BBQ Beef): We are CRAZY over this Slow Cooker Chopped Beef Recipe. It’s tender, smoky, and spicy-sweet.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/source/rev-b316e4c/wp-content/uploads/2020/01/Crock-Pot-Brisket-Sandwiches-Texas-BBQ-Beef-20-650x921.jpg',
         recipe: {
             ingredients: [
@@ -1210,9 +1210,9 @@ export let recipes = [{
     },
     {
         foodName: 'Spicy Cowboy Bacon Burgers',
+        likes: 0,
         prepTime: '25 Min(s)',
         description: 'Spicy Cowboy Bacon Burgers Recipe: Hamburger patties made with ground beef, jalapeno, and diced bacon, grilled and stacked with spicy cheese, barbecue sauce, and fried onions!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/source/rev-b316e4c/wp-content/uploads/2019/05/spicy-cowboy-bacon-burgers-recipe-31-650x926.jpg',
         recipe: {
             ingredients: [
@@ -1238,9 +1238,9 @@ export let recipes = [{
     },
     {
         foodName: 'New Orleans Muffuletta Sandwich',
+        likes: 0,
         prepTime: '15 Min(s)',
         description: 'New Orleans Muffuletta Sandwich – A monster of a sandwich piled high with multiple types of meat and cheese, and a perky olive salad.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2010/04/new-orleans-muffuletta-12.jpg',
         recipe: {
             ingredients: [
@@ -1274,9 +1274,9 @@ export let recipes = [{
     },
     {
         foodName: 'Vietnamese Banh Mi Sandwich',
+        likes: 0,
         prepTime: '1 Hr 10 Min(s)',
         description: 'Vietnamese Banh Mi Sandwich Recipe: One of the most vibrant and delicious sandwiches in the world. Loaded with fresh vegetables, grilled meat, and piled high on a french baguette. If you’ve never tried a Banh Mi Sandwich… It’s time.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2010/07/vietnamese-banh-mi-sandwich-12.jpg',
         recipe: {
             ingredients: [
@@ -1314,9 +1314,9 @@ export let recipes = [{
     },
     {
         foodName: 'Easy Sesame Chicken Burgers',
+        likes: 0,
         prepTime: '22 Min(s)',
         description: 'These Easy Sesame Chicken Burgers are a mean lean hamburger variation with massive Asian appeal!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/source/rev-b316e4c/wp-content/uploads/2018/08/Easy-Sesame-Chicken-Burgers-16.jpg',
         recipe: {
             ingredients: [
@@ -1345,9 +1345,9 @@ export let recipes = [{
     },
     {
         foodName: 'Grilled French Onion Steak Sliders',
+        likes: 0,
         prepTime: '23 Min(s)',
         description: 'Hot cheesy Grilled French Onion Steak Sliders make a perfect tailgate and party snack for fall!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2017/09/grilled-french-onion-steak-sliders-35.jpg',
         recipe: {
             ingredients: [
@@ -1376,9 +1376,9 @@ export let recipes = [{
     },
     {
         foodName: 'Hawaiian Tuna Burgers with Grilled Pineapple',
+        likes: 0,
         prepTime: '30 Min(s)',
         description: 'Let’s say goodbye to Burger Month with light and flavorful Ahi Tuna Burgers topped with sweet Grilled Pineapple. Big island flavor stacked high on a bun. ',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2013/06/Ahi-Tuna-Burgers-with-Grilled-Pineapple-10.jpg',
         recipe: {
             ingredients: [
@@ -1412,9 +1412,9 @@ export let recipes = [{
     },
     {
         foodName: 'Whole Wheat BLT Tacos',
+        likes: 0,
         prepTime: '10 Min(s)',
         description: 'Fresh and fun Whole Wheat BLT Tacos, with add-in suggestions, great for Back to School! This quick lunch option makes everyone happy, including mom.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2016/09/whole-wheat-blt-tacos-107.jpg',
         recipe: {
             ingredients: [
@@ -1437,9 +1437,9 @@ export let recipes = [{
     },
     {
         foodName: 'Zesty Italian Burgers',
+        likes: 0,
         prepTime: '20 Min(s)',
         description: 'Rich Zesty Italian Burgers layered with pancetta, smoked mozzarella, pesto, and grilled onions. ',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/source/rev-b316e4c/wp-content/uploads/2010/08/zesty-italian-burgers-7.jpg',
         recipe: {
             ingredients: [
@@ -1474,9 +1474,9 @@ export let recipes = [{
     },
     {
         foodName: 'Pineapple Chorizo Burgers',
+        likes: 0,
         prepTime: '20 Min(s)',
         description: 'Zesty Pineapple Chorizo Burgers, great on the grill all year long!',
-        likes: 0,
         imgSrc: 'https://www.aspicyperspective.com/wp-content/uploads/2010/03/pineapple-chorizo-burger-18.jpg',
         recipe: {
             ingredients: [
@@ -1502,9 +1502,9 @@ export let recipes = [{
     },
     {
         foodName: 'Oven Baked Meatballs (Old School Italian Meatball Recipe)',
+        likes: 0,
         prepTime: '1 Hr 25 Min(s)',
         description: 'Oven Baked Meatballs Recipe – Classic Italian Meatballs are made with a combination of ground beef, pork sausage, and veal for a perfectly tender texture and incredible flavor. They’re baked in the oven before simmering in a simple tomato sauce to serve as a delicious dinner or appetizer.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2020/11/Oven-Baked-Meatballs-Old-School-Italian-Meatball-Recipe-23-650x910.jpg',
         recipe: {
             ingredients: [
@@ -1545,9 +1545,9 @@ export let recipes = [{
     },
     {
         foodName: 'Lemon Paleo Chicken Recipe',
+        likes: 0,
         prepTime: '25 Min(s)',
         description: 'Lemon Paleo Chicken Recipe: So fresh and crispy, you won’t even know it’s healthy! This Lemon Chicken is easy to make, gluten free, dairy free, and nut free!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2019/08/Lemon-paleo-chicken-9-1121x1536.jpg',
         recipe: {
             ingredients: [
@@ -1573,9 +1573,9 @@ export let recipes = [{
     },
     {
         foodName: 'Red Posole Recipe with Pork (Pozole Rojo)',
+        likes: 0,
         prepTime: '1 Hr 25 Min(s)',
         description: 'Authentic Red Posole Recipe with Pork (Pozole Rojo) This EASY posole soup offers bold spices, chunks of tender pork, and hearty hominy, with cool crunchy toppings!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2019/04/Red-Posole-Recipe-with-Pork-Pozole-Rojo-107-650x941.jpg',
         recipe: {
             ingredients: [
@@ -1615,9 +1615,9 @@ export let recipes = [{
     },
     {
         foodName: 'Forbidden Rice (Black Rice Recipe)',
+        likes: 0,
         prepTime: '60 Min(s)',
         description: 'Forbidden Black Rice Recipe – You will love this earthy flavorful Forbidden Rice with Acorn Squash and Pecans. It’s a marvelous fall and holiday Black Rice Recipe that adds color and texture to the dinner table. Forbidden rice is a vegetarian dish everyone will enjoy!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2012/10/Forbidden-Black-Rice-1007-1043x1536.jpg',
         recipe: {
             ingredients: [
@@ -1641,9 +1641,9 @@ export let recipes = [{
     },
     {
         foodName: 'Rustic Hungarian Goulash (Gulyas)',
+        likes: 0,
         prepTime: '1 Hr 55 Min(s)',
         description: 'Rustic Hungarian Goulash (Gulyas) – Our robust recipe for classic Hungarian Goulash includes chunks of beef, potatoes, and lots of paprika to create a perfectly delicious and hearty stew.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2020/08/rustic-hungarian-goulash-recipe-8-650x928.jpg',
         recipe: {
             ingredients: [
@@ -1672,9 +1672,9 @@ export let recipes = [{
     },
     {
         foodName: 'Easy Chicken Kiev Recipe',
+        likes: 0,
         prepTime: '25 Min(s)',
         description: 'Easy Chicken Kiev Recipe – This stuffed pan-fried chicken dish is a simplified but still wonderfully decadent version of classic Chicken Kiev.',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2020/08/easy-chicken-kiev-17-650x913.jpg',
         recipe: {
             ingredients: [
@@ -1703,9 +1703,9 @@ export let recipes = [{
     },
     {
         foodName: 'Best Simple Roti (Chapati Recipe)',
+        likes: 0,
         prepTime: '42 Min(s)',
         description: 'Best Simple Roti – This easy homemade Chapati recipe makes the best authentic, absolutely delicious tortilla-like roti bread to enjoy with your favorite Indian-inspired dishes!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2020/08/best-simple-roti-11-650x929.jpg',
         recipe: {
             ingredients: [
@@ -1726,9 +1726,9 @@ export let recipes = [{
     },
     {
         foodName: 'Crockpot Enchiladas with Beef',
+        likes: 0,
         prepTime: '7 Hrs 10 Min(s)',
         description: 'Crockpot Enchiladas with Beef – A cozy delicious Easy Beef Enchiladas recipe, with a secret ingredient that makes all the difference! This best enchilada recipe is something to experience!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2015/01/Crockpot-Enchiladas-with-Beef-1003-1194x1536.jpg',
         recipe: {
             ingredients: [
@@ -1751,9 +1751,9 @@ export let recipes = [{
     },
     {
         foodName: 'Retro Taco Pizza (Layered Taco Dip)',
+        likes: 0,
         prepTime: '10 Min(s)',
         description: 'Layered Taco Pizza Dip – This easy retro dip recipe looks like a pizza but is made with all of your favorite taco goodies, including diced tomatoes, sliced olives, and LOTS of cheese. It’s perfect to customize and serve as a fun shareable appetizer or party snack!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2020/11/Retro-Taco-Pizza-Layered-Taco-Dip-108-650x950.jpg',
         recipe: {
             ingredients: [
@@ -1774,9 +1774,9 @@ export let recipes = [{
     },
     {
         foodName: 'Low Carb Supreme Pizza Cups',
+        likes: 0,
         prepTime: '25 Min(s)',
         description: 'This easy Low Carb Supreme Pizza Cups Recipe is so inviting, you won’t even miss the crust! ',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/source/rev-b316e4c/wp-content/uploads/2019/01/low-carb-sumpreme-pizza-cups-12-650x975.jpg',
         recipe: {
             ingredients: [
@@ -1802,9 +1802,9 @@ export let recipes = [{
     },
     {
         foodName: 'Supreme Pizza Lasagna',
+        likes: 0,
         prepTime: '1 Hr 10 Min(s)',
         description: 'Heavenly Supreme Pizza Lasagna – A fully loaded lasagna recipe with pepperoni, sausage, extra cheese, olives, and tons of veggies!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2018/09/supreme-pizza-lasagna-18.jpg',
         recipe: {
             ingredients: [
@@ -1838,9 +1838,9 @@ export let recipes = [{
     },
     {
         foodName: 'Grilled Greek Pizza',
+        likes: 0,
         prepTime: '36 Min(s)',
         description: 'Grilled Greek Pizza, A light and healthy mediterranean style pizza cooked on the grill! ',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2012/07/grilled-greek-pizza-5.jpg',
         recipe: {
             ingredients: [
@@ -1862,9 +1862,9 @@ export let recipes = [{
     },
     {
         foodName: 'Low Carb Cloud Bread Pizza',
+        likes: 0,
         prepTime: '45 Min(s)',
         description: 'Ultra Low Carb Cloud Bread Pizza, a gluten free and ketogenic diet friendly dinner the whole family will love!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2017/09/low-carb-cloud-bread-pizza-26.jpg',
         recipe: {
             ingredients: [
@@ -1895,9 +1895,9 @@ export let recipes = [{
     },
     {
         foodName: 'Slow Cooker Deep Dish Pizza (Chicago Style)',
+        likes: 0,
         prepTime: '2 Hrs 15 Min(s)',
         description: 'Unbelievable Slow Cooker Deep Dish Pizza. That’ right, Chicago style pizza made in the crockpot. BOOM!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/optimized/rev-b316e4c/wp-content/uploads/2016/08/slow-cooker-deep-dish-pizza-14.jpg',
         recipe: {
             ingredients: [
@@ -1926,9 +1926,9 @@ export let recipes = [{
     },
     {
         foodName: 'Grilled Chicken Teriyaki Pizza',
+        likes: 0,
         prepTime: '15 Min(s)',
         description: 'Hot sizzling Grilled Chicken Teriyaki Pizza with fresh pineapple and bacon… Heaven!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/source/rev-b316e4c/wp-content/uploads/2016/06/grilled-chicken-teriyaki-pizza-18.jpg',
         recipe: {
             ingredients: [
@@ -1950,9 +1950,9 @@ export let recipes = [{
     },
     {
         foodName: 'Fig Prosciutto Pizza',
+        likes: 0,
         prepTime: '40 Min(s)',
         description: 'Tangy-sweet and savoy Fig Prosciutto Pizza with homemade pizza crust. A family favorite great for the oven or grill!',
-        likes: 0,
         imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/source/rev-b316e4c/wp-content/uploads/2010/02/fig-prosciutto-pizza-12.jpg',
         recipe: {
             ingredients: [
@@ -1985,9 +1985,9 @@ export let recipes = [{
     
     {
         foodName: 'Banana Bread Muffins',
+        likes: 0,
         prepTime: ' 45 mints',
         description: 'Moist, decadent, and delightful BANANA BREAD MUFFINS are sweet snacks you can enjoy any time of the year. This light and easy recipe will surely be your next baked superstar with its fantastic flavor and aroma. Make this ahead, reheat and kids would still enjoy them even for breakfast!',
-        likes: 0,
         imgSrc: 'https://www.africanbites.com/wp-content/uploads/2020/10/IMG_9835.jpg',
         recipe: {
                 ingredients: [
@@ -2016,9 +2016,9 @@ export let recipes = [{
             },
             {
                 foodName: 'Beyaynetu (Ethiopian Combination Platter)',
+                likes: 0,
                     prepTime: ' 45 mints',
                     description: 'Shiro Wat,Miser Wat (Spiced Red Lentils),Kik Alicha (Yellow Split Pea Stew),Gomen (Sautéed Collard Greens),Dinich ena Karat Alicha (Potato and Carrot Stew),Key Sire Alicha (Beets, Potatoes and Carrots Stew)',
-                    likes: 0,
                     imgSrc: 'https://petitworldcitizen.files.wordpress.com/2015/01/img_0092.jpg?w=1024',
                     recipe: {
                         ingredients: [
@@ -2087,9 +2087,9 @@ export let recipes = [{
         },
         {
             foodName: 'Doro Wot(Ethiopian National Chicken Dish)',
+            likes: 0,
             prepTime: ' 45 min',
             description: 'Advanced Level.his dish is meant to be one component of a larger Ethiopian meal. Serve with the Braised Cabbage, Carrots and Potatoes, Red Lentils (Misr Wat), Braised Beef with Peppers (Zilzil Tibs) and Quick Injera, layering the injera on a platter and mounding a portion of each dish on top. Tear off pieces of the injera to use as a "utensil" for scooping up bites of each.',
-            likes: 0,
             imgSrc: 'https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2015/6/5/0/CCATHSP1_ethiopian-injera-bread-with-doro-wat_s4x3.jpg.rend.hgtvcom.826.620.suffix/1433564349717.jpeg',
             recipe: {
                 ingredients: [
@@ -2126,9 +2126,9 @@ export let recipes = [{
         }, 
         {
             foodName: 'CINNABON CINNAMON ROLL CAKE',
+            likes: 0,
             prepTime: '35 MINUTES',
             description: 'Cinnamon Roll Cake is a cinnamon roll turned into a gooey gooey delicious cake! Swirled with buttery brown sugar cinnamon and topped with a glaze… this is the BEST cake EVER!!',
-            likes: 0,
             imgSrc: 'https://therecipecritic.com/wp-content/uploads/2012/08/cinnamon_roll_cake1-1-667x1000.jpg',
             recipe: {
                 ingredients: [

@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 body {
   overflow-x: hidden;
@@ -228,7 +227,7 @@ header .carousel-control-prev {
 
 .disapproveButton:hover{
   transition: all .3s linear;
-  background-color: red;
+  background-color: rgb(241, 95, 95);
 }
 
 /* Admin Page Cards */

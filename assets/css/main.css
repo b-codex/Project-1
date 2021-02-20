@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+
+*{
+    font-family: 'Quicksand', 'Roboto';
+}
+
+.fa, .far, .fas{
+    font-family: "Font Awesome 5 Free";
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.btn-recipe{
+    background-color: tomato;
+    transition: all .3s linear;
+}
+
+.btn-recipe:hover{
+    background-color: rgb(255, 38, 0);
+}
+
+.thumbs-up, .thumbs-down{
+    transition: all .3s linear;
+}
+
+.thumbs-up:hover{
+    background-color: rgb(23, 221, 23);
+}
+
+.thumbs-down:hover{
+    background-color: rgb(241, 95, 95);
+}
