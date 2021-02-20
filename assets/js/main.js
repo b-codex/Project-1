@@ -1,35 +1,20 @@
-import {
-    recipes
-} from "./recipes.js"
+import postRecipeToDB from "./postRecipeToDB.js"
 
 let log = console.log
 document.addEventListener('DOMContentLoaded', () => {
 
     var db = new Dexie("Recipes");
     db.version(1).stores({
-        Recipes: 'foodName, likes, prepTime, imgSrc, recipe, description'
+        Recipes: 'foodName, likes, prepTime, description, imgSrc, recipe '
     })
-    recipes.forEach((item, index) => {
 
-        let newRecipe = {
-            foodName: item.foodName,
-            prepTime: item.prepTime,
-            imgSrc: item.imgSrc,
-            likes: item.likes,
-            recipe: item.recipe,
-            description: item.description
-        }
+    // postRecipeToDB()
 
-        db.Recipes.put(newRecipe).catch((err) => log(err.message))
-
-    })
     db.Recipes.toArray((result) => {
         for (const iterator of result) {
-            // log(iterator)
             
             let x = document.querySelector('.row')
-            // log(x)
-            // log(iterator.imgSrc)
+
             let output = `
             
             <div class="card-container col-lg-3 col-12 my-2">
@@ -58,15 +43,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
 
             </div>
-            
             `
-            
-            x.innerHTML += output
 
+            x.innerHTML += output
         }
     })
-
-
-
-
 })

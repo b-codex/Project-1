@@ -2,16 +2,32 @@ let log = console.log
 
 function voteUp(element) {
     const foodName = element.parentElement.parentElement.firstElementChild.firstElementChild.textContent
-    
+
     var db = new Dexie("Recipes");
     db.version(1).stores({
         Recipes: 'foodName, likes, prepTime, imgSrc, recipe, description'
     })
 
-    db.Recipes.where('foodName').equals(foodName).modify({
-        votes: 2
-    }).then(() => {
+    db.Recipes.where('foodName').equals(foodName).modify((value) => {
+        value.likes += 1
+    })
+    .then(() => {
         window.location.reload()
-        log('done')
+    })
+}
+
+function voteDown(element) {
+    const foodName = element.parentElement.parentElement.firstElementChild.firstElementChild.textContent
+
+    var db = new Dexie("Recipes");
+    db.version(1).stores({
+        Recipes: 'foodName, likes, prepTime, imgSrc, recipe, description'
+    })
+
+    db.Recipes.where('foodName').equals(foodName).modify((value) => {
+        value.likes -= 1
+    })
+    .then(() => {
+        window.location.reload()
     })
 }
