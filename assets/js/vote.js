@@ -1,5 +1,3 @@
-let log = console.log
-
 function voteUp(element) {
     const foodName = element.parentElement.parentElement.firstElementChild.firstElementChild.textContent
 

@@ -4,8 +4,7 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
-  padding-top: o;
-  
+  padding-top: o;  
 }
 
 li {
@@ -232,13 +231,33 @@ header .carousel-control-prev {
 
 /* Admin Page Cards */
 
-#imgSrcCard{
-  width: 270px !important;
-  height: 270px !important;
+.imgSrcCard{
+  width: 100% !important;
+  height: 14rem !important;
 }
 
 
 /* custom css classes */
+
+*{
+  font-family: 'Quicksand', 'Roboto';
+}
+
+.fa, .far, .fas{
+  font-family: "Font Awesome 5 Free";
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.btn-recipe{
+  background-color: tomato;
+  transition: all .3s linear;
+}
+
+.btn-recipe:hover{
+  background-color: rgb(255, 38, 0);
+}
 
 .color-tomato{
   color: tomato !important;
@@ -322,12 +341,6 @@ header .carousel-control-prev {
   align-items: center;
   text-align: justify;
 }
-
-.card-title {
-  text-align: center;
-  padding-top: 2%;
-}
-
 
 .card-ui-img {
   /* background-color: #4292dc; */

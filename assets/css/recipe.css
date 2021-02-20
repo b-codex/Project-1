@@ -1,7 +1,7 @@
 
 body{
     /* background: gainsboro; */
-    font-family: Oxygen, sans-serif;
+    /* font-family: Oxygen, sans-serif; */
     /* margin: 2rem; */
     display: flex;
     flex-direction: column;
@@ -48,14 +48,6 @@ body{
     height: 19rem;
     width: 100%;
     object-fit: cover;
-}
-.card-title{
-    padding: 0 1rem;
-    margin: 1rem;
-    letter-spacing: 2px;
-    font-size: 23px;
-    
-
 }
 .card-body hr{
     width:80%;

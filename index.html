@@ -22,25 +22,25 @@
                 </button>
                 <div class="collapse navbar-collapse text-capitalize ml-5" id="nav-links">
                     <ul class="navbar-nav w-100 d-flex justify-content-end mr-3">
-                        <li class="nav-item active unordLi ">
+                        <li class="nav-item">
                             <a class="nav-link log" href="index.html#home">Home</a>
                         </li>
-                        <li class="nav-item unordLi">
+                        <li class="nav-item">
                             <a class="nav-link log" href="index.html#recipes" id="links">Recipes</a>
                         </li>
-                        <li class="nav-item unordLi active">
+                        <li class="nav-item">
                             <a class="nav-link log " href="contactUs.html" id="links">Contact Us</a>
                         </li>
-                        <li class="nav-item search ml-3 unordLiS">
+                        <li class="nav-item">
                             <a class="nav-link log " href="aboutUs.html" id="links">About Us</a>
                         </li>
-                        <li class="nav-item search ml-3 unordLiS">
+                        <li class="nav-item">
                             <a class="nav-link log " href="login.html" id="links">Login</a>
                         </li>
-                        <li class="nav-item search ml-3 unordLiS">
+                        <li class="nav-item">
                             <a class="nav-link log " href="register.html" id="links">Register</a>
                         </li>
-                        <!-- <li class="nav-item search ml-3 unordLiS ">
+                        <!-- <li class="nav-item search ml-3 ">
                         <a class="nav-link log " href="login.html" id="links-active">Search</a>
                     </li>  -->
                     </ul>
@@ -123,7 +123,9 @@
     <!-- Recipe -->
     <div class="container-fluid cont" id="recipes">
         <div class="row">
-
+            <div class="text-center">
+                <div class="spinner-border" role="status"></div>
+            </div>
         </div>
     </div>
     <!--End of recipe  -->
@@ -178,7 +180,7 @@
     <script src="https://kit.fontawesome.com/24cd095fb2.js" crossorigin="anonymous"></script>
 
     <script src="assets/js/script.js"></script>
-    <script src="./assets/js/viewRecipe.js"></script>
+    <script src="assets/js/viewRecipe.js"></script>
     
     <script type="module" src="assets/js/dexieApp.js"></script>
 
@@ -186,9 +188,12 @@
     <script src="https://unpkg.com/dexie@latest/dist/dexie.js"></script>
     <script src="assets/js/dexie.js"></script>
     
-    <!-- <script src="assets/js/app.js"></script> -->
-    <script src="assets/js/script.js"></script>
-
+    <script>
+        function saveOnSession(foodName) {
+            sessionStorage.setItem('foodName', foodName)
+            location.href = 'viewRecipe.html'
+        }
+    </script>
 
 </body>
 

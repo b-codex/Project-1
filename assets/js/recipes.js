@@ -1986,7 +1986,7 @@ export let recipes = [{
     {
         foodName: 'Banana Bread Muffins',
         likes: 0,
-        prepTime: ' 45 mints',
+        prepTime: ' 45 Min(s)',
         description: 'Moist, decadent, and delightful BANANA BREAD MUFFINS are sweet snacks you can enjoy any time of the year. This light and easy recipe will surely be your next baked superstar with its fantastic flavor and aroma. Make this ahead, reheat and kids would still enjoy them even for breakfast!',
         imgSrc: 'https://www.africanbites.com/wp-content/uploads/2020/10/IMG_9835.jpg',
         recipe: {
@@ -2017,7 +2017,7 @@ export let recipes = [{
             {
                 foodName: 'Beyaynetu (Ethiopian Combination Platter)',
                 likes: 0,
-                    prepTime: ' 45 mints',
+                    prepTime: ' 45 Min(s)',
                     description: 'Shiro Wat,Miser Wat (Spiced Red Lentils),Kik Alicha (Yellow Split Pea Stew),Gomen (Sautéed Collard Greens),Dinich ena Karat Alicha (Potato and Carrot Stew),Key Sire Alicha (Beets, Potatoes and Carrots Stew)',
                     imgSrc: 'https://petitworldcitizen.files.wordpress.com/2015/01/img_0092.jpg?w=1024',
                     recipe: {

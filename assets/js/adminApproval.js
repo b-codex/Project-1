@@ -20,7 +20,7 @@ function approveRecipe(element) {
             prepTime: f.prepTime,
             likes: 0,
             description: f.description,
-            imgDrc: f.imgSrc,
+            imgSrc: f.imgSrc,
             recipe: f.recipe
         }
         log(newFood)
@@ -30,6 +30,7 @@ function approveRecipe(element) {
     })
     db.tempDB.where('foodName').equals(fn).delete().then(() => {
         log("Recipe has been deleted from tempDB")
+        location.reload()
     })
 }
 
@@ -42,5 +43,6 @@ function disapproveRecipe(element) {
     db.tempDB.where("foodName").equals(fn).delete().then(() => {
         log('Recipe has been disapproved')
         log(fn + ' has been deleted from the tempDB database')
+        location.reload()
     })
 }
