@@ -1,11 +1,22 @@
-import postRecipeToDB from "./postRecipeToDB.js"
-
 let log = console.log
-document.addEventListener('DOMContentLoaded', () => {
-    var db = new Dexie("Recipes");
-    db.version(1).stores({
-        Recipes: 'foodName, likes, prepTime, description, imgSrc, recipe '
+
+const editLink = document.querySelector('#edit')
+
+var db = new Dexie("Recipes");
+db.version(1).stores({
+    Recipes: 'foodName, likes, prepTime, description, imgSrc, recipe '
+})
+
+function edit(e) {
+    let foodName = e.parentElement.firstElementChild.textContent
+
+    db.Recipes.where('foodName').equals(foodName).each((x) => {
+        let url = `edit.html?${foodName}`
+        window.location.href = url
     })
+}
+document.addEventListener('DOMContentLoaded', () => {
+
 
     // postRecipeToDB()
 
@@ -40,14 +51,6 @@ document.addEventListener('DOMContentLoaded', () => {
             let description = truncate(str, 9, '...')
             // log(description)
 
-            let loading = `
-                    <div class="text-center">
-                        <div class="spinner-border" role="status">
-                            <span class="sr-only">Loading...</span>
-                        </div>
-                    </div>
-            `
-
             // x.innerHTML = loading
 
             let output = `
@@ -57,12 +60,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="card text-center">
                     <img src="${iterator.imgSrc}" class="card-img-top imgSrcCard" alt="">
                     <div class="card-body">
-                        <div class="title text-center">
+                        <div class="title w-100 d-flex justify-content-between">
                             <h5 class="card-title">${iterator.foodName}</h5>
+                            <a href="#" id="edit" onclick="edit(this)"><i class="far fa-edit color-tomato px-1"></i></a>
                         </div>
                         <hr>
                         <p class="card-text">${description}</p>
-
+                        <div class="btn-group w-100" role="group" aria-label="">
+                            <button type="button" class="btn btn-light thumbs-up" id=''
+                                onclick="voteUp(this)">👍</button>
+                            <p class="card-text text-center likes mx-3" id="likes">${iterator.likes}</p>
+                            <button type="button" class="btn btn-light thumbs-down" id=''
+                                onclick="voteDown(this)">👎</button>
+                        </div>
                         <div class="btn-group w-75 mt-2" role="group" aria-label="">
                             <button type="button" class="btn btn-recipe text-white" id=''
                                 onclick="saveOnSession('${iterator.foodName}')">View Recipe</button>
@@ -76,4 +86,5 @@ document.addEventListener('DOMContentLoaded', () => {
             x.innerHTML += output
         }
     })
+
 })

@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     var db = new Dexie("tempDB");
     db.version(1).stores({
-        tempDB: 'foodName, prepTime, ingredients, instruction, description'
+        tempDB: 'foodName, likes, prepTime, imgSrc, ingredients, instruction, description'
     })
 
     function postFood(e) {
@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let newFood = {
             foodName: foodName.value,
+            likes: "0",
             prepTime: prepTime.value,
             description: description.value,
             imgSrc: imgSrc.value,

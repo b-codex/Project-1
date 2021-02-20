@@ -24,25 +24,25 @@
                 </button>
                 <div class="collapse navbar-collapse text-capitalize ml-5" id="nav-links">
                     <ul class="navbar-nav w-100 d-flex justify-content-end mr-3">
-                        <li class="nav-item active unordLi ">
-                            <a class="nav-link log" href="index.html#home">Home</a>
+                        <li class="nav-item">
+                            <a class="nav-link log color-tomato" href="index.html#home">Home</a>
                         </li>
-                        <li class="nav-item unordLi">
-                            <a class="nav-link log" href="index.html#recipes" id="links">Recipes</a>
+                        <li class="nav-item">
+                            <a class="nav-link log color-tomato" href="index.html#recipes" id="links">Recipes</a>
                         </li>
-                        <li class="nav-item unordLi active">
-                            <a class="nav-link log " href="contactUs.html" id="links">Contact Us</a>
+                        <li class="nav-item">
+                            <a class="nav-link log color-tomato" href="contactUs.html" id="links">Contact Us</a>
                         </li>
-                        <li class="nav-item search ml-3 unordLiS">
-                            <a class="nav-link log " href="aboutUs.html" id="links">About Us</a>
+                        <li class="nav-item">
+                            <a class="nav-link log color-tomato" href="aboutUs.html" id="links">About Us</a>
                         </li>
-                        <li class="nav-item search ml-3 unordLiS">
-                            <a class="nav-link log " href="login.html" id="links">Login</a>
+                        <li class="nav-item">
+                            <a class="nav-link log color-tomato" href="login.html" id="links">Login</a>
                         </li>
-                        <li class="nav-item search ml-3 unordLiS">
-                            <a class="nav-link log " href="register.html" id="links">Register</a>
+                        <li class="nav-item">
+                            <a class="nav-link log color-tomato" href="register.html" id="links">Register</a>
                         </li>
-                        <!-- <li class="nav-item search ml-3 unordLiS ">
+                        <!-- <li class="nav-item search ml-3 ">
                         <a class="nav-link log " href="login.html" id="links-active">Search</a>
                     </li>  -->
                     </ul>
@@ -50,7 +50,6 @@
             </div>
         </nav>
     </center>
-
 
     <div class="container-fluid cont mt-5" style="margin-top: 150px; margin-bottom: 150px;">
         <div class="row">
@@ -64,25 +63,25 @@
                         <hr>
 
                         <h3>Description</h3>
-                        <p id="description" class="card-description"></p>
+                        <p id="description" class="card-description"></p><br>
 
                         <h3>Preparation Time</h3>
-                        <p id="prepTime"></p>
+                        <p id="prepTime"></p><br>
 
                         <h3>Ingredients</h3>
-                        <div id="ingredients" class="text-center"></div>
+                        <div id="ingredients" class="text-center"></div><br>
 
                         <h3>Instruction</h3>
-                        <div id="instruction" class="text-center"></div>
+                        <div id="instruction" class="text-center"></div><br>
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
-    <div class="text-center">
+    <!-- <div class="text-center">
         <a href="./index.html#recipes" class="btn home-btn">Home</a>
-    </div>
+    </div> -->
 
 
 
@@ -109,19 +108,12 @@
                     imgSrc.src = x.imgSrc
                     description.innerHTML = x.description
                     prepTime.innerHTML = x.prepTime
-
-                    for (let index = 0; index < x.recipe.ingredients.length; index++) {
-                        const v = document.createElement("p")
-                        v.innerHTML = x.recipe.ingredients[index]
-                        ingredients.appendChild(v)
-                    }
-
-                    for (let index = 0; index < x.recipe.instruction.length; index++) {
-                        const v = document.createElement("p")
-                        v.innerHTML = x.recipe.instruction[index]
-                        instruction.appendChild(v)
-                    }
-
+                    x.recipe.ingredients.forEach((x) => {
+                        ingredients.innerHTML = ingredients.innerHTML + x + '<br>'
+                    })
+                    x.recipe.instruction.forEach((x) => {
+                        instruction.innerHTML = instruction.innerHTML + x + '<br>'
+                    })
                 }
             })
         }, false);

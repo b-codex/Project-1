@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 body {
   overflow-x: hidden;
   box-sizing: border-box;
   margin: 0;
-  padding-top: o;
-  
+  padding-top: o;  
 }
 
 li {
@@ -228,18 +226,38 @@ header .carousel-control-prev {
 
 .disapproveButton:hover{
   transition: all .3s linear;
-  background-color: red;
+  background-color: rgb(241, 95, 95);
 }
 
 /* Admin Page Cards */
 
-#imgSrcCard{
-  width: 270px !important;
-  height: 270px !important;
+.imgSrcCard{
+  width: 100% !important;
+  height: 14rem !important;
 }
 
 
 /* custom css classes */
+
+*{
+  font-family: 'Quicksand', 'Roboto';
+}
+
+.fa, .far, .fas{
+  font-family: "Font Awesome 5 Free";
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.btn-recipe{
+  background-color: tomato;
+  transition: all .3s linear;
+}
+
+.btn-recipe:hover{
+  background-color: rgb(255, 38, 0);
+}
 
 .color-tomato{
   color: tomato !important;
@@ -324,12 +342,6 @@ header .carousel-control-prev {
   text-align: justify;
 }
 
-.card-title {
-  text-align: center;
-  padding-top: 2%;
-}
-
-
 .card-ui-img {
   /* background-color: #4292dc; */
   color: saddlebrown;
@@ -349,10 +361,9 @@ header .carousel-control-prev {
   border-radius: 10px 10px 10px 10px ;
 
   padding: 30px;
-  border-radius: 15px;
-  box-shadow: 0px 15px 25px;
+  box-shadow: 0px 2px 20px gray;
 }
-.secContain::before{
+/* .secContain::before{
   content: '';
   position: absolute;
   bottom: -50px;
@@ -363,7 +374,7 @@ header .carousel-control-prev {
   border-radius: 50%;
   z-index: -1;
   filter: blur(10px);
-}
+} */
 #postButton{
   background-color: rgba(238, 159, 12,0.8);
   border: none ;
