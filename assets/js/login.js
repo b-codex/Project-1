@@ -3,12 +3,7 @@
 const signInEmail = document.querySelector('#signInEmail')
 const signInPassword = document.querySelector('#signInPassword')
 
-const fullName = document.querySelector('#fullName')
-const registerEmail = document.querySelector('#registerEmail')
-const registerPassword = document.querySelector('#registerPassword')
-
 const signInButton = document.querySelector('#signInButton')
-const registerButton = document.querySelector('#registerButton')
 
 const log = console.log
 
@@ -43,28 +38,4 @@ function signIn(e) {
         })
 
     }
-}
-
-
-registerButton.addEventListener('click', register)
-
-function register(e) {
-    e.preventDefault()
-
-    let user = {
-        fullName: fullName.value,
-        Email: registerEmail.value,
-        Password: registerPassword.value
-    }
-
-    db.Users.add(user)
-        .then(() => {
-            log('New User Added')
-            window.location.href = 'postFood.html'
-        })
-        .catch((err) => {
-            log(err.message)
-            alert('User already exists')
-        })
-
 }
