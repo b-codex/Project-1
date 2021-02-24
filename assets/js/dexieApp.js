@@ -37,18 +37,8 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             let str = iterator.description
-            let description = truncate(str, 9, '...')
+            let description = truncate(str, 12, '...')
             // log(description)
-
-            let loading = `
-                    <div class="text-center">
-                        <div class="spinner-border" role="status">
-                            <span class="sr-only">Loading...</span>
-                        </div>
-                    </div>
-            `
-
-            // x.innerHTML = loading
 
             let output = `
             
