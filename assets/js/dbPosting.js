@@ -24,28 +24,32 @@ document.addEventListener('DOMContentLoaded', () => {
         let ing = ingredients.value.split('+')
         let ins = instruction.value.split('+')
 
-
-
-        let newFood = {
-            foodName: foodName.value,
-            likes: "0",
-            prepTime: prepTime.value,
-            description: description.value,
-            imgSrc: imgSrc.value,
-            recipe: {
-                ingredients: ing,
-                instruction: ins
+        if (foodName.value == "" || prepTime.value == "" || description.value == "" || ingredients.value == "" || instruction.value == "" || imgSrc.value == "") {
+            alert('Please make sure all fields are completed')
+        } else {
+            let newFood = {
+                foodName: foodName.value,
+                likes: "0",
+                prepTime: prepTime.value,
+                description: description.value,
+                imgSrc: imgSrc.value,
+                recipe: {
+                    ingredients: ing,
+                    instruction: ins
+                }
             }
+
+            db.tempDB.put(newFood)
+                .then(() => {
+                    log('Recipe Added')
+                    // log(typeof (Array.from(ing)))
+                    window.location.href = 'index.html'
+                })
+                .catch(err => {
+                    log(err.message)
+                })
+
         }
 
-        db.tempDB.put(newFood)
-            .then(() => {
-                log('Recipe Added')
-                // log(typeof (Array.from(ing)))
-                window.location.href = 'index.html'
-            })
-            .catch(err => {
-                log(err.message)
-            })
     }
 })

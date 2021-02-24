@@ -37,27 +37,17 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             let str = iterator.description
-            let description = truncate(str, 9, '...')
+            let description = truncate(str, 12, '...')
             // log(description)
-
-            let loading = `
-                    <div class="text-center">
-                        <div class="spinner-border" role="status">
-                            <span class="sr-only">Loading...</span>
-                        </div>
-                    </div>
-            `
-
-            // x.innerHTML = loading
 
             let output = `
             
-            <div class="card-container col-lg-3 col-12 my-2">
+            <div class="card-container col-md-3 col-lg-2 col-12 my-2">
 
                 <div class="card text-center">
                     <img src="${iterator.imgSrc}" class="card-img-top imgSrcCard" alt="">
                     <div class="card-body">
-                        <div class="title text-center">
+                        <div class="title w-100 d-flex justify-content-center">
                             <h5 class="card-title">${iterator.foodName}</h5>
                         </div>
                         <hr>

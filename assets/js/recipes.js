@@ -1019,7 +1019,7 @@ export let recipes = [{
         likes: 0,
         prepTime: '32 Min(s)',
         description: 'Easy Chicken Cacciatore Recipe – Fresh and flavorful, this chicken cacciatore tastes just like your favorite Italian restaurant dish, but is easily homemade in only about 30 minutes!',
-        imgSrc: 'https://cdn-aiapl.nitrocdn.com/KZJKWDkEwMJCwERIlnRsPNdqobwBIlEo/assets/static/source/rev-b316e4c/wp-content/uploads/2010/01/chicken-cacciatore-recipe.jpg',
+        imgSrc: 'https://www.aspicyperspective.com/wp-content/uploads/2010/01/chicken-cacciatore-6.jpg',
         recipe: {
             ingredients: [
                 '1 pound dried spaghetti',

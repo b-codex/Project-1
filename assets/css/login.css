@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
 
-*{
-    font-family: 'Quicksand', 'Roboto' !important;
+* {
+  font-family: 'Quicksand', 'Roboto';
+}
+
+.fa,
+.far,
+.fas {
+  font-family: "Font Awesome 5 Free";
 }
 
 body {
@@ -76,7 +82,7 @@ h2 {
 
 .log:hover {
   color: tomato !important;
-  transition: all .2s linear;
+  /* transition: all .2s linear; */
 }
 
 .navbar ul form {
