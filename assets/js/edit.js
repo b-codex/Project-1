@@ -19,7 +19,7 @@ const submitButton = document.querySelector('#submit')
 
 params.forEach((x) => {
     let y = (x.split('%20').join(' '))
-    log(y)
+    // log(y)
     db.Recipes.where('foodName').equals(y).each((q) => {
         foodName.value = q.foodName
         prepTime.value = q.prepTime
@@ -34,7 +34,7 @@ params.forEach((x) => {
             ingredients.value = ingredients.value + ing + '+'
         })
 
-        log((ingredients.value.split('+')))
+        // log((ingredients.value.split('+')))
 
         // instruction.value = q.recipe.instruction
         // ingredients.value = q.recipe.ingredients
@@ -62,6 +62,7 @@ submitButton.addEventListener('click', (e) => {
 
     dbx.tempDB.put(editedRecipe).then(() => {
         log("Recipe Submitted")
+        window.location.href = 'main.html'
     })
 })
 

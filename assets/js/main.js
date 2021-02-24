@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let output = `
             
-            <div class="card-container col-lg-3 col-12 my-2">
+            <div class="card-container col-md-3 col-lg-2 col-12 my-2">
 
                 <div class="card text-center">
                     <img src="${iterator.imgSrc}" class="card-img-top imgSrcCard" alt="">

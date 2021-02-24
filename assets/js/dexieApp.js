@@ -52,12 +52,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let output = `
             
-            <div class="card-container col-lg-3 col-12 my-2">
+            <div class="card-container col-md-3 col-lg-2 col-12 my-2">
 
                 <div class="card text-center">
                     <img src="${iterator.imgSrc}" class="card-img-top imgSrcCard" alt="">
                     <div class="card-body">
-                        <div class="title text-center">
+                        <div class="title w-100 d-flex justify-content-center">
                             <h5 class="card-title">${iterator.foodName}</h5>
                         </div>
                         <hr>
