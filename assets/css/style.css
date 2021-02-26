@@ -270,6 +270,14 @@ header .carousel-control-prev {
   font-family: "Font Awesome 5 Free";
 }
 
+.display-none {
+  display: none !important;
+}
+
+.display-block {
+  display: block !important;
+}
+
 .card {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
@@ -311,6 +319,10 @@ header .carousel-control-prev {
 
 .margin-bottom-10 {
   margin-bottom: 10%;
+}
+
+.margin-right{
+  margin-right: 1.5rem !important;
 }
 
 /* Parallax */
@@ -385,6 +397,20 @@ header .carousel-control-prev {
   padding-left: 10px;
   padding-right: 10px;
   align-items: center;
+}
+
+@media (max-width:768px){
+  .responsiveOnMobile{
+    flex-direction: column !important;
+  }
+  body > div.container-fluid.margin-vertical-5.col-md-12.text-center.d-flex.justify-content-around > div > div{
+    width: 100% !important;
+    height: max-content;
+    margin-left: 0;
+  }
+  body > div.container-fluid.margin-vertical-5.col-md-12.text-center.d-flex.justify-content-around > div > img{
+    display: none;
+  }
 }
 
 .secContain {
@@ -628,6 +654,17 @@ input:focus:-ms-input-placeholder {
 
 input:focus:-moz-placeholder {
   color: #222;
+}
+
+
+/* searchResult */
+
+.searchResult {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 0;
+  flex-grow: 1;
 }
 
 /* View Recipe */

@@ -17,8 +17,8 @@ function edit(e) {
 }
 document.addEventListener('DOMContentLoaded', () => {
 
-
-    // postRecipeToDB()
+    let pagination = document.querySelector('.pagination')
+    pagination.style.display = 'none'
 
     db.Recipes.toArray((result) => {
         let x = document.querySelector('.row')
@@ -54,37 +54,40 @@ document.addEventListener('DOMContentLoaded', () => {
             // x.innerHTML = loading
 
             let output = `
-            
-            <div class="card-container col-md-3 col-lg-2 col-12 my-2">
+            <div class="col-md-3 col-lg-3 col-12 my-2 foodName" id="${iterator.foodName.split(' ').join('')}">
+                <div class="card-container my-2">
 
-                <div class="card text-center">
-                    <img src="${iterator.imgSrc}" class="card-img-top imgSrcCard" alt="">
-                    <div class="card-body">
-                        <div class="title w-100 d-flex justify-content-between">
-                            <h5 class="card-title">${iterator.foodName}</h5>
-                            <a href="#" id="edit" onclick="edit(this)"><i class="far fa-edit color-tomato px-1"></i></a>
-                        </div>
-                        <hr>
-                        <p class="card-text">${description}</p>
-                        <div class="btn-group w-100" role="group" aria-label="">
-                            <button type="button" class="btn btn-light thumbs-up" id=''
-                                onclick="voteUp(this)">👍</button>
-                            <p class="card-text text-center likes mx-3" id="likes">${iterator.likes}</p>
-                            <button type="button" class="btn btn-light thumbs-down" id=''
-                                onclick="voteDown(this)">👎</button>
-                        </div>
-                        <div class="btn-group w-75 mt-2" role="group" aria-label="">
-                            <button type="button" class="btn btn-recipe text-white" id=''
-                                onclick="saveOnSession('${iterator.foodName}')">View Recipe</button>
+                    <div class="card text-center">
+                        <img src="${iterator.imgSrc}" class="card-img-top imgSrcCard" alt="">
+                        <div class="card-body">
+                            <div class="title w-100 d-flex justify-content-between">
+                                <h5 class="card-title">${iterator.foodName}</h5>
+                                <a href="#" id="edit" onclick="edit(this)"><i class="far fa-edit color-tomato px-1"></i></a>
+                            </div>
+                            <hr>
+                            <p class="card-text">${description}</p>
+                            <div class="btn-group w-100" role="group" aria-label="">
+                                <button type="button" class="btn btn-light thumbs-up" id=''
+                                    onclick="voteUp(this)">👍</button>
+                                <p class="card-text text-center likes mx-3" id="likes">${iterator.likes}</p>
+                                <button type="button" class="btn btn-light thumbs-down" id=''
+                                    onclick="voteDown(this)">👎</button>
+                            </div>
+                            <div class="btn-group w-75 mt-2" role="group" aria-label="">
+                                <button type="button" class="btn btn-recipe text-white" id=''
+                                    onclick="saveOnSession('${iterator.foodName}')">View Recipe</button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
             `
 
             x.innerHTML += output
         }
     })
+    pagination.style.display = 'block'
+
 
 })

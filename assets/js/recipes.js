@@ -529,7 +529,7 @@ export let recipes = [{
         foodName: 'Kai Wot',
         likes: 0,
         prepTime: '60 Min(s)',
-        description: 'This recipe is similar to wat but uses beef instead of chicken. It doesn\'t hold back on the heat, so this is great if you\'re a spice lover.',
+        description: 'This recipe is similar to wat but adds beef to the wot. It doesn\'t hold back on the heat, so this is great if you\'re a spice lover.',
         imgSrc: 'https://img.buzzfeed.com/buzzfeed-static/static/2020-05/1/13/asset/3315d785b2c0/sub-buzz-1080-1588340405-8.jpg?downsize=600:*&output-format=auto&output-quality=auto',
         recipe: {
             ingredients: [

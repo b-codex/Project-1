@@ -20,10 +20,11 @@ function postRecipeToDB() {
             recipe: item.recipe
         }
 
-        db.Recipes.put(newRecipe)
+        db.Recipes.add(newRecipe)
             .catch((err) => log(err.message))
 
     })
 }
+postRecipeToDB()
 
 export default postRecipeToDB
