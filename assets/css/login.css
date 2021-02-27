@@ -11,7 +11,7 @@
 }
 
 body {
-  overflow-x: hidden;
+
   box-sizing: border-box;
   margin: 0;
   padding-top: 0;
@@ -19,20 +19,6 @@ body {
 
 
 }
-
-/* body::after {
-    content: "";
-    background: url(../img/backfood.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.2;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
-    z-index: -1;   
-  } */
 
 
 li {
@@ -64,24 +50,26 @@ h2 {
 
 /* navbar */
 
-
+#navTag{
+  background-color: rgba(220, 220, 220, 0.8);
+}
 .navbar a {
-  color: tomato;
+  color: tomato !important;
   font-size: 18px;
   line-height: 27px;
 }
 
 .navbar .navbar-toggler {
-  background-color: white;
+  background-color: rgb(41, 30, 30);
 }
 
 .log {
-  color: inherit;
+  color: white;
   transition: all .2s linear;
 }
 
 .log:hover {
-  color: tomato !important;
+  color: green !important;
   /* transition: all .2s linear; */
 }
 
@@ -89,7 +77,7 @@ h2 {
   position: absolute;
   width: 250px;
   padding: 5px;
-  background-color: white;
+  background-color:black !important;
   right: -30px;
   display: none;
 }
@@ -100,7 +88,7 @@ h2 {
 
 .navbar ul form input {
   padding: 5px 10px 5px 5px;
-  background-color: #ddd;
+  background-color: black;
   width: 100%;
   border: 1px solid #737272;
 }
@@ -183,7 +171,7 @@ h2 {
 }
 
 .first-card-text {
-  box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 6px  -6px  6px rgba(0, 0, 0, 0.5) !important;
   border-radius: 9px 9px 9px 9px;
 }
 
@@ -422,3 +410,65 @@ input:focus:-moz-placeholder {
     width: 100%;
   }
 }
+/* footer start*/
+
+  
+  .footer{
+  background:rgba(200, 200, 200, 0.8);
+  font-family: 'Play', sans-serif;
+  text-align:center !important;
+  
+  
+  }
+  
+  .footer .row{
+  width:100%;
+  padding:0.4% 0%;
+  color:gray;
+  font-size:0.8em;
+  display: block;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:tomato;
+  
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:rgb(34, 29, 29);
+
+  }
+  
+  .footer .row ul{
+  width:100%;
+  justify-content: center;
+  }
+  
+  .footer .row ul li{
+  display:inline-block !important;
+  margin:0px 30px !important;
+  }
+  
+  .footer .row a i{
+  font-size:2em !important;
+  margin:0% 1% !important;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }
+
+/* footer end */
