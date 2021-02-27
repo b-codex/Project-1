@@ -717,3 +717,67 @@ input:focus:-moz-placeholder {
     width: 100%;
   }
 }
+
+/* footer start*/
+
+  
+.footer{
+  font-family: 'Play', sans-serif;
+  text-align:center !important;
+  box-shadow: 0 2px 25px rgba(5, 5, 5, 0.3);
+  padding-top:5px ;
+  
+  }
+  
+  .footer .row{
+  
+  width:100%;
+  padding:0.4% 0%;
+  color:gray;
+  font-size:0.8em;
+  display: block;
+  }
+  
+  .footer .row a{
+  text-decoration:none;
+  color:tomato;
+  
+  transition:0.5s;
+  }
+  
+  .footer .row a:hover{
+  color:rgb(34, 29, 29);
+
+  }
+  
+  .footer .row ul{
+  width:100%;
+  justify-content: center;
+  }
+  
+  .footer .row ul li{
+  display:inline-block !important;
+  margin:0px 30px !important;
+  }
+  
+  .footer .row a i{
+  font-size:2em !important;
+  margin:0% 1% !important;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }
+
+/* footer end */
