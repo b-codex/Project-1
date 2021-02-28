@@ -282,6 +282,10 @@ header .carousel-control-prev {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 }
 
+.width-100{
+  width: 100vw !important;
+}
+
 .btn-recipe {
   background-color: tomato;
   transition: all .3s linear;
@@ -690,7 +694,7 @@ input:focus:-moz-placeholder {
   }
 
   .navbar ul {
-    background-color: rgba(241, 94, 68, 0.884);
+    /* background-color: rgba(241, 94, 68, 0.884); */
     /* width: 100vw !important;
     margin-left: -70px; */
     padding: 10px 20px;

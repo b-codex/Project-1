@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
             let x = document.querySelector('.row')
-            // x.innerHTML = ''
+            x.innerHTML = ''
 
             let output = `
             <div class="col-4 m-auto d-flex justify-content-around text-center mt-5 pt-5">
