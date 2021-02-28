@@ -51,7 +51,7 @@ h2 {
 /* navbar */
 
 #navTag {
-  box-shadow: 0 2px 25px rgba(5, 5, 5, 0.3); !important;
+  box-shadow: 0 2px 25px rgba(5, 5, 5, 0.3);
 }
 
 .navbar a {
@@ -61,7 +61,7 @@ h2 {
 }
 
 .navbar .navbar-toggler {
-  background-color: rgb(41, 30, 30);
+  background-color: inherit
 }
 
 .log {
@@ -69,17 +69,6 @@ h2 {
   transition: all .2s linear;
 }
 
- .log:hover {
-  background-color: tomato;
-  color: white !important;
-  box-shadow: 0 2px 2px rgb(205, 49, 21) !important;
-  font-size: larger;
- 
-
-
-
-  
-} 
 
 
 .navbar ul form {
@@ -382,9 +371,6 @@ input:focus:-moz-placeholder {
     width: 100%;
     object-fit: cover;
   }
-  .body > div.container-fluid.col-md-12.text-center > div > div > div > img{
-    display: none !important;
-  }
 }
 
 /* media queries */
@@ -420,8 +406,25 @@ input:focus:-moz-placeholder {
     position: static;
     width: 100%;
   }
-  .body > div.container-fluid.col-md-12.text-center > div > div > div > img{
+  body > div > div > div > div > img{
     display: none !important;
+  }
+
+  .card-body{
+    width: 100vw !important;
+  }
+
+  .footer-links{
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: space-around !important;
+  }
+  ul > li{
+    width: max-content !important;
+  }
+  ul{
+    margin-left: -15px !important;
   }
 }
 
@@ -434,15 +437,16 @@ input:focus:-moz-placeholder {
   text-align: center !important;
   box-shadow: 0 2px 25px rgba(5, 5, 5, 0.3);
 
+}
 
-
-
+.color-tomato{
+  color: tomato !important;
 }
 
 .footer .row {
   width: 100%;
   padding: 0.4% 0%;
-  color: white;
+  /* color: white; */
   font-size: 0.8em;
   display: block;
 }
@@ -466,7 +470,7 @@ input:focus:-moz-placeholder {
 
 .footer .row ul li {
   display: inline-block !important;
-  margin: 0px 30px !important;
+  /* margin: 0px 30px !important; */
 }
 
 .footer .row a i {

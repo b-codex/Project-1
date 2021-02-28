@@ -20,6 +20,9 @@ document.addEventListener('DOMContentLoaded', () => {
     let pagination = document.querySelector('.pagination')
     pagination.style.display = 'none'
 
+    let footer = document.querySelector('.footer')
+    footer.style.display = 'none'
+
     db.Recipes.toArray((result) => {
         let x = document.querySelector('.row')
         x.innerHTML = ''
@@ -87,7 +90,10 @@ document.addEventListener('DOMContentLoaded', () => {
             x.innerHTML += output
         }
     })
-    pagination.style.display = 'block'
+    setTimeout(() => {
+        footer.style.display = 'block'
+        pagination.style.display = 'block'
+    }, 2000);
 
 
 })
