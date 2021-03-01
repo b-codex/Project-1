@@ -470,7 +470,7 @@ input:focus:-moz-placeholder {
 
 .footer .row ul li {
   display: inline-block !important;
-  /* margin: 0px 30px !important; */
+  margin: 0px 30px !important;
 }
 
 .footer .row a i {
