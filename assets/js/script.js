@@ -21,7 +21,7 @@ $(function () {
         e.preventDefault();
         $('html').animate({
             scrollTop: $(getAttr).offset().top
-        }, 5000);
+        }, 2000);
     });
 
 

@@ -499,3 +499,8 @@ input:focus:-moz-placeholder {
   padding-right: 10px;
   align-items: center;
 }
+
+
+#signInButton, #registerButton{
+  background-color: tomato;
+}
