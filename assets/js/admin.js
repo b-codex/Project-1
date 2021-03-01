@@ -3,6 +3,8 @@ let log = console.log
 const editLink = document.querySelector('#edit')
 const deleteLink = document.querySelector('#delete')
 
+
+
 var dbx = new Dexie("Recipes");
 dbx.version(1).stores({
     Recipes: 'foodName, likes, prepTime, description, imgSrc, recipe '
@@ -26,6 +28,8 @@ function deleteRecipe(e) {
         window.location.reload()
     })
 }
+
+
 
 document.addEventListener('DOMContentLoaded', () => {
 

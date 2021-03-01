@@ -4,6 +4,9 @@ import {
 
 let log = console.log
 
+const resetDB = document.querySelector('#resetDB')
+resetDB.addEventListener('click', postRecipeToDB)
+
 function postRecipeToDB() {
     var db = new Dexie("Recipes");
     db.version(1).stores({
@@ -23,11 +26,9 @@ function postRecipeToDB() {
         db.Recipes.put(newRecipe)
             .then(() => {
                 log("Recipe Added.")
+                location.reload()
             })
             .catch((err) => log(err.message))
 
     })
 }
-// postRecipeToDB()
-
-export default postRecipeToDB
