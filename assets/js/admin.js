@@ -135,11 +135,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             <hr>
                             <p class="card-text">${description}</p>
                             <div class="btn-group w-100" role="group" aria-label="">
-                                <button type="button" class="btn btn-light thumbs-up" id=''
-                                    onclick="voteUp(this)">👍</button>
-                                <p class="card-text text-center likes mx-3" id="likes">${iterator.likes}</p>
-                                <button type="button" class="btn btn-light thumbs-down" id=''
-                                    onclick="voteDown(this)">👎</button>
+
+                                <p class="card-text text-center likes w-100" id="likes">Likes: ${iterator.likes}</p>
+
                             </div>
                             <div class="btn-group w-75 mt-2" role="group" aria-label="">
                                 <button type="button" class="btn btn-recipe text-white" id=''

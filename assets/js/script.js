@@ -21,11 +21,13 @@ $(function () {
         e.preventDefault();
         $('html').animate({
             scrollTop: $(getAttr).offset().top
-        }, 1000);
+        }, 5000);
     });
 
 
 });
+
+
 window.addEventListener('scroll', function () {
     let header = document.getElementById("navTag");
     let windowPosition = window.scrollY > 0;

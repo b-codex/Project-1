@@ -23,7 +23,7 @@ function postRecipeToDB() {
             recipe: item.recipe
         }
 
-        db.Recipes.put(newRecipe)
+        db.Recipes.add(newRecipe)
             .then(() => {
                 log("Recipe Added.")
                 location.reload()
