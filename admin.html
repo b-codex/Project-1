@@ -67,7 +67,7 @@
         <div class="container text-center">
             <h3>Edit or Manage</h3>
             <hr>
-            <div class="container">
+            <div class="container col-8">
                 <div class="col-12">
                     <div class="input-group mt-5 p-4 mb-3">
                         <input type="text" class="form-control" id="search" placeholder="Search Recipe...">
@@ -77,8 +77,8 @@
                     <button class="btn btn-info" id="resetDB">Reset Database</button>
                 </div>
             </div>
-            
-    
+
+
             <div class="row editManage">
                 <div class="row">
                     <div class="text-center width-100 py-5">
@@ -92,14 +92,14 @@
                     <li class="page-item">
                         <a class="page-link prev" href="#recipes">Previous</a>
                     </li>
-    
+
                     <li class="page-item">
                         <a class="page-link next" href="#recipes">Next</a>
                     </li>
                 </ul>
             </nav>
         </div>
-        </div>
+    </div>
     </div>
 
 
@@ -116,6 +116,16 @@
     <script src="assets/js/search.js"></script>
     <script src="assets/js/script.js"></script>
     <script type="module" src="assets/js/resetDB.js"></script>
+
+
+    <script>
+        function saveOnSession(foodName) {
+            sessionStorage.setItem('foodName', foodName)
+            location.href = 'viewRecipe.html'
+        }
+    </script>
+
+
 
 </body>
 
