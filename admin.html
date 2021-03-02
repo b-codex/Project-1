@@ -117,6 +117,13 @@
     <script src="assets/js/script.js"></script>
     <script type="module" src="assets/js/resetDB.js"></script>
 
+    <script>
+        function saveOnSession(foodName) {
+            sessionStorage.setItem('foodName', foodName)
+            location.href = 'viewRecipe.html'
+        }
+    </script>
+
 </body>
 
 </html>
