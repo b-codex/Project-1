@@ -129,8 +129,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="card-body">
                             <div class="title w-100 d-flex justify-content-between">
                                 <h5 class="card-title">${iterator.foodName}</h5>
-                                <a href="#" id="edit" onclick="edit(this)"><i class="far fa-edit color-tomato px-1"></i></a>
-                                <a href="#" id="delete" onclick="deleteRecipe(this)"><i class="fa fa-trash color-tomato" aria-hidden="true"></i></a>
+                                
+                                <div>
+                                    <a href="#" id="edit" onclick="edit(this)"><i class="far fa-edit color-tomato px-1"></i></a>
+                                    <a href="#" id="delete" onclick="deleteRecipe(this)"><i class="fa fa-trash color-tomato" aria-hidden="true"></i></a>
+                                </div>
+                                
                             </div>
                             <hr>
                             <p class="card-text">${description}</p>

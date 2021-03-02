@@ -402,10 +402,14 @@ input:focus:-moz-placeholder {
     justify-content: space-around !important;
   }
   ul > li {
-    width: max-content !important;
+    /* width: max-content !important; */
   }
   ul {
     margin-left: -15px !important;
+  }
+
+  .my-logo{
+    padding: 0;
   }
 }
 
