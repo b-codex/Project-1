@@ -427,19 +427,15 @@ header .carousel-control-prev {
     display: none;
   }
 
-  .meet-cards{
-    /* border: 5px solid red; */
-    display: block;
-    width: 100vw;
-  }
   .meet-div{
     
-    display: flex;
+    display:flex;
     flex-direction: column;
-    
+    border: 5px solid blue;
   }
-  .fat-div{
-    width: 14rem;
+
+  #fat-div{
+    width: 14rem !important;
   }
 
 }
