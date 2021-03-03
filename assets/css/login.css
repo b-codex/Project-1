@@ -358,6 +358,7 @@ input:focus:-moz-placeholder {
 /* media queries */
 
 @media (max-width: 992px) {
+
   /* navbar */
   body {
     overflow-y: none;
@@ -387,12 +388,13 @@ input:focus:-moz-placeholder {
     position: static;
     width: 100%;
   }
-  body > div > div > div > div > img {
+
+  body>div>div>div>div>img {
     display: none !important;
   }
 
   .card-body {
-    width: 100vw !important;
+    width: 26rem;
   }
 
   .footer-links {
@@ -401,21 +403,30 @@ input:focus:-moz-placeholder {
     align-items: center;
     justify-content: space-around !important;
   }
-  ul > li {
+
+  ul>li {
     /* width: max-content !important; */
   }
+
   ul {
     margin-left: -15px !important;
   }
 
-  .my-logo{
+  .my-logo {
     padding: 0;
+  }
+
+  .footer {
+    position: unset;
   }
 }
 
 /* footer start*/
 
 .footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background: white;
   font-family: "Play", sans-serif;
   text-align: center !important;
@@ -464,6 +475,7 @@ input:focus:-moz-placeholder {
   .footer {
     text-align: left;
     padding: 5%;
+    position: unset;
   }
 
   .footer .row ul li {
@@ -471,13 +483,15 @@ input:focus:-moz-placeholder {
     margin: 10px 0px;
     text-align: left;
   }
-  .body > div.container-fluid.col-md-12.text-center > div > div > div > img {
+
+  .body>div.container-fluid.col-md-12.text-center>div>div>div>img {
     display: none !important;
   }
 
   .footer .row a i {
     margin: 0% 3%;
   }
+
 }
 
 /* footer end */
@@ -486,25 +500,25 @@ input:focus:-moz-placeholder {
   background-size: cover;
 
 
-  /* width: 100%; */
-  /* height: 100%; */
+  
   object-fit: cover;
 
-  /* color: saddlebrown; */
+  
   margin: 20px;
   width: 20rem;
   float: right;
   height: 30rem;
   border-radius: 18px;
   border-collapse: separate;
-  /* box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2); */
-  font-family: "Montserrat", serif, sans-serif;
+  
+  
   padding-left: 10px;
   padding-right: 10px;
   align-items: center;
 }
 
 
-#signInButton, #registerButton{
+#signInButton,
+#registerButton {
   background-color: tomato;
 }
