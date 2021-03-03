@@ -426,6 +426,18 @@ header .carousel-control-prev {
   body>div.container-fluid.margin-vertical-5.col-md-12.text-center.d-flex.justify-content-around>div>img {
     display: none;
   }
+
+  .meet-div{
+    
+    display:flex;
+    flex-direction: column;
+    border: 5px solid blue;
+  }
+
+  #fat-div{
+    width: 14rem !important;
+  }
+
 }
 
 .secContain {
@@ -448,9 +460,20 @@ header .carousel-control-prev {
   z-index: -1;
   filter: blur(10px);
 } */
-#postButton {
+#postButton{
   background-color: rgba(238, 159, 12, 0.8);
   border: none;
+}
+.about-us-btn{
+  color: white;
+  background-color: tomato;
+  border: none;
+}
+.about-us-btn:hover{
+  color: black;
+  background-color: tomato;
+  border: none;
+  transform: scale(1.08);
 }
 
 
