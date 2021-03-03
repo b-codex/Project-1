@@ -426,6 +426,22 @@ header .carousel-control-prev {
   body>div.container-fluid.margin-vertical-5.col-md-12.text-center.d-flex.justify-content-around>div>img {
     display: none;
   }
+
+  .meet-cards{
+    /* border: 5px solid red; */
+    display: block;
+    width: 100vw;
+  }
+  .meet-div{
+    
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .fat-div{
+    width: 14rem;
+  }
+
 }
 
 .secContain {
